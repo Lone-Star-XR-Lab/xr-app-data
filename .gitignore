@@ -1,0 +1,4 @@
+# These are separate repos kept here only for local reference during the migration.
+# They are not part of the xr-app-data repo.
+/xr-lab-library/
+/xr-lab-catalogue/

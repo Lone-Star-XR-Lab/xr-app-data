@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "XR App Data",
+  "description": "Canonical schema for an application record shared by xr-lab-library and xr-lab-catalogue.",
+  "type": "object",
+  "required": ["id", "name", "visibility"],
+  "properties": {
+    "id": { "type": "string", "description": "Stable slug, e.g. 'vermillion'. Used as the merge/dedupe key and for deep links. Do not reuse an id for a different app." },
+    "name": { "type": "string", "description": "Display title." },
+    "description": { "type": "string" },
+    "developer": { "type": ["string", "null"], "description": "Studio/publisher. Not populated in the migrated data yet -- needs backfill." },
+    "platforms": { "type": "array", "items": { "type": "string" }, "description": "Distribution ecosystem, e.g. 'Meta Quest', 'SteamVR', 'WebXR'." },
+    "categories": { "type": "array", "items": { "type": "string" }, "description": "Formerly 'department'. Subject/use-case groupings, e.g. 'Fine Arts', 'STEM'." },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "educational_uses": { "type": "string", "description": "Formerly 'educational'. Free-text classroom application notes." },
+    "pricing": { "type": "string", "description": "Formerly 'cost'. Free-text for now (e.g. 'Free', 'Paid', 'Unknown')." },
+    "screenshots": { "type": "array", "items": { "type": "string" }, "description": "Relative paths under images/apps/. First entry is the primary/cover image (formerly 'logo')." },
+    "videos": { "type": "array", "items": { "type": "string" }, "description": "Per-app demo/trailer video URLs. Empty until backfilled -- distinct from data/videos.json, which is a separate curated video collection, not per-app media." },
+    "durable_skills": { "type": "array", "items": { "type": "string" }, "description": "Transferable skills this app builds. Library-originated enrichment; may be empty for catalogue-only apps." },
+    "time_min": { "type": ["number", "null"], "description": "Typical session length in minutes." },
+    "comfort": { "type": ["string", "null"] },
+    "motion_level": { "type": ["string", "null"] },
+    "input": { "type": ["string", "null"] },
+    "devices": { "type": "array", "items": { "type": "string" }, "description": "Specific hardware, e.g. 'Quest 3', 'Quest 2'." },
+    "age": { "type": ["string", "null"] },
+    "content_notes": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] },
+    "link": { "type": "string", "description": "Store/experience URL." },
+    "approved": { "type": "boolean", "description": "Approved for XR Lab use. Descriptive status, not a visibility gate." },
+    "installed": { "type": "boolean", "description": "Currently installed in the XR Lab. Descriptive status, not a visibility gate." },
+    "visibility": {
+      "type": "object",
+      "required": ["library", "catalogue"],
+      "properties": {
+        "library": { "type": "boolean", "description": "Show on xr-lab-library. True only if the app is approved and/or installed." },
+        "catalogue": { "type": "boolean", "description": "Show on xr-app-catalogue. True for anything in the XR ecosystem worth tracking, owned or not." }
+      }
+    }
+  }
+}

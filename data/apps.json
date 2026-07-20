@@ -1,0 +1,5487 @@
+[
+  {
+    "id": "3d-organon-vr-anatomy",
+    "name": "3D Organon VR Anatomy",
+    "description": "A comprehensive medical XR platform with detailed 3D anatomy, ultrasound simulation, quizzes, and Medverse multi-user sessions.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Education"
+    ],
+    "tags": [
+      "Anatomy",
+      "Medical Education",
+      "XR Learning"
+    ],
+    "educational_uses": "Designed for in-depth anatomical exploration, medical imaging practice, and collaborative learning for students and professionals.",
+    "pricing": "Free (guest); Paid subscription (€499–€999/yr)",
+    "screenshots": [
+      "images/apps/3d-organon-vr-anatomy.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Guest mode is free; full features require subscription (approx. €499.50–€999.50/year).",
+    "link": "https://www.meta.com/experiences/3d-organon-xr/6218475558223281/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "acadicus",
+    "name": "Acadicus",
+    "description": "A VR training platform for healthcare education featuring immersive clinical scenarios, patient simulations, and interactive learning environments.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest (Institutional Access)"
+    ],
+    "categories": [
+      "Health Science",
+      "Nursing",
+      "Emergency Training"
+    ],
+    "tags": [
+      "Medical Training",
+      "Simulation",
+      "Healthcare",
+      "Education"
+    ],
+    "educational_uses": "Used by nursing and medical programs to practice clinical decision-making, patient care, and emergency procedures. Instructors can create and customize scenarios for learners.",
+    "pricing": "Institutional license (contact Acadicus for pricing)",
+    "screenshots": [
+      "images/apps/acadicus.png"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "16+",
+    "content_notes": "Medical training scenarios may include realistic clinical content.",
+    "notes": "Institutional license required; not available as a public Quest Store app. Requires managed distribution via Acadicus partnership.",
+    "link": "https://acadicus.com/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "alcohol-and-your-brain-a-rollercoaster-ride-through-your-brain",
+    "name": "Alcohol and Your Brain: A Rollercoaster Ride Through Your Brain",
+    "description": "An educational VR experience that takes learners on a rollercoaster-style ride through the human brain to show the effects of alcohol on neural pathways.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Biology"
+    ],
+    "tags": [
+      "Health",
+      "Biology",
+      "Neuroscience"
+    ],
+    "educational_uses": "Useful for health and biology courses—demonstrates neuroscience concepts and substance impacts in an engaging way.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/alcohol-and-your-brain.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving",
+      "Systems thinking",
+      "Technical literacy"
+    ],
+    "time_min": 15,
+    "comfort": "Moderate",
+    "motion_level": "High",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": "Includes rollercoaster-style motion.",
+    "notes": "Fast-paced rollercoaster simulation; may trigger motion sickness in sensitive users.",
+    "link": "https://www.meta.com/experiences/alcohol-and-your-brain-a-rollercoaster-ride-through-your-brain-niaaanih/6123858984326551/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "alex-and-the-jets",
+    "name": "Alex and the Jets",
+    "description": "A physics-based VR sandbox where players design and fly jet-powered aircraft. Build your own planes, test flight performance, and explore creative aerodynamics in a fun and experimental environment.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Engineering",
+      "Student Life"
+    ],
+    "tags": [
+      "Flight",
+      "Physics",
+      "STEM",
+      "Sandbox",
+      "Simulation"
+    ],
+    "educational_uses": "Promotes STEM learning through hands-on experimentation with physics, aerodynamics, and design principles. Excellent for engineering or science outreach events.",
+    "pricing": "Free (Early Access)",
+    "screenshots": [
+      "images/apps/alex-and-the-jets.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Flight and building simulation; includes mild motion intensity.",
+    "notes": "Free in Early Access; active development with new flight parts and challenges being added regularly.",
+    "link": "https://www.meta.com/experiences/alex-and-the-jets/6602147099841125/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "american-heart-association-cpr-vr",
+    "name": "American Heart Association CPR VR",
+    "description": "A public Meta Quest training app from the American Heart Association that teaches Hands-Only CPR and AED basics through an immersive guided experience.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Emergency Training",
+      "Public Safety"
+    ],
+    "tags": [
+      "Medical Training",
+      "CPR",
+      "First Aid",
+      "Health Science",
+      "Simulation"
+    ],
+    "educational_uses": "Useful for introducing CPR awareness and basic emergency response concepts in health science, wellness, or public safety settings. Best treated as an awareness and reinforcement tool rather than full certification training.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/aha-cpr-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Hands",
+    "devices": [
+      "Quest 3S",
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Medical simulation; realistic CPR procedures and emergency response context.",
+    "notes": "Free public Quest app from the American Heart Association; supports hand tracking and focuses on Hands-Only CPR plus AED awareness.",
+    "link": "https://www.meta.com/experiences/7017680038281740/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "among-us-vr",
+    "name": "Among Us VR",
+    "description": "The hit social deduction game reimagined for VR—work together as crewmates to complete tasks, or sabotage and deceive as the Impostor.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Multiplayer",
+      "Social Deduction"
+    ],
+    "educational_uses": "Primarily recreational, but supports teamwork, communication, and social interaction skills in a group setting.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/among-us-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Teamwork",
+      "Communication",
+      "Decision-making",
+      "Situational awareness",
+      "Adaptability"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Cartoon violence; online interactions.",
+    "notes": "Online multiplayer required; voice chat included.",
+    "link": "https://www.meta.com/experiences/among-us-vr/4227682740639056/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "anatomyxr",
+    "name": "AnatomyXR",
+    "description": "An immersive 3D human anatomy experience—students can isolate systems, use explode view, and interact via hand tracking or controllers.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Education"
+    ],
+    "tags": [
+      "Anatomy",
+      "Medical Education",
+      "XR Learning"
+    ],
+    "educational_uses": "Perfect for anatomy classes, medical education, and self-directed learning with highly interactive models.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/anatomyxr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Free on Quest Store; requires internet; supports hand tracking and controllers.",
+    "link": "https://www.meta.com/experiences/anatomyxr/9773197726063056/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "anne-frank-house-vr",
+    "name": "Anne Frank House VR",
+    "description": "A respectful VR recreation of the Secret Annex where Anne Frank and her family lived in hiding, narrated with historical context.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "History",
+      "Humanities"
+    ],
+    "tags": [
+      "History",
+      "WWII",
+      "Museum",
+      "Education"
+    ],
+    "educational_uses": "Supports history and humanities courses by immersing students in an important historical site while learning about WWII, human rights, and tolerance.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/anne-frank-house-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Empathy",
+      "Cultural awareness",
+      "Critical thinking",
+      "Communication",
+      "Self-directed learning"
+    ],
+    "time_min": 25,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Covers sensitive WWII subject matter including the Holocaust.",
+    "notes": "Free on Quest; sensitive historical subject matter; best used with guided classroom discussion.",
+    "link": "https://www.meta.com/experiences/anne-frank-house-vr/1799239786812911/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "apollo-11-vr",
+    "name": "Apollo 11 VR",
+    "description": "A cinematic VR experience replicating the Apollo 11 mission—ride into orbit, land on the moon, and walk where Neil Armstrong did.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Space Science",
+      "History"
+    ],
+    "tags": [
+      "Space",
+      "History",
+      "Exploration"
+    ],
+    "educational_uses": "Great for space and history learning—immersive depiction of the first moon landing including real audio and environments.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/apollo-11.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Scientific observation",
+      "Critical thinking",
+      "Cultural awareness"
+    ],
+    "time_min": 60,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Linear experience (~1 hr), sitting or standing only.",
+    "link": "https://www.meta.com/experiences/apollo-11/2164469606967296/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "arkio",
+    "name": "Arkio",
+    "description": "A VR architectural design and planning tool with real-time collaboration.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Architecture",
+      "Fine Arts"
+    ],
+    "tags": [
+      "Architecture",
+      "Design"
+    ],
+    "educational_uses": "Architecture students can model buildings, test layouts, and visualize space in VR.",
+    "pricing": "Free (licenseable upgrades)",
+    "screenshots": [
+      "images/apps/arkio.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Collaboration"
+    ],
+    "time_min": null,
+    "comfort": "Mixed",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Hand tracking supported",
+    "link": "https://www.meta.com/experiences/arkio/2280319701979278/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "art-plunge",
+    "name": "Art Plunge",
+    "description": "A VR gallery app that allows users to step inside famous works of art, exploring iconic paintings as immersive 3D worlds.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Humanities"
+    ],
+    "tags": [
+      "Art",
+      "History",
+      "Museum",
+      "Education"
+    ],
+    "educational_uses": "Great for art history and humanities courses—lets students experience classic masterpieces in a new way, sparking discussion about art and culture.",
+    "pricing": "Paid ($4.99)",
+    "screenshots": [
+      "images/apps/art-plunge.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Some paintings may include artistic nudity (e.g., classical works).",
+    "notes": "Short experiences designed around individual famous paintings.",
+    "link": "https://www.meta.com/experiences/art-plunge/1195938280509681/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "audio-trip",
+    "name": "Audio Trip",
+    "description": "A VR rhythm and dance game where players move their bodies to hit notes, catch gems, and dodge barriers to the beat of energetic music.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Wellness"
+    ],
+    "tags": [
+      "Game",
+      "Rhythm",
+      "Music",
+      "Fitness"
+    ],
+    "educational_uses": "Primarily recreational, but promotes rhythm, physical activity, and coordination. Can be used for fitness initiatives or student engagement events.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/audio-trip.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Energetic gameplay; requires space for movement.",
+    "notes": "Paid title; includes fitness mode; similar in appeal to Beat Saber with more dance-oriented gameplay.",
+    "link": "https://www.meta.com/experiences/audio-trip/2484044451715693/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "autismity",
+    "name": "Autismity",
+    "description": "A VR simulation that places users in the shoes of an autistic person, recreating sensory overload and communication challenges to build empathy and awareness.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Counseling",
+      "Education",
+      "Social Sciences"
+    ],
+    "tags": [
+      "Autism",
+      "Empathy",
+      "Disability Studies",
+      "Education"
+    ],
+    "educational_uses": "Valuable for teacher training, counseling, and social science programs—helps students and educators better understand neurodiversity.",
+    "pricing": "Paid (~$9.99)",
+    "screenshots": [
+      "images/apps/autismity.png"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Simulated sensory overload; may be uncomfortable for sensitive users.",
+    "notes": "Paid title; intended as an awareness and empathy-building tool, not a diagnostic resource.",
+    "link": "https://www.meta.com/experiences/autismity/ (App Lab/Quest Store link)",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "awake-ecg",
+    "name": "Awake: ECG",
+    "description": "An immersive VR learning experience that introduces the basics of electrocardiograms (ECG), heart rhythms, and cardiac monitoring in a medical context.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Biology"
+    ],
+    "tags": [
+      "Medical",
+      "Biology",
+      "Anatomy",
+      "Cardiology",
+      "Education"
+    ],
+    "educational_uses": "Excellent for health science courses—teaches ECG fundamentals, helping students visualize cardiac rhythms and interpret monitoring results.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/awake-ecg.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Critical thinking",
+      "Self-directed learning"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Medical education focus; ECG waveform interpretation.",
+    "notes": "Free on Quest; part of the 'Awake' VR educational series.",
+    "link": "https://www.meta.com/experiences/awake-ecg/5552953831403183/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "awake-heart",
+    "name": "Awake: Heart",
+    "description": "An immersive VR journey inside the human heart, exploring its structure, function, and life-sustaining role in the body.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Biology"
+    ],
+    "tags": [
+      "Medical",
+      "Biology",
+      "Anatomy",
+      "Education"
+    ],
+    "educational_uses": "Useful for biology and health science courses—helps students visualize anatomy and understand cardiovascular function in an engaging way.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/awake-heart.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Critical thinking",
+      "Self-directed learning"
+    ],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Detailed anatomy visuals.",
+    "notes": "Free on Quest; part of the 'Awake' VR educational series.",
+    "link": "https://www.meta.com/experiences/awake-heart/4616603668383139/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "bait",
+    "name": "Bait!",
+    "description": "A relaxing VR fishing game set across beautiful lakes and environments. Players catch fish, explore new locations, and enjoy peaceful gameplay perfect for unwinding.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Wellness",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Fishing",
+      "Relaxation",
+      "Casual"
+    ],
+    "educational_uses": "While primarily recreational, it promotes mindfulness and stress relief—useful for student wellness programs or casual lab sessions.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/bait.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Collaboration",
+      "Teamwork",
+      "Self-management",
+      "Adaptability",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Gentle fishing gameplay; no violence or intense action.",
+    "notes": "Free on Quest; includes Bait! Relax VR for social spaces and mini-games.",
+    "link": "https://www.meta.com/experiences/bait/2008576409231983/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "beat-saber",
+    "name": "Beat Saber",
+    "description": "A fast-paced VR rhythm game where players slash blocks to the beat of music using lightsabers.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Fine Arts",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Rhythm",
+      "Music",
+      "Fitness"
+    ],
+    "educational_uses": "While primarily a game, it can be used in student life programs for recreation, rhythm training, and fitness activities in the lab.",
+    "pricing": "Paid ($29.99, DLC packs extra)",
+    "screenshots": [
+      "images/apps/beat-saber.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Adaptability",
+      "Situational awareness",
+      "Teamwork"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Fast-paced gameplay; high physical activity.",
+    "notes": "Highly popular VR title; supports DLC music packs; frequent updates.",
+    "link": "https://www.meta.com/experiences/beat-saber/2448060205267927/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "blaston",
+    "name": "Blaston",
+    "description": "A competitive 1v1 VR dueling game where players dodge bullets in slow motion and use strategy, reflexes, and precision to win battles in a tight futuristic arena.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Esports"
+    ],
+    "tags": [
+      "Game",
+      "Shooter",
+      "Multiplayer",
+      "Esports"
+    ],
+    "educational_uses": "Useful for student engagement, esports events, and demonstrations of reflex-based mechanics. Encourages strategic thinking and coordination.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/blaston.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Adaptability",
+      "Situational awareness",
+      "Teamwork"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Cartoon-style competitive shooting; online multiplayer.",
+    "notes": "Paid app; supports online multiplayer and frequent tournaments.",
+    "link": "https://www.meta.com/experiences/blaston/2376733632445203/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "blueplanet-vr-explore",
+    "name": "Blueplanet VR Explore",
+    "description": "Volumetric VR travel through remarkable natural and cultural scenes—caves, temples, deserts, and more.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Geography",
+      "Culture",
+      "Education"
+    ],
+    "tags": [
+      "Travel",
+      "Nature",
+      "Cultural Heritage"
+    ],
+    "educational_uses": "Great for geography, art, architecture, and culture classes—immersive field trips with beautiful high-res environments.",
+    "pricing": "Paid (~£14.99)",
+    "screenshots": [
+      "images/apps/blueplanet-vr-explore-v25.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Cultural awareness"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Comfortable; offline; includes 40+ scenes in base app.",
+    "link": "https://www.meta.com/experiences/blueplanet-vr-explore-v25/3422717251188752/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "bodyswaps-soft-skills-training",
+    "name": "Bodyswaps - Soft Skills Training",
+    "description": "AI-powered VR simulations where learners practice communication, interviews, leadership, and empathy scenarios with detailed feedback.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Communications",
+      "Business",
+      "Career Services",
+      "Health Science"
+    ],
+    "tags": [
+      "Soft Skills",
+      "Interview",
+      "Leadership",
+      "AI Feedback"
+    ],
+    "educational_uses": "Useful for communications, career prep, and healthcare training—lets students role-play and reflect with personalized AI coaching.",
+    "pricing": "Institutional license / subscription (free demo available)",
+    "screenshots": [
+      "images/apps/bodyswaps-soft-skills-training.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Professional communication",
+      "Public speaking",
+      "Adaptability",
+      "Self-reflection",
+      "Decision-making"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Requires microphone for speech practice.",
+    "notes": "Institutional subscription required; free demo available; internet needed.",
+    "link": "https://www.meta.com/experiences/bodyswaps-soft-skills-training/3714188128706579/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "color-a-cube",
+    "name": "Color-A-Cube",
+    "description": "A calming VR art experience where players color and decorate 3D cubes and geometric puzzles, creating vibrant designs in a relaxing environment.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Wellness",
+      "Student Life"
+    ],
+    "tags": [
+      "Art",
+      "Coloring",
+      "Relaxation",
+      "Puzzle"
+    ],
+    "educational_uses": "Encourages creativity and mindfulness—ideal for art students exploring spatial color, or as a stress-relief activity in student wellness programs.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/color-a-cube.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Self-management"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone",
+    "content_notes": "Coloring and pattern creation; no competitive gameplay.",
+    "notes": "Free to play; designed for relaxation and light creative interaction.",
+    "link": "https://www.meta.com/experiences/color-a-cube/5090877891005014/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "cosmic-xr-space-in-your-room",
+    "name": "Cosmic XR - Space In Your Room",
+    "description": "A mixed-reality space atlas that brings the solar system, galaxies, and black holes into your room using natural hand interactions.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science"
+    ],
+    "tags": [
+      "Astronomy",
+      "Mixed Reality",
+      "Space",
+      "Planets"
+    ],
+    "educational_uses": "Excellent for astronomy and Earth science—demonstrates scale, motion, and planet comparisons in an interactive MR format.",
+    "pricing": "Paid (~$9.99)",
+    "screenshots": [
+      "images/apps/cosmic-xr-space-in-your-room.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Technical literacy"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Hands",
+    "devices": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Supports hand tracking and passthrough MR; requires open floor space for in-room exploration.",
+    "link": "https://www.meta.com/experiences/cosmic-xr-space-in-your-room/9293405654102503/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "cpr-simulator",
+    "name": "CPR Simulator",
+    "description": "A VR training simulator designed to teach and practice CPR techniques, including chest compressions and emergency response steps.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Emergency Training"
+    ],
+    "tags": [
+      "Medical Training",
+      "CPR",
+      "Health Science"
+    ],
+    "educational_uses": "Great for health science and first aid training—students can practice CPR skills in a safe VR environment and reinforce life-saving procedures.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/cpr-simulator.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Training simulation; educational but not certification-level.",
+    "notes": "Simulated training environment; not a substitute for certified CPR courses.",
+    "link": "https://www.meta.com/experiences/cpr-simulator/5019990081404984/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "csixr",
+    "name": "CSIxR",
+    "description": "An immersive VR training tool for crime scene investigation. Students can explore realistic forensic environments, identify evidence, and practice CSI procedures in a safe virtual space.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest (Institutional Access)"
+    ],
+    "categories": [
+      "Criminal Justice",
+      "Forensic Science",
+      "STEM"
+    ],
+    "tags": [
+      "Forensics",
+      "Criminal Justice",
+      "STEM",
+      "Education"
+    ],
+    "educational_uses": "Designed for criminal justice and forensic science programs—teaches investigative methods, evidence handling, and critical thinking through experiential learning.",
+    "pricing": "Institutional license (contact developer)",
+    "screenshots": [
+      "images/apps/csixr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "16+",
+    "content_notes": "Crime scene simulation may include sensitive material.",
+    "notes": "Not publicly available on the Quest Store. Institutional access may require contacting the university or developer directly.",
+    "link": "https://csixr.example.edu (institutional access info may vary)",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "cubism",
+    "name": "Cubism",
+    "description": "A minimalist 3D puzzle game where players assemble colorful blocks into complex geometric shapes. Relaxing music and intuitive design make it accessible to all skill levels.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "STEM",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Puzzle",
+      "Logic",
+      "Brain Training"
+    ],
+    "educational_uses": "Great for developing spatial reasoning, logic, and problem-solving skills. Can be used in STEM or enrichment settings to challenge critical thinking.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/cubism.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Paid title; simple to learn but challenging to master.",
+    "link": "https://www.meta.com/experiences/cubism/2264524423619421/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "dig-vr",
+    "name": "Dig VR",
+    "description": "A VR simulator where players operate a realistic excavator—digging, moving soil, and completing construction tasks.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Career & Technical Education"
+    ],
+    "tags": [
+      "Simulation",
+      "Construction",
+      "Trades",
+      "Engineering"
+    ],
+    "educational_uses": "Great for construction and technical education programs—lets students practice heavy equipment operation in a safe and accessible VR setting.",
+    "pricing": "Paid ($14.99)",
+    "screenshots": [
+      "images/apps/dig-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Simulated construction work; seated recommended for comfort.",
+    "notes": "Paid app; moderate comfort due to vehicle movement; designed to simulate real construction work.",
+    "link": "https://www.meta.com/experiences/dig-vr/6128709557192619/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "duckordie-boxing-minigames",
+    "name": "DuckOrDie – Boxing Minigames",
+    "description": "A fast-paced boxing-inspired arcade workout with multiple short minigames focused on dodging, punching, and reflex training.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Wellness",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Boxing",
+      "Fitness",
+      "Arcade",
+      "Sports"
+    ],
+    "educational_uses": "Encourages physical activity, coordination, and reaction training. Useful for quick demos, active breaks, and wellness programming rather than formal instruction.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/duck-or-die.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Adaptability",
+      "Situational awareness",
+      "Teamwork"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone 10+",
+    "content_notes": "Active gameplay with cartoon boxing and exaggerated motion.",
+    "notes": "Free Early Access mixed-reality fitness game; requires physical movement and open space.",
+    "link": "https://www.meta.com/experiences/29005942905688131/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "electrician-simulator-vr",
+    "name": "Electrician Simulator VR",
+    "description": "A VR simulation where players take on the role of an electrician—repairing sockets, rewiring circuits, installing devices, and solving real-world electrical problems.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Career & Technical Education"
+    ],
+    "tags": [
+      "Simulation",
+      "Trades",
+      "STEM",
+      "Engineering"
+    ],
+    "educational_uses": "Excellent for career & technical education programs. Helps students understand electrical systems, safety procedures, and hands-on troubleshooting in a safe VR environment.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/electrician-simulator-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Simulated electrical repair tasks—no real danger.",
+    "notes": "Paid app; requires careful object interaction; great for trade-skills exploration.",
+    "link": "https://www.meta.com/experiences/electrician-simulator-vr/8021428604644700/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "description": "A whimsical VR hand-tracking experience where you become a sorcerer’s apprentice, mix potions, and experiment with magical transformations inside a lively alchemy lab.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Onboarding",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Hand Tracking",
+      "Fantasy",
+      "Onboarding"
+    ],
+    "educational_uses": "Perfect for onboarding new users to VR—demonstrates hand tracking, gesture control, and physics-based interaction through a short, engaging experience.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/elixir.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Digital fluency",
+      "Adaptability",
+      "Technical literacy",
+      "Self-directed learning"
+    ],
+    "time_min": 10,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Hand Tracking",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone",
+    "content_notes": "Cartoon fantasy humor and mild magical themes.",
+    "notes": "Free on Quest; designed by Meta Reality Labs; short demo ideal for first-time VR users.",
+    "link": "https://www.meta.com/experiences/elixir/2124527294273125/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "energy-encyclopedia-vr",
+    "name": "Energy Encyclopedia VR",
+    "description": "An interactive VR exhibit of global energy systems—explore cross-sections of nuclear, hydro, wind, fusion, and solar power plants.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science",
+      "Engineering"
+    ],
+    "tags": [
+      "Energy",
+      "Physics",
+      "Engineering",
+      "Sustainability"
+    ],
+    "educational_uses": "Ideal for STEM and engineering courses—compare generation methods, safety, and environmental impact in detail.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/energy-encyclopedia-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving",
+      "Systems thinking",
+      "Technical literacy"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Free on Quest; consider preloading assets for class use.",
+    "link": "https://www.meta.com/experiences/energy-encyclopedia-vr/25876818165266366/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "engage-xr",
+    "name": "ENGAGE XR",
+    "description": "A multi-disciplinary virtual events and education platform for classes, conferences, and interactive sessions.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "All Departments"
+    ],
+    "tags": [
+      "Education",
+      "Events",
+      "Collaboration"
+    ],
+    "educational_uses": "Useful for remote lectures, guest speakers, virtual classrooms, and cross-departmental projects.",
+    "pricing": "Free (premium tiers available)",
+    "screenshots": [
+      "images/apps/engage-xr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Communication",
+      "Professional communication",
+      "Collaboration",
+      "Teamwork",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Free with premium tiers for advanced features; enterprise options available.",
+    "link": "https://www.meta.com/experiences/engage/2009844509086112/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "figmin-xr",
+    "name": "Figmin XR",
+    "description": "A mixed reality creative app for building, animating, and interacting with 3D art.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts"
+    ],
+    "tags": [
+      "Art",
+      "Mixed Reality"
+    ],
+    "educational_uses": "Encourages students to blend VR and AR by creating interactive MR projects.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/figmin-xr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Leverages passthrough MR",
+    "link": "https://www.meta.com/experiences/figmin-xr-mixed-reality/6849182851823457/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "first-contact",
+    "name": "First Contact",
+    "description": "The original Oculus Touch tutorial experience featuring a retro-inspired robot guide who walks you through VR interactions in a playful 1980s-style playroom.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Onboarding"
+    ],
+    "tags": [
+      "Game",
+      "Tutorial",
+      "Onboarding"
+    ],
+    "educational_uses": "An iconic VR onboarding app that teaches object interaction, hand presence, and basic VR mechanics on standalone Quest headsets.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/first-contact.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Digital fluency",
+      "Adaptability",
+      "Technical literacy",
+      "Self-directed learning"
+    ],
+    "time_min": 10,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3"
+    ],
+    "age": "Everyone",
+    "content_notes": "Legacy tutorial with retro visuals and robot character.",
+    "notes": "Free official Quest onboarding experience. Separate from the older Rift-era version and still useful for first-time headset users.",
+    "link": "https://www.meta.com/experiences/2188021891257542/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "first-encounters",
+    "name": "First Encounters",
+    "description": "A playful onboarding experience for Quest 3/3S that introduces mixed reality, passthrough, and controller interactions through a short alien encounter game.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Onboarding"
+    ],
+    "tags": [
+      "Game",
+      "Tutorial",
+      "Mixed Reality",
+      "Onboarding"
+    ],
+    "educational_uses": "Useful as a first VR/MR experience to onboard new users—teaches core mechanics like passthrough, object interaction, and spatial awareness.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/first-encounters.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Digital fluency",
+      "Adaptability",
+      "Technical literacy",
+      "Self-directed learning"
+    ],
+    "time_min": 10,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "age": "Everyone",
+    "content_notes": "Short mixed reality onboarding app; cartoon alien characters.",
+    "notes": "Pre-installed tutorial app for Quest 3/3S; not a full game but ideal for beginners.",
+    "link": "https://www.meta.com/experiences/first-encounters/6236169136472090/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "first-steps",
+    "name": "First Steps",
+    "description": "A free onboarding experience for Quest headsets that teaches basic VR mechanics with fun interactive mini-games like dancing with a robot and flying a toy blimp.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Onboarding"
+    ],
+    "tags": [
+      "Game",
+      "Tutorial",
+      "Onboarding"
+    ],
+    "educational_uses": "Excellent for onboarding new VR users—teaches comfort settings, controller use, object interaction, and spatial awareness in a safe, playful way.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/first-steps.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 10,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Short, lighthearted onboarding experience with cartoon visuals.",
+    "notes": "Originally bundled with Quest 1 & 2; still available for free in the store library.",
+    "link": "https://www.meta.com/experiences/first-steps/1991046034328746/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "first-steps-for-quest-2",
+    "name": "First Steps for Quest 2",
+    "description": "A free onboarding experience for Quest headsets that teaches basic VR mechanics with fun interactive mini-games like dancing with a robot and flying a toy blimp.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Onboarding"
+    ],
+    "tags": [
+      "Game",
+      "Tutorial",
+      "Onboarding"
+    ],
+    "educational_uses": "Excellent for onboarding new VR users—teaches comfort settings, controller use, object interaction, and spatial awareness in a safe, playful way.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/first-steps.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Digital fluency",
+      "Adaptability",
+      "Technical literacy",
+      "Self-directed learning"
+    ],
+    "time_min": 10,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3S",
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Short, lighthearted onboarding experience with cartoon visuals.",
+    "notes": "Free onboarding app for modern Quest headsets; store listing is First Steps for Quest 2.",
+    "link": "https://www.meta.com/experiences/3675568169182204/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "geo-voyage",
+    "name": "Geo Voyage",
+    "description": "A mixed reality globe for exploring places—drop pins and transition from MR map into immersive VR views with AI-guided exploration.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Social Sciences",
+      "Geography",
+      "STEM"
+    ],
+    "tags": [
+      "Geography",
+      "Mixed Reality",
+      "AI Agent",
+      "Maps"
+    ],
+    "educational_uses": "Great for geography and social sciences—supports virtual field trips, place-based inquiry, and AI-assisted research prompts.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/geo-voyage.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Collaboration",
+      "Teamwork",
+      "Cultural awareness"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Requires internet; integrates Google Maps and Meta Spatial SDK features.",
+    "link": "https://www.meta.com/experiences/geo-voyage/8230251250434003/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "gods-of-gravity",
+    "name": "Gods of Gravity",
+    "description": "A free VR multiplayer strategy game where players act as gods of gravity, controlling fleets and planets in competitive or cooperative matches.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Collaboration"
+    ],
+    "tags": [
+      "Game",
+      "Strategy",
+      "Multiplayer",
+      "Space"
+    ],
+    "educational_uses": "While primarily a game, it can reinforce concepts like orbital mechanics, resource management, and teamwork in a fun way. Great for student engagement and casual esports.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/gods-of-gravity.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Teamwork",
+      "Communication",
+      "Decision-making",
+      "Situational awareness",
+      "Adaptability"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Multiplayer competition; sci-fi space battles.",
+    "notes": "Free-to-play; supports online multiplayer; designed for quick matches and competitive play.",
+    "link": "https://www.meta.com/experiences/gods-of-gravity/3766014526783558/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "goliath-playing-with-reality",
+    "name": "Goliath: Playing with Reality",
+    "description": "An award-winning VR documentary narrated by Tilda Swinton that tells the story of a man living with schizophrenia, exploring themes of mental health, reality, and recovery through gaming and connection.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Counseling",
+      "Psychology",
+      "Humanities",
+      "Social Justice"
+    ],
+    "tags": [
+      "Mental Health",
+      "Documentary",
+      "Empathy",
+      "Education"
+    ],
+    "educational_uses": "Useful for counseling, psychology, and humanities courses—raises awareness about mental health, stigma, and the therapeutic potential of games and community.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/goliath-playing-with-reality.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 25,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Covers mental health and schizophrenia; includes sensitive personal testimony.",
+    "notes": "Free on Quest; companion piece to 'Impulse: Playing with Reality.' Sensitive subject matter.",
+    "link": "https://www.meta.com/experiences/goliath-playing-with-reality/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "gorilla-tag",
+    "name": "Gorilla Tag",
+    "description": "A social VR phenomenon where players tag, chase, and climb using only their arms to move. Features casual and competitive modes, parkour maps, and active community spaces.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Wellness"
+    ],
+    "tags": [
+      "Game",
+      "Movement",
+      "Multiplayer",
+      "Social",
+      "Fitness"
+    ],
+    "educational_uses": "Primarily recreational but promotes physical activity, coordination, and teamwork—can be used in wellness initiatives or social VR events.",
+    "pricing": "Free (in-app purchases)",
+    "screenshots": [
+      "images/apps/gorilla-tag.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Adaptability",
+      "Situational awareness",
+      "Teamwork"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "High",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Highly active gameplay; online multiplayer with voice chat.",
+    "notes": "Free-to-play with optional in-app purchases. Requires significant arm movement and open play space.",
+    "link": "https://www.meta.com/experiences/gorilla-tag/4330311203703149/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "gravity-sketch",
+    "name": "Gravity Sketch",
+    "description": "A professional 3D design tool for sketching, modeling, and prototyping in VR.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Engineering"
+    ],
+    "tags": [
+      "3D Modeling",
+      "Design"
+    ],
+    "educational_uses": "Excellent for design, architecture, and engineering students to collaborate on 3D projects.",
+    "pricing": "Paid ($29.99)",
+    "screenshots": [
+      "images/apps/gravity-sketch.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Problem solving",
+      "Systems thinking",
+      "Technical literacy"
+    ],
+    "time_min": null,
+    "comfort": "Mixed",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Accounts for cloud features",
+    "link": "https://www.meta.com/experiences/gravity-sketch/1587090851394426/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "headspace-xr-mindfulness-meditation",
+    "name": "Headspace XR: Mindfulness & Meditation",
+    "description": "An immersive VR wellness app from Headspace offering guided meditations, breathing exercises, focus tools, and playful environments to reduce stress and improve mental well-being.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Counseling",
+      "Student Success"
+    ],
+    "tags": [
+      "Wellness",
+      "Meditation",
+      "Mindfulness",
+      "Mental Health"
+    ],
+    "educational_uses": "Supports student success initiatives, wellness programs, and stress management by providing accessible mindfulness practices in VR.",
+    "pricing": "Paid (~$19.99)",
+    "screenshots": [
+      "images/apps/headspace-xr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Meditation and relaxation themes; may not be suited for all learners.",
+    "notes": "Subscription required after free trial; designed for seated or standing use.",
+    "link": "https://www.meta.com/experiences/headspace-xr-mindfulness-meditation/24496870869957102/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "horizon-tv",
+    "name": "Horizon TV",
+    "description": "The built-in VR video hub for Quest, featuring immersive 360° films, VR shorts, documentaries, livestreams, and curated media content.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Media",
+      "Student Life"
+    ],
+    "tags": [
+      "Video",
+      "Streaming",
+      "Documentary",
+      "Film"
+    ],
+    "educational_uses": "Useful for showing VR films, short documentaries, and immersive video content in class or lab settings. Acts as a central hub for VR video learning resources.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/horizon-tv.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone",
+    "content_notes": "Content varies—ranging from PG to mature depending on the channel.",
+    "notes": "Pre-installed on Quest headsets; free to use; requires internet connection.",
+    "link": "https://www.meta.com/experiences/meta-quest-tv/1931356740318898/",
+    "approved": false,
+    "installed": true,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "human-anatomy-vr",
+    "name": "Human Anatomy VR",
+    "description": "A comprehensive VR anatomy atlas featuring detailed 3D models, Ant Mode miniaturization, muscle animations, quizzes, and collaborative tools. Trusted in universities worldwide for immersive anatomy education.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Education"
+    ],
+    "tags": [
+      "Anatomy",
+      "Medical Education",
+      "Biology"
+    ],
+    "educational_uses": "Great for personal self-study or classroom instruction. Provides deep anatomical exploration and interactive tools for medical, biology, and healthcare education.",
+    "pricing": "Paid ($29.99 personal) / Institutional license (price varies)",
+    "screenshots": [
+      "images/apps/human-anatomy-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Two versions available — personal edition as a one-time purchase (~$29.99) and institutional edition requiring licensing with additional classroom features.",
+    "link": "https://www.meta.com/experiences/human-anatomy-vr/6643334382420936/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "immerrock",
+    "name": "IMMERROCK",
+    "description": "A mixed-reality guitar trainer that overlays chords, tabs, and practice guidance onto your real instrument with real-time accuracy feedback.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Music"
+    ],
+    "tags": [
+      "Music",
+      "Guitar",
+      "Mixed Reality",
+      "Practice"
+    ],
+    "educational_uses": "Great for applied music courses—supports practice of chords, scales, and rhythm with structured MR lessons.",
+    "pricing": "Paid (~$14.99)",
+    "screenshots": [
+      "images/apps/immerrock.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Standing required; best with guitar strap.",
+    "notes": "Requires a real guitar; passthrough MR with on-device note detection.",
+    "link": "https://www.meta.com/experiences/immerrock/7334845636643834/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "immerse-learn-languages-in-vr",
+    "name": "Immerse — Learn Languages in VR",
+    "description": "Live instructor-led language sessions with conversation practice and interactive environments.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Languages",
+      "Humanities",
+      "ESL"
+    ],
+    "tags": [
+      "Languages",
+      "Immersion",
+      "Education"
+    ],
+    "educational_uses": "Supports conversational fluency, cultural exchange, and role-play activities for language courses.",
+    "pricing": "Free (subscription required)",
+    "screenshots": [
+      "images/apps/immerse-language-learning.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Communication",
+      "Professional communication",
+      "Cultural awareness"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Subscription required; headset microphone recommended.",
+    "link": "https://www.meta.com/experiences/immerse-language-learning/3181432891940455/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "immersed",
+    "name": "Immersed",
+    "description": "A VR productivity workspace with multiple virtual monitors, shared team rooms, and customizable focus spaces.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "All Departments"
+    ],
+    "tags": [
+      "Productivity",
+      "Collaboration",
+      "Focus"
+    ],
+    "educational_uses": "Great for focused study sessions, research, and remote group work across departments.",
+    "pricing": "Free (premium tiers available)",
+    "screenshots": [
+      "images/apps/immersed.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Collaboration",
+      "Teamwork",
+      "Communication"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Free with optional premium plans; account required.",
+    "link": "https://www.meta.com/experiences/immersed/2849273531812512/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "impulse-playing-with-reality",
+    "name": "Impulse: Playing with Reality",
+    "description": "A VR documentary experience that explores the science and philosophy of free will, consciousness, and the human mind, blending cinematic storytelling with interactive elements.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Humanities",
+      "Philosophy",
+      "Psychology",
+      "Media"
+    ],
+    "tags": [
+      "Documentary",
+      "Philosophy",
+      "Science",
+      "Education"
+    ],
+    "educational_uses": "Useful for philosophy, psychology, and media studies courses—sparks discussion about neuroscience, choice, and the nature of human reality.",
+    "pricing": "$7.99",
+    "screenshots": [
+      "images/apps/impulse-playing-with-reality.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Philosophical/scientific content; abstract concepts.",
+    "notes": "Free app; short, polished documentary experience.",
+    "link": "https://www.meta.com/experiences/impulse-playing-with-reality/ (Quest Store link)",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "in-the-shoes-of-an-autistic-person",
+    "name": "In the Shoes of an Autistic Person",
+    "description": "An immersive VR experience that simulates the world from the perspective of an autistic person, helping users understand sensory differences and challenges.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Counseling",
+      "Education",
+      "Social Sciences"
+    ],
+    "tags": [
+      "Autism",
+      "Empathy",
+      "Disability Studies",
+      "Education"
+    ],
+    "educational_uses": "Useful for counseling, education, and social science programs—supports empathy training, inclusion awareness, and classroom discussions about neurodiversity.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/in-the-shoes-of-an-autistic-person.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Simulated sensory overload; may be uncomfortable for sensitive users.",
+    "notes": "Free on Quest; short experience designed for awareness and empathy-building.",
+    "link": "https://www.meta.com/experiences/in-the-shoes-of-an-autistic-person/5897385903663059/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "into-the-scaniverse",
+    "name": "Into the Scaniverse",
+    "description": "An immersive VR showcase of photogrammetry-based 3D scans from around the world, allowing users to explore real locations and cultural landmarks up close.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Humanities",
+      "Geography",
+      "Cultural Studies"
+    ],
+    "tags": [
+      "3D Scans",
+      "Culture",
+      "History",
+      "Exploration"
+    ],
+    "educational_uses": "Useful for history, geography, and cultural studies—students can virtually visit scanned heritage sites, landscapes, and objects.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/into-the-scaniverse.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Educational cultural content; not a game.",
+    "notes": "Free app featuring a curated collection of 3D-scanned spaces and artifacts.",
+    "link": "https://www.meta.com/experiences/into-the-scaniverse/8575253579256191/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "inviewer",
+    "name": "InViewer",
+    "description": "A VR utility for viewing 3D content, images, and immersive media in a virtual environment.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "All Departments"
+    ],
+    "tags": [
+      "Viewer",
+      "3D Models",
+      "Education"
+    ],
+    "educational_uses": "Useful for classrooms and projects that involve inspecting 3D objects or visual assets directly in VR.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/inviewer.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Communication",
+      "Professional communication",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Supports a wide range of 3D/360° content formats.",
+    "link": "https://www.meta.com/experiences/inviewer/7611117132274033/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "jfk-memento-the-immersive-documentary",
+    "name": "JFK Memento: The Immersive Documentary",
+    "description": "An immersive VR documentary exploring November 22, 1963—the JFK assassination—through archival film, photos, and narration.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "History",
+      "Humanities"
+    ],
+    "tags": [
+      "History",
+      "Documentary",
+      "US History"
+    ],
+    "educational_uses": "Valuable for U.S. history and civics—analyze primary sources and reflect on media presentation of historical events.",
+    "pricing": "Paid (~$9.99)",
+    "screenshots": [
+      "images/apps/jfk-memento-the-immersive-documentary.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Empathy",
+      "Cultural awareness",
+      "Critical thinking",
+      "Communication",
+      "Self-directed learning"
+    ],
+    "time_min": 40,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Historical reenactment (no graphic content).",
+    "notes": "Previously released as “Inside History: The JFK Assassination” (by TARGO).",
+    "link": "https://www.meta.com/experiences/inside-history-the-jfk-assassination/6864747670240243/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "job-simulator",
+    "name": "Job Simulator",
+    "description": "A comedic VR game set in a future where robots simulate human jobs. Players can experience exaggerated versions of office work, cooking, auto repair, and more.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Simulation",
+      "Humor",
+      "Sandbox"
+    ],
+    "educational_uses": "Primarily recreational, but introduces VR newcomers to object interaction, motor skills, and creative problem-solving in a lighthearted way.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/job-simulator.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Cartoon humor and light slapstick.",
+    "notes": "Great for demos and student engagement; highly interactive; requires some open play space.",
+    "link": "https://www.meta.com/experiences/job-simulator/3235570703151406/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "kingspray-graffiti",
+    "name": "Kingspray Graffiti",
+    "description": "A VR graffiti simulator with realistic spray paint effects and urban backdrops.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts"
+    ],
+    "tags": [
+      "Art",
+      "Design"
+    ],
+    "educational_uses": "Lets students explore street art safely while discussing art history, culture, and expression.",
+    "pricing": "Paid ($14.99)",
+    "screenshots": [
+      "images/apps/kingspray-graffiti.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Communication"
+    ],
+    "time_min": null,
+    "comfort": "Standing",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Comfort turns for classroom use",
+    "link": "https://www.meta.com/experiences/kingspray-graffiti/2082941345119152/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "labster-vr",
+    "name": "Labster VR",
+    "description": "A VR science education platform providing hundreds of virtual labs across biology, chemistry, physics, and more. Students can conduct experiments in safe, immersive environments.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest (Institutional Access)"
+    ],
+    "categories": [
+      "STEM",
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Education"
+    ],
+    "tags": [
+      "Science",
+      "STEM",
+      "Labs",
+      "Education",
+      "Simulation"
+    ],
+    "educational_uses": "Designed for high schools and universities to give students hands-on lab experience without material costs or safety risks. Labs integrate with LMS platforms and provide guided lessons with assessments.",
+    "pricing": "Institutional license (subscription, pricing varies)",
+    "screenshots": [
+      "images/apps/labster-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "16+",
+    "content_notes": "Covers scientific experiments and lab procedures.",
+    "notes": "Requires institutional license; not publicly available on the Quest Store. Used widely in schools and higher education.",
+    "link": "https://www.labster.com/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "liminal",
+    "name": "Liminal",
+    "description": "A collection of short VR experiences grounded in neuroscience and psychology, designed to quickly change your emotional and mental state.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Counseling",
+      "Student Success",
+      "Wellness"
+    ],
+    "tags": [
+      "Wellness",
+      "Mood",
+      "Mindfulness",
+      "Relaxation"
+    ],
+    "educational_uses": "Supports wellness initiatives—can be used in counseling or student success programs to promote relaxation, focus, or energy boosts through guided VR experiences.",
+    "pricing": "Free (subscription available for extra content)",
+    "screenshots": [
+      "images/apps/liminal.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 2,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Mood-altering experiences—designed for short sessions.",
+    "notes": "Free with optional subscription for more content; experiences are 2–10 minutes long.",
+    "link": "https://www.meta.com/experiences/liminal/2169492309823119/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "match-point-tennis-championships-vr",
+    "name": "Match Point: Tennis Championships VR",
+    "description": "A realistic tennis simulator featuring precise racket physics, AI opponents, and online multiplayer. Players can participate in career mode or quick matches, training their timing and coordination.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Wellness",
+      "Student Life",
+      "Esports"
+    ],
+    "tags": [
+      "Game",
+      "Sports",
+      "Tennis",
+      "Multiplayer",
+      "Fitness"
+    ],
+    "educational_uses": "Encourages physical activity and coordination while introducing competitive play and sportsmanship. Great for fitness programs, esports clubs, or active lab sessions.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/match-point-tennis.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Adaptability",
+      "Situational awareness",
+      "Teamwork"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Active gameplay requiring full arm movement.",
+    "notes": "Paid title; offers both single-player tournaments and online multiplayer. More structured and simulation-focused than Tennis Esports.",
+    "link": "https://www.meta.com/experiences/match-point-tennis-championships/4901221556601741/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "meta-for-education-mdm-admin-center",
+    "name": "Meta for Education (MDM / Admin Center)",
+    "description": "Meta’s education-focused device management using Meta Horizon Managed Solutions (MHMS). Provides bulk enrollment, classroom controls, kiosk/launcher options, and private app distribution for Quest headsets.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Onboarding",
+      "Support",
+      "IT"
+    ],
+    "tags": [
+      "MDM",
+      "Device Management",
+      "Education",
+      "Admin"
+    ],
+    "educational_uses": "Required by some education apps. Lets IT centrally configure headsets so teachers can start class quickly without per-device setup.",
+    "pricing": "Subscription (education pricing)",
+    "screenshots": [
+      "images/apps/meta-for-education-mdm.png"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "N/A",
+    "motion_level": "N/A",
+    "input": "N/A",
+    "devices": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "N/A",
+    "content_notes": "Service (not an in-headset app).",
+    "notes": "Integrates with enterprise MDMs (e.g., Intune, VMware Workspace ONE). Licensing is subscription-based. Check MHMS policies if you need Meta Store access on managed devices.",
+    "link": "https://forwork.meta.com/meta-for-education/",
+    "approved": false,
+    "installed": true,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "meta-horizon-worlds",
+    "name": "Meta Horizon Worlds",
+    "description": "Meta’s social VR platform where users can explore immersive worlds, attend events, and build their own interactive experiences with creation tools.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Collaboration"
+    ],
+    "tags": [
+      "Game",
+      "Social",
+      "Collaboration",
+      "Creation",
+      "Multiplayer"
+    ],
+    "educational_uses": "Useful for exploring virtual collaboration, game design, and social interaction. Can be leveraged for student clubs, creative projects, and experimenting with immersive media.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/horizon-worlds.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Collaboration"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "13+",
+    "content_notes": "Online social interactions; user-generated content may vary.",
+    "notes": "Free to download; requires a Meta account; as of March 19, 2026, Meta kept VR support active, but mobile is now the primary focus.",
+    "link": "https://www.meta.com/experiences/horizon-worlds/4776218665791734/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "meta-quest-help-tips",
+    "name": "Meta Quest Help & Tips",
+    "description": "The built-in Meta Quest help center with setup guides, safety tips, and troubleshooting resources for new users.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Onboarding",
+      "Support"
+    ],
+    "tags": [
+      "Tutorial",
+      "Support",
+      "Onboarding",
+      "System"
+    ],
+    "educational_uses": "Useful for onboarding lab participants—provides official Meta instructions for safety, controller use, Guardian setup, and VR best practices.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/meta-help-and-tips.png"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone",
+    "content_notes": "Covers VR safety and usage guidelines.",
+    "notes": "Pre-installed on Quest devices; free; accessible anytime from the app library.",
+    "link": "https://www.meta.com/quest/help/",
+    "approved": false,
+    "installed": true,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "mission-iss",
+    "name": "Mission: ISS",
+    "description": "An immersive simulation of life aboard the International Space Station—learn to dock, spacewalk, and explore using real NASA models and astronaut-led media.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Space Science",
+      "Education"
+    ],
+    "tags": [
+      "Space",
+      "STEM",
+      "Learning"
+    ],
+    "educational_uses": "Strong STEM content—ideal for learning about space, robotics, physics, and astronaut workflows.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/mission-iss.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Free non-profit experience; Emmy-nominated.",
+    "link": "https://www.meta.com/experiences/mission-iss/2094303753986147/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "mlk-now-is-the-time",
+    "name": "MLK: Now is the Time",
+    "description": "An immersive VR interpretation of Dr. Martin Luther King Jr.’s “I Have a Dream” speech, blending historic audio with present-day perspectives.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Humanities",
+      "History",
+      "Social Justice"
+    ],
+    "tags": [
+      "Civil Rights",
+      "History",
+      "Interactive Film"
+    ],
+    "educational_uses": "Useful for civil rights and U.S. history courses—connects 1963 to today, prompting reflection and discussion on equity.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/mlk-now-is-the-time.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Empathy",
+      "Cultural awareness",
+      "Critical thinking",
+      "Communication",
+      "Self-directed learning"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Includes sensitive social issues (racism, inequality).",
+    "notes": "Free on Quest; includes sensitive social topics—plan guided debriefing.",
+    "link": "https://www.meta.com/experiences/mlk-now-is-the-time/4790561384366997/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "mondly-languages-in-vr",
+    "name": "Mondly: Languages in VR",
+    "description": "A VR language learning app with conversational practice, speech recognition, and immersive scenarios.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Languages",
+      "Humanities",
+      "ESL"
+    ],
+    "tags": [
+      "Languages",
+      "ESL",
+      "Education"
+    ],
+    "educational_uses": "Supports ESL and world languages by giving students an interactive way to practice speaking and listening in context.",
+    "pricing": "Free (with subscription for full access)",
+    "screenshots": [
+      "images/apps/mondly-practice-languages-in-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Communication",
+      "Professional communication",
+      "Cultural awareness"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Free to download; subscription required for full lessons; headset microphone needed.",
+    "link": "https://www.meta.com/experiences/mondly-practice-languages-in-vr/4214902388537196/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "nano",
+    "name": "Nano",
+    "description": "An immersive VR science experience that shrinks you down to explore the nanoscale world of molecules, atoms, and cutting-edge nanotechnology.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science",
+      "STEM"
+    ],
+    "tags": [
+      "Nanotechnology",
+      "Science",
+      "Education"
+    ],
+    "educational_uses": "Useful for science and STEM classes to introduce concepts of nanotechnology, molecular structures, and their applications in medicine and engineering.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/nano.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Short, cinematic VR journey; designed as an educational showcase.",
+    "link": "https://www.meta.com/experiences/nano/5566073043488552/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "nanome",
+    "name": "Nanome",
+    "description": "A VR interface for visualizing, building, and simulating molecular structures like DNA, proteins, and more.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science",
+      "Education"
+    ],
+    "tags": [
+      "Molecular Modeling",
+      "Science",
+      "Education"
+    ],
+    "educational_uses": "Excellent for chemistry and biology education, enabling interactive molecular exploration and simulation.",
+    "pricing": "Free (basic); paid licenses available",
+    "screenshots": [
+      "images/apps/nanome.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Mixed (Standing, Sitting, Room-scale)",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Free basic version; premium features via paid licenses",
+    "link": "https://www.meta.com/experiences/nanome/2038368596280231/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "notes-on-blindness",
+    "name": "Notes on Blindness",
+    "description": "A VR documentary based on the audio diaries of John Hull, exploring the experience of blindness through sound-rich, abstract environments.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Humanities",
+      "Social Sciences"
+    ],
+    "tags": [
+      "Disability Studies",
+      "Documentary",
+      "Empathy"
+    ],
+    "educational_uses": "Supports discussions in disability studies, empathy building, and humanities by immersing students in sensory storytelling.",
+    "pricing": "Paid (~$4.99)",
+    "screenshots": [
+      "images/apps/notes-on-blindness.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Empathy",
+      "Cultural awareness",
+      "Critical thinking",
+      "Communication",
+      "Self-directed learning"
+    ],
+    "time_min": 30,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Themes of disability and personal reflection.",
+    "notes": "Audio-heavy experience; best used with quality headphones.",
+    "link": "https://www.meta.com/experiences/notes-on-blindness/1946326588770583/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "noun-town-language-learning",
+    "name": "Noun Town: Language Learning",
+    "description": "A gamified VR language learning platform where learners practice vocabulary and phrases in an interactive virtual town.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Languages",
+      "Humanities",
+      "ESL"
+    ],
+    "tags": [
+      "Languages",
+      "Education",
+      "Immersion"
+    ],
+    "educational_uses": "Supports ESL and world languages by engaging students in active practice through contextual VR settings.",
+    "pricing": "Paid (~$14.99)",
+    "screenshots": [
+      "images/apps/noun-town.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Communication",
+      "Professional communication",
+      "Cultural awareness",
+      "Empathy",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Paid app; offers multiple languages; supports gamified learning.",
+    "link": "https://www.meta.com/experiences/noun-town-language-learning/5520452821357227/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "novo-nordisk-heritage-experience",
+    "name": "Novo Nordisk Heritage Experience",
+    "description": "An immersive educational VR experience that guides users through the history of insulin discovery, diabetes treatment, and the innovations of Novo Nordisk. Combines storytelling, interactive exhibits, and scientific insights.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Biology",
+      "History"
+    ],
+    "tags": [
+      "Medical History",
+      "Biology",
+      "Pharmaceuticals",
+      "Education",
+      "Museum"
+    ],
+    "educational_uses": "Ideal for health science and biology education—illustrates medical breakthroughs and the evolution of diabetes care. Also valuable for history and ethics discussions around scientific innovation.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/novo-nordisk-heritage-experience.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest",
+      "Quest 3S",
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Historical medical themes and scientific context.",
+    "notes": "Free Quest experience produced by Novo Nordisk; museum-style narrative with interactive elements and hand-tracking support.",
+    "link": "https://www.meta.com/experiences/5719554298109840/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "ocean-rift",
+    "name": "Ocean Rift",
+    "description": "A peaceful underwater journey exploring marine environments—swim with sharks, dolphins, and prehistoric creatures.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Natural Science",
+      "Education"
+    ],
+    "tags": [
+      "Ocean",
+      "Wildlife",
+      "Exploration"
+    ],
+    "educational_uses": "Ideal for biology and marine science—experience diverse ocean ecosystems in VR rich with detail.",
+    "pricing": "Paid (~$6 on sale)",
+    "screenshots": [
+      "images/apps/ocean-rift.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving",
+      "Systems thinking",
+      "Technical literacy"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Comfortable experience; mixed-reality support on compatible headsets; often on sale (~$6).",
+    "link": "https://www.meta.com/experiences/ocean-rift-demo/619150648185192/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "on-the-morning-you-wake-to-the-end-of-the-world",
+    "name": "On The Morning You Wake (To the End of the World)",
+    "description": "An award-winning VR documentary that immerses viewers in the events of the 2018 Hawaii ballistic missile false alert. Through powerful narration and visuals, it explores how misinformation and fear affect individuals and communities.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Humanities",
+      "Social Justice",
+      "Media Studies"
+    ],
+    "tags": [
+      "Documentary",
+      "Empathy",
+      "Social Awareness",
+      "History"
+    ],
+    "educational_uses": "Excellent for courses in media literacy, communications, and social psychology. Encourages discussion on crisis response, misinformation, and resilience in the digital age.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/on-the-morning-you-wake.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Empathy",
+      "Cultural awareness",
+      "Critical thinking",
+      "Communication",
+      "Self-directed learning"
+    ],
+    "time_min": 25,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Depicts real-world fear and crisis response; emotionally intense subject matter.",
+    "notes": "Free on Quest; emotionally intense but non-graphic; developed by Atlas V, Astrea, and Archer’s Mark.",
+    "link": "https://www.meta.com/experiences/on-the-morning-you-wake-to-the-end-of-the-world/5116734361663719/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "open-blocks",
+    "name": "Open Blocks",
+    "description": "A creative VR sandbox where users can build, experiment, and explore the laws of physics. Construct complex machines, test interactions, and learn engineering logic through hands-on play.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Engineering",
+      "Education"
+    ],
+    "tags": [
+      "STEM",
+      "Physics",
+      "Building",
+      "Education",
+      "Sandbox",
+      "Programming"
+    ],
+    "educational_uses": "Excellent for STEM and engineering education—encourages problem-solving, systems thinking, and experimentation with real-time physics in a virtual lab.",
+    "pricing": "Free (Early Access)",
+    "screenshots": [
+      "images/apps/open-blocks.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Sandbox creation with building and physics experimentation.",
+    "notes": "Free in Early Access; designed for creators, educators, and tinkerers. Features physics simulation and block-based construction.",
+    "link": "https://www.meta.com/experiences/open-blocks/6039079222812710/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "open-brush",
+    "name": "Open Brush",
+    "description": "An open-source continuation of Google’s Tilt Brush, allowing 3D brush strokes in space.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts"
+    ],
+    "tags": [
+      "Art",
+      "Design"
+    ],
+    "educational_uses": "Useful for teaching spatial art, VR creativity, and immersive design projects.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/open-brush.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation"
+    ],
+    "time_min": null,
+    "comfort": "Standing",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Community-supported fork of Tilt Brush",
+    "link": "https://www.meta.com/experiences/open-brush-3d-painting/3600360710032222/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "orion-drift",
+    "name": "Orion Drift",
+    "description": "A social sci-fi movement game from Another Axiom where players run, jump, climb, skate, and fly through large space-station hubs with dozens of other players.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Collaboration"
+    ],
+    "tags": [
+      "Game",
+      "Social",
+      "Multiplayer",
+      "Sci-Fi",
+      "Movement"
+    ],
+    "educational_uses": "Primarily recreational, but useful for exploring multiplayer VR movement, spatial awareness, and social interaction in a futuristic setting. Better fit for student life or social VR demos than formal STEM instruction.",
+    "pricing": "Free (Early Access)",
+    "screenshots": [
+      "images/apps/orion-drift.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3S",
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone 10+",
+    "content_notes": "Online multiplayer social play with fast physical movement in a sci-fi setting.",
+    "notes": "Free-to-play Early Access title with online multiplayer and large shared social spaces.",
+    "link": "https://www.meta.com/experiences/7181769438517329/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "ovation",
+    "name": "Ovation",
+    "description": "A VR public speaking trainer where you present to realistic AI audiences and receive detailed feedback on delivery.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Communications",
+      "Business"
+    ],
+    "tags": [
+      "Public Speaking",
+      "Soft Skills",
+      "AI Feedback"
+    ],
+    "educational_uses": "Excellent for speech, communications, and business courses—practice interviews, presentations, and Q&A in realistic settings.",
+    "pricing": "Paid (~$19.99)",
+    "screenshots": [
+      "images/apps/ovation.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Public speaking",
+      "Communication",
+      "Self-confidence",
+      "Adaptability",
+      "Self-reflection"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Headset mic recommended; subscription features available.",
+    "link": "https://www.meta.com/experiences/ovation/4510688418969375/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "painting-vr",
+    "name": "Painting VR",
+    "description": "A hands-on VR painting workshop with large-scale canvases and customizable tools.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts"
+    ],
+    "tags": [
+      "Art",
+      "Design"
+    ],
+    "educational_uses": "Allows students to practice painting techniques without materials or mess.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/painting-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Mixed",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Room-scale recommended",
+    "link": "https://www.meta.com/experiences/painting-vr/3106117596158066/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "paradiddle",
+    "name": "Paradiddle",
+    "description": "A VR drumming simulator that lets you play realistic drum kits using VR controllers or connect a MIDI drum kit for advanced practice. Features custom kit building, recording, and practice tools.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Music"
+    ],
+    "tags": [
+      "Music",
+      "Drums",
+      "Education",
+      "Simulation"
+    ],
+    "educational_uses": "Great for music programs—students can practice drumming techniques, rhythm, and timing in VR, with or without access to physical drums.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/paradiddle.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Requires space for drumming gestures; optional MIDI device support.",
+    "notes": "Supports MIDI device integration; paid app with strong music education potential.",
+    "link": "https://www.meta.com/experiences/paradiddle/5719805344724551/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "pianovision",
+    "name": "PianoVision",
+    "description": "A mixed reality piano learning app that overlays falling notes and practice guidance onto a real or virtual keyboard. Includes tutorials, sheet music import, and practice modes.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Music"
+    ],
+    "tags": [
+      "Music",
+      "Mixed Reality",
+      "Piano",
+      "Education"
+    ],
+    "educational_uses": "Great for music programs and self-paced learning—students can practice piano with real-time feedback in VR/MR, using either a physical keyboard or virtual keys.",
+    "pricing": "$9.99",
+    "screenshots": [
+      "images/apps/pianovision.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Works best with a physical piano/keyboard.",
+    "notes": "Free to try; subscription unlocks full lessons and advanced features. Best used with a real MIDI keyboard.",
+    "link": "https://www.meta.com/experiences/pianovision/5271074762922599/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "puzzling-places",
+    "name": "Puzzling Places",
+    "description": "A relaxing and meditative 3D jigsaw puzzle game where players assemble highly detailed models of real-world places captured with photogrammetry.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "STEM",
+      "Fine Arts"
+    ],
+    "tags": [
+      "Game",
+      "Puzzle",
+      "Logic",
+      "Spatial Reasoning"
+    ],
+    "educational_uses": "Excellent for developing spatial reasoning, focus, and problem-solving skills. Also highlights cultural heritage sites through immersive puzzles.",
+    "pricing": "Paid ($14.99)",
+    "screenshots": [
+      "images/apps/puzzling-places.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Relaxing gameplay; suitable for all ages.",
+    "notes": "Paid app with DLC puzzle packs available; highly recommended for enrichment and logic-based learning.",
+    "link": "https://www.meta.com/experiences/puzzling-places/3931148300302917/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "quill-by-smoothstep",
+    "name": "Quill by Smoothstep",
+    "description": "A professional VR painting and animation tool originally developed by Oculus Story Studio, now maintained by Smoothstep. Enables artists to create immersive illustrations and full animated short films in VR.",
+    "developer": null,
+    "platforms": [
+      "PCVR (Quest via Link/Air Link)"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Media",
+      "Storytelling"
+    ],
+    "tags": [
+      "Art",
+      "Animation",
+      "Storytelling",
+      "Creation"
+    ],
+    "educational_uses": "Excellent for advanced media arts and animation programs—teaches VR-native creative workflows, narrative development, and immersive visual design.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/quill-by-smoothstep.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3 (via Link/Air Link)",
+      "Quest 2 (via Link/Air Link)",
+      "PCVR headsets"
+    ],
+    "age": "13+",
+    "content_notes": "Creation software; requires external PC hardware.",
+    "notes": "Free on PCVR; requires a VR-ready computer with Quest Link or Air Link. Not a standalone Quest app.",
+    "link": "https://www.meta.com/experiences/pcvr/quill-by-smoothstep/5910229332328230",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "description": "A cinematic VR journey that explores the history and architecture of ancient Rome through immersive visuals and narration.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "History",
+      "Humanities"
+    ],
+    "tags": [
+      "History",
+      "Documentary",
+      "Ancient Rome"
+    ],
+    "educational_uses": "Useful for history and classics courses—introduces Roman culture, architecture, and storytelling through cinematic VR.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/rome.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Communication"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Short linear VR film experience; best suited for classroom demonstrations.",
+    "link": "https://www.meta.com/experiences/rome/4121527391303603/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "sail",
+    "name": "SAIL",
+    "description": "An open-world VR pirate adventure where players captain their own ship, explore islands, hunt for treasure, and engage in physics-based naval combat and sailing mechanics.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "STEM"
+    ],
+    "tags": [
+      "Game",
+      "Adventure",
+      "Exploration",
+      "Physics",
+      "Sailing"
+    ],
+    "educational_uses": "While primarily recreational, it reinforces principles of physics, navigation, and resource management—great for experiential learning or themed lab events.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/sail.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest",
+      "Quest 3S",
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Teen",
+    "content_notes": "Cartoon-style ship combat and treasure hunting; mild motion intensity.",
+    "notes": "Free multiplayer pirate adventure; includes locomotion and ship motion, so comfort settings may help new VR users.",
+    "link": "https://www.meta.com/experiences/sail/3918918518236402/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "sculptrvr",
+    "name": "SculptrVR",
+    "description": "A beginner-friendly VR sculpting and voxel modeling tool for creating 3D objects.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Engineering"
+    ],
+    "tags": [
+      "3D Modeling",
+      "Design"
+    ],
+    "educational_uses": "Good for introducing students to 3D design, modeling concepts, and creative prototyping.",
+    "pricing": "Paid ($19.99)",
+    "screenshots": [
+      "images/apps/sculptrvr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Mixed",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Beginner-friendly",
+    "link": "https://www.meta.com/experiences/sculptrvr/1978992975501648/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "shapesxr",
+    "name": "ShapesXR",
+    "description": "A collaborative VR prototyping tool for UI/UX and spatial design.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Computer Science"
+    ],
+    "tags": [
+      "Design",
+      "Prototyping"
+    ],
+    "educational_uses": "Useful in computer science and design programs for testing user interfaces and team collaboration.",
+    "pricing": "Free (basic plan)",
+    "screenshots": [
+      "images/apps/shapesxr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Collaboration"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Great for team reviews",
+    "link": "https://www.meta.com/experiences/shapesxr/3899112273551602/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "sharecare-you-anatomy",
+    "name": "Sharecare YOU: Anatomy",
+    "description": "A detailed human anatomy explorer with layered systems and guided lessons.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science"
+    ],
+    "tags": [
+      "Health",
+      "Anatomy"
+    ],
+    "educational_uses": "Great for anatomy and physiology to examine organs, systems, and clinical context in 3D.",
+    "pricing": "Paid ($4.99)",
+    "screenshots": [
+      "images/apps/sharecare-you-anatomy.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Standalone app",
+    "link": "https://www.meta.com/experiences/sharecare-you-anatomy/5090936304309796/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "spatial",
+    "name": "Spatial",
+    "description": "A social VR platform for exhibits, galleries, and community events.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Humanities"
+    ],
+    "tags": [
+      "Collaboration",
+      "Galleries",
+      "Events"
+    ],
+    "educational_uses": "Students and faculty can host showcases, poster sessions, and interactive cultural spaces.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/spatial.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Collaboration",
+      "Teamwork",
+      "Cultural awareness"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Requires free account; supports multiplayer collaboration.",
+    "link": "https://www.meta.com/experiences/spatial/2927141310670477/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "synth-riders",
+    "name": "Synth Riders",
+    "description": "A VR rhythm game where players ride the rails of music, hit notes with freestyle dance-inspired movements, and enjoy a diverse soundtrack with DLC packs.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life",
+      "Wellness"
+    ],
+    "tags": [
+      "Game",
+      "Rhythm",
+      "Music",
+      "Fitness",
+      "Multiplayer"
+    ],
+    "educational_uses": "Primarily recreational, but supports rhythm training, coordination, and physical activity. Great for student events, esports-style competitions, or wellness initiatives.",
+    "pricing": "Paid ($24.99, DLC extra)",
+    "screenshots": [
+      "images/apps/synth-riders.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Energetic gameplay; requires room for movement.",
+    "notes": "Base game is paid; DLC music packs available. Strong multiplayer and fitness community support.",
+    "link": "https://www.meta.com/experiences/synth-riders/1982041745225655/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "tablecraft",
+    "name": "Tablecraft",
+    "description": "A VR science-crafting sandbox where you combine atomic blocks to discover new elements, isotopes, and over 900 possible recipes. Experiment with radioactive decay, fission, and elemental reactions to unlock the entire periodic table.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Chemistry",
+      "Physics"
+    ],
+    "tags": [
+      "Science",
+      "Chemistry",
+      "Physics",
+      "Crafting",
+      "Education",
+      "Sandbox"
+    ],
+    "educational_uses": "Excellent for chemistry and physics programs—gamifies atomic structure, isotopes, and nuclear reactions in an accessible and humorous way. Encourages experimentation and scientific curiosity.",
+    "pricing": "Free (Early Access)",
+    "screenshots": [
+      "images/apps/tablecraft.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "10+",
+    "content_notes": "Cartoon science humor; includes radiation and chemistry references.",
+    "notes": "Currently free in Early Access. Combines science concepts with creative crafting gameplay in a lighthearted lab setting.",
+    "link": "https://www.meta.com/experiences/tablecraft/3106826269327475/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "tennis-esports",
+    "name": "Tennis Esports",
+    "description": "A realistic VR tennis simulation featuring physics-based ball mechanics, online multiplayer, and professional training options. Players can practice swings, play matches, or compete in global tournaments.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Wellness",
+      "Student Life",
+      "Esports",
+      "Kinesiology"
+    ],
+    "tags": [
+      "Sports",
+      "Tennis",
+      "Fitness",
+      "Multiplayer",
+      "Esports"
+    ],
+    "educational_uses": "Supports physical education, wellness, and esports programs—improves coordination, cardio, and competitive sports engagement in a safe, virtual setting.",
+    "pricing": "Free (Early Access)",
+    "screenshots": [
+      "images/apps/tennis-esports.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Adaptability",
+      "Situational awareness",
+      "Teamwork"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Physical activity; may require large play area.",
+    "notes": "Currently free in Early Access; offers single-player practice and online multiplayer. Requires open play area for safe movement.",
+    "link": "https://www.meta.com/experiences/tennis-esports/3746442532128246/",
+    "approved": true,
+    "installed": false,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "the-body-vr-journey-inside-a-cell",
+    "name": "The Body VR: Journey Inside a Cell",
+    "description": "Travel through the bloodstream and enter a living cell to explore its organelles and functions.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science",
+      "Education"
+    ],
+    "tags": [
+      "Science",
+      "Biology",
+      "Cell"
+    ],
+    "educational_uses": "Helps students visualize cell biology, organelle functions, and human anatomy at the microscopic level.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/the-body-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Critical thinking",
+      "Cultural awareness",
+      "Empathy",
+      "Self-directed learning"
+    ],
+    "time_min": 30,
+    "comfort": "Moderate",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "12+",
+    "content_notes": null,
+    "notes": "Short, immersive experience (under 30 minutes); moderate comfort level.",
+    "link": "https://www.meta.com/experiences/the-body-vr/869485659814410/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "the-hydrous-presents-explore",
+    "name": "The Hydrous Presents: EXPLORE",
+    "description": "An immersive underwater VR journey created by The Hydrous, designed to teach ocean science and highlight conservation efforts through guided exploration of coral reefs and marine ecosystems.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science",
+      "Natural Science",
+      "Environmental Studies"
+    ],
+    "tags": [
+      "Ocean",
+      "Biology",
+      "Marine Science",
+      "Conservation"
+    ],
+    "educational_uses": "Excellent for natural science and environmental studies—lets students experience marine biodiversity and learn about conservation challenges firsthand.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/the-hydrous-explore.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Ocean environments; includes conservation messaging.",
+    "notes": "Free on Quest; produced by ocean scientists and conservationists; best with headphones for narration and sound design.",
+    "link": "https://www.meta.com/experiences/the-hydrous-presents-explore/5049813315030922/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "theater-elsewhere",
+    "name": "Theater, Elsewhere",
+    "description": "The official VR showcase for immersive stories and animations created with Quill. Theater, Elsewhere hosts a collection of narrative VR shorts and experimental art pieces.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "Media",
+      "Storytelling"
+    ],
+    "tags": [
+      "Art",
+      "Animation",
+      "Storytelling",
+      "Media"
+    ],
+    "educational_uses": "Valuable for media arts, digital storytelling, and animation education—demonstrates how VR can be used as a medium for narrative and artistic expression.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/theater-elsewhere.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Technical literacy"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "VR art and storytelling content; experimental narrative works.",
+    "notes": "Successor to Quill Theater; free to access on Quest Store.",
+    "link": "https://www.meta.com/experiences/theater-elsewhere/2515021945210953/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "titanic-vr",
+    "name": "Titanic VR",
+    "description": "Explore the wreck of the RMS Titanic through immersive dives, ROV missions, and cinematic historical sequences.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "History",
+      "Humanities",
+      "Science"
+    ],
+    "tags": [
+      "History",
+      "Maritime Archaeology",
+      "Exploration"
+    ],
+    "educational_uses": "Great for discussing evidence collection, maritime history, and ethics of preservation through interactive exploration.",
+    "pricing": "Paid (~$14.99)",
+    "screenshots": [
+      "images/apps/titanic-vr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Scientific observation",
+      "Critical thinking",
+      "Cultural awareness"
+    ],
+    "time_min": 60,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Disaster theme may be distressing for some learners.",
+    "notes": "Single-player; includes story content and free exploration missions (~6+ hours total).",
+    "link": "https://www.meta.com/experiences/titanic-vr/9391298297622125/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "titans-of-space-plus",
+    "name": "Titans of Space PLUS",
+    "description": "A guided, scale-accurate VR tour through the solar system and nearby stars with voice narration, interactive stops, and comfort settings.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Astronomy",
+      "Education"
+    ],
+    "tags": [
+      "Space",
+      "Science",
+      "Tour"
+    ],
+    "educational_uses": "Perfect for teaching astronomy and spatial reasoning—includes basic and extended tours, planetary comparisons, and gravity probes.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/titans-of-space-plus.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Scientific observation",
+      "Critical thinking",
+      "Self-directed learning"
+    ],
+    "time_min": 35,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone (0+)",
+    "content_notes": null,
+    "notes": "Comfortable motion mode; optional short (~20 min) or long (~35 min) tour; well-rated by educators.",
+    "link": "https://www.meta.com/experiences/titans-of-space-plus/2359857214088490/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "transfr-vr",
+    "name": "TRANSFR VR",
+    "description": "A VR training platform focused on career and technical education, offering hands-on simulations for trades, safety, and job skills. Used in schools, workforce programs, and community colleges.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest (Institutional Access)"
+    ],
+    "categories": [
+      "Career & Technical Education",
+      "STEM",
+      "Workforce Development"
+    ],
+    "tags": [
+      "Trades",
+      "CTE",
+      "Workforce Training",
+      "Simulation",
+      "Career Skills"
+    ],
+    "educational_uses": "Provides immersive training scenarios for industries such as manufacturing, automotive, construction, and hospitality. Helps students and job seekers gain practical experience and career readiness.",
+    "pricing": "Institutional license (subscription, contact Transfr for pricing)",
+    "screenshots": [
+      "images/apps/transfr-vr.svg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "16+",
+    "content_notes": "Job training scenarios; some modules may include simulated workplace hazards.",
+    "notes": "Institutional license required; distributed directly to schools and training centers, not available on the public Quest Store.",
+    "link": "https://transfrinc.com/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "tripp",
+    "name": "TRIPP",
+    "description": "Guided mindfulness and meditation experiences with calming visuals, music, and breathwork prompts.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Counseling",
+      "Student Success"
+    ],
+    "tags": [
+      "Wellness",
+      "Meditation",
+      "Mindfulness"
+    ],
+    "educational_uses": "Supports student well-being, stress management, and mental health initiatives on campus.",
+    "pricing": "Subscription (~$5–10/month, free trial available)",
+    "screenshots": [
+      "images/apps/tripp.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Self-management",
+      "Self-awareness",
+      "Adaptability",
+      "Self-reflection",
+      "Critical thinking"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Visual patterns may be intense for sensitive users.",
+    "notes": "Subscription required after free trial; seated recommended.",
+    "link": "https://www.meta.com/experiences/tripp-meditation-relaxation-sleep/2173576192720129/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "tv",
+    "name": "TV",
+    "description": "Meta's built-in video and streaming hub for Quest, featuring immersive 180° and 360° films alongside flat-screen streaming content in VR and mixed reality.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Media",
+      "Student Life"
+    ],
+    "tags": [
+      "Video",
+      "Streaming",
+      "Documentary",
+      "Film"
+    ],
+    "educational_uses": "Useful for showing immersive films, short documentaries, and curated VR video content in class or lab settings. Also works as a simple media hub for headset-based viewing.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/horizon-tv.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3S"
+    ],
+    "age": "Everyone",
+    "content_notes": "Content varies—ranging from PG to mature depending on the channel.",
+    "notes": "Pre-installed on Quest headsets; free to use; renamed to TV in 2025 after previously being called Meta Quest TV.",
+    "link": "https://www.meta.com/experiences/meta-quest-tv/1931356740318898/",
+    "approved": false,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "vermillion",
+    "name": "Vermillion",
+    "description": "A realistic VR oil painting studio with tools, color mixing, and lifelike canvas textures.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts"
+    ],
+    "tags": [
+      "Art",
+      "Design"
+    ],
+    "educational_uses": "Great for art classes to explore painting techniques, color theory, and digital studio practice.",
+    "pricing": "Unknown",
+    "screenshots": [
+      "images/apps/vermillion.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Design thinking",
+      "Spatial reasoning",
+      "Self-directed learning"
+    ],
+    "time_min": null,
+    "comfort": "Mixed",
+    "motion_level": "Unknown",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Controllers recommended",
+    "link": "https://www.meta.com/experiences/vermillion-vr-painting/4900967296622279/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "victoryxr",
+    "name": "VictoryXR",
+    "description": "A comprehensive VR education platform providing a wide range of immersive modules including virtual dissection labs, science demonstrations, history field trips, and full VictoryXR Campus experiences.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest (Institutional Access)"
+    ],
+    "categories": [
+      "STEM",
+      "Health Science",
+      "History",
+      "Languages",
+      "All Departments"
+    ],
+    "tags": [
+      "Education",
+      "Virtual Campus",
+      "Science",
+      "History",
+      "Labs",
+      "Field Trips"
+    ],
+    "educational_uses": "Covers multiple subjects across STEM, humanities, and career education. Enables virtual classrooms, lab simulations, and collaborative campus environments designed for schools and universities.",
+    "pricing": "Institutional license / subscription (contact VictoryXR for pricing)",
+    "screenshots": [
+      "images/apps/victoryxr.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Content varies by subject—includes science dissections, history reenactments, and more.",
+    "notes": "Institutional license required; not a standalone public app. VictoryXR partners with schools to deploy customized VR curricula.",
+    "link": "https://www.victoryxr.com/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "walkabout-mini-golf",
+    "name": "Walkabout Mini Golf",
+    "description": "A VR mini-golf game with realistic physics, beautiful themed courses, and fun multiplayer support. Includes hidden collectibles and expansion DLC courses.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Games",
+      "Student Life"
+    ],
+    "tags": [
+      "Game",
+      "Sports",
+      "Multiplayer",
+      "Casual"
+    ],
+    "educational_uses": "Primarily recreational, but promotes social interaction, teamwork, and fine motor coordination. Great for student engagement events.",
+    "pricing": "Paid ($14.99, DLC extra)",
+    "screenshots": [
+      "images/apps/walkabout-mini-golf.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": "Mild competitive elements; online interactions.",
+    "notes": "Paid base game with optional DLC courses; supports online multiplayer.",
+    "link": "https://www.meta.com/experiences/walkabout-mini-golf/2462678267173943/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "wander",
+    "name": "Wander",
+    "description": "A VR world explorer powered by Street View imagery—visit landmarks and locations from around the globe.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Geography",
+      "Social Sciences"
+    ],
+    "tags": [
+      "Geography",
+      "Virtual Field Trips",
+      "Exploration"
+    ],
+    "educational_uses": "Great for virtual field trips, geography lessons, and cultural studies, enabling place-based learning in the classroom.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/wander.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Problem solving",
+      "Systems thinking",
+      "Technical literacy"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Requires internet connection; Street View-style navigation.",
+    "link": "https://www.meta.com/experiences/wander/2078376005587859/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "warship-mars",
+    "name": "Warship Mars",
+    "description": "Dive to the 1564 wreck of the Swedish warship Mars, recreated with photogrammetry. Explore underwater, document finds, and analyze artifacts in a virtual research space.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "History",
+      "Humanities",
+      "Science"
+    ],
+    "tags": [
+      "History",
+      "Archaeology",
+      "Marine",
+      "Exploration"
+    ],
+    "educational_uses": "Excellent for history and archaeology units—virtual fieldwork, evidence collection, and discussions on maritime technology and preservation.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/warship-mars.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Creative expression",
+      "Visual communication",
+      "Scientific observation",
+      "Critical thinking",
+      "Problem solving"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Underwater diving may cause discomfort for some users.",
+    "notes": "Free on Quest; includes Diving and Researcher modes.",
+    "link": "https://www.meta.com/experiences/warship-mars/4174899085866711/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  },
+  {
+    "id": "we-live-here",
+    "name": "We Live Here",
+    "description": "An immersive VR documentary that shares the stories of unhoused individuals, providing insight into housing inequality and social challenges.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Humanities",
+      "Social Justice"
+    ],
+    "tags": [
+      "Documentary",
+      "Social Justice",
+      "Empathy",
+      "Education"
+    ],
+    "educational_uses": "Useful for social sciences, counseling, and humanities—supports empathy training and discussions on systemic inequality, poverty, and housing justice.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/we-live-here.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Empathy",
+      "Cultural awareness",
+      "Critical thinking",
+      "Communication",
+      "Self-directed learning"
+    ],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "13+",
+    "content_notes": "Addresses homelessness and systemic inequality; sensitive themes.",
+    "notes": "Free VR documentary experience; short runtime; sensitive subject matter.",
+    "link": "https://www.meta.com/experiences/we-live-here/2537261906377373/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": false
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": false
+    }
+  },
+  {
+    "id": "wooorld",
+    "name": "Wooorld",
+    "description": "A mixed reality 3D world map with real-world terrain, cities, and multiplayer exploration.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Geography",
+      "Social Sciences"
+    ],
+    "tags": [
+      "Geography",
+      "Maps",
+      "Field Trips",
+      "Collaboration"
+    ],
+    "educational_uses": "Great for virtual field trips, cultural geography, and group learning in MR—students can explore cities, landmarks, and natural features together.",
+    "pricing": "Paid (~$14.99)",
+    "screenshots": [
+      "images/apps/wooorld.jpg"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Design thinking",
+      "Spatial reasoning",
+      "Collaboration",
+      "Teamwork",
+      "Cultural awareness"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Both",
+    "devices": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Requires internet; supports multiplayer sessions.",
+    "link": "https://www.meta.com/experiences/wooorld/4360608937312293/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "_source": {
+      "in_library_repo": true,
+      "in_catalogue_repo": true
+    }
+  }
+]
