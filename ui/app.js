@@ -531,7 +531,14 @@ function app(config = {}){
       };
     },
     normalizeCurated(item, i){
-      const logo = item.logo ? `${this.ASSET_CDN_BASE}/${item.logo}` : '';
+      // Curated list entries (videos, WebXR) may point at a real image
+      // hosted by the third party itself (an absolute http/https URL,
+      // since we don't host copies of every external site's screenshots)
+      // or a path relative to xr-app-data, same as app screenshots.
+      let logo = '';
+      if(item.logo){
+        logo = /^https?:\/\//i.test(item.logo) ? item.logo : `${this.ASSET_CDN_BASE}/${item.logo}`;
+      }
       return { ...item, logo, _idx: i };
     },
 

@@ -8,18 +8,18 @@
     "educational": "Students can search and incorporate free-to-use 3D assets into XR, game design, or digital art projects.",
     "notes": "",
     "link": "https://poly.pizza/",
-    "logo": "images/apps/poly-pizza.jpg"
+    "logo": "https://poly.pizza/img/socialPreview.jpg"
   },
   {
-    "title": "Hubs by Mozilla",
+    "title": "Hubs (Hubs Foundation)",
     "department": "Communications",
     "platform": "WebXR",
     "tags": "Virtual Collaboration, Meetings, Social",
     "description": "Create shared 3D spaces for meetings, events, or educational walkthroughs — all in your browser.",
     "educational": "Great for virtual classrooms, student collaboration, and presentations in immersive environments.",
-    "notes": "",
-    "link": "https://hubs.mozilla.com/",
-    "logo": "images/apps/hubs.jpg"
+    "notes": "Mozilla ended official support for Hubs on May 31, 2024. This community-run instance from the Hubs Foundation is the current continuation of the project.",
+    "link": "https://demo.hubsfoundation.org/",
+    "logo": "https://demo.hubsfoundation.org/files/16607410-d488-4eef-ad17-d005c81807c8.jpg"
   },
   {
     "title": "Sketchfab",
@@ -30,18 +30,7 @@
     "educational": "Art and science instructors can use Sketchfab to embed and explore 3D structures and artworks.",
     "notes": "",
     "link": "https://sketchfab.com/",
-    "logo": "images/apps/sketchfab.jpg"
-  },
-  {
-    "title": "Access Mars",
-    "department": "Science",
-    "platform": "WebXR",
-    "tags": "Mars, Space, NASA, VR",
-    "description": "Explore the surface of Mars using real imagery captured by NASA's Curiosity rover.",
-    "educational": "Perfect for astronomy and earth science classes to visualize planetary exploration.",
-    "notes": "",
-    "link": "https://accessmars.withgoogle.com/",
-    "logo": "images/apps/accessmars.jpg"
+    "logo": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/favicon/a81e1fd93fc053fed8a5f56640f886f8-v2.png"
   },
   {
     "title": "SculptGL",
@@ -52,6 +41,39 @@
     "educational": "Students can experiment with form and shape using virtual sculpting tools from any device.",
     "notes": "",
     "link": "https://stephaneginier.com/sculptgl/",
-    "logo": "images/apps/sculptgl.jpg"
+    "logo": "https://lh5.ggpht.com/e2mTx9d2RjhU2fQ8t3V15WGtQ1sOvSV-LnHGfMsAyh18vneE-6C_mgUFkSPTP2K0wMAASsAoVm2pesEDYLLU-6ldxCSmPSYTb_IO"
+  },
+  {
+    "title": "SuperSplat",
+    "department": "Art, STEM",
+    "platform": "WebXR",
+    "tags": "Gaussian Splatting, 3D Editor, Open Source",
+    "description": "A free, open-source, browser-based editor for viewing, cleaning up, annotating, and publishing 3D Gaussian Splats -- no install required. Built by PlayCanvas.",
+    "educational": "Great for showing students how real-world scenes captured by phone or drone become navigable 3D scenes; supports guided tours with annotations and camera viewpoints, and publishes directly to WebXR for VR/AR viewing.",
+    "notes": "Drag and drop a .ply Gaussian Splat file to start editing. MIT licensed.",
+    "link": "https://superspl.at/editor",
+    "logo": "https://superspl.at/header.webp"
+  },
+  {
+    "title": "Smithsonian 3D Digitization",
+    "department": "Science, History, Fine Arts",
+    "platform": "WebXR",
+    "tags": "3D Models, Museum Collections, Open Access, AR",
+    "description": "Browse and explore thousands of 3D-scanned Smithsonian objects in your browser, from dinosaur fossils and space artifacts to historical garments and cultural heritage pieces, all free to view, download, and reuse.",
+    "educational": "A strong cross-curricular resource: science classes can examine fossils and spacecraft, history and social studies classes can explore artifacts and cultural heritage objects, and art classes can study 3D-scanned sculptures and design pieces. Many objects support AR viewing directly in the browser.",
+    "notes": "Content spans the Smithsonian's museums (Natural History, Air and Space, American History, and more). Uses the open-source Voyager viewer.",
+    "link": "https://3d.si.edu/",
+    "logo": ""
+  },
+  {
+    "title": "WebGL Gaussian Splat Viewer",
+    "department": "Art, STEM",
+    "platform": "WebXR",
+    "tags": "Gaussian Splatting, 3D Viewer, Open Source",
+    "description": "A lightweight, open-source WebGL viewer for exploring pre-captured 3D Gaussian Splat scenes (gardens, statues, vehicles, and more) directly in the browser, with keyboard, mouse, touch, and gamepad navigation.",
+    "educational": "A simple, no-signup way to demonstrate what Gaussian Splatting is and let students navigate a real captured 3D scene, without needing the more involved SuperSplat editor.",
+    "notes": "One of the earliest and most widely cited browser Gaussian Splat viewers. The author now points to the newer Spark renderer (sparkjs.dev) for more advanced projects.",
+    "link": "https://antimatter15.com/splat/",
+    "logo": "https://opengraph.githubassets.com/06f85b94443b8f4fdf98718fb156aa999955eca3a213b69d6f6857ef7f783672/antimatter15/splat"
   }
 ]
