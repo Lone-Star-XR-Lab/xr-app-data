@@ -687,8 +687,18 @@ function app(config = {}){
     // Shared data source: xr-app-data (single source of truth for both
     // xr-lab-library and xr-app-catalogue). See
     // https://github.com/Lone-Star-XR-Lab/xr-app-data for schema + docs.
-    DATA_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main/data',
-    ASSET_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main',
+    //
+    // Pinned to a commit SHA rather than @main. jsdelivr's @main caching
+    // proved unreliable in practice -- edge nodes kept serving stale
+    // content even after a purge request reported "finished" (the purge
+    // API deduped repeat requests for the same URL and returned an old
+    // job record instead of re-checking). A SHA-pinned URL is immutable
+    // content-addressed data, so it's correct on the very first fetch and
+    // never needs cache-busting. The tradeoff: bump this SHA (to the
+    // latest xr-app-data commit) any time data/*.json changes. See
+    // README.md's "Cache-busting after a push" section.
+    DATA_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@aaf69fd14941778d8416ad0e80a93f968eb3ef59/data',
+    ASSET_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@aaf69fd14941778d8416ad0e80a93f968eb3ef59',
     // Bump this after any push that changes data/*.json so jsdelivr and
     // browsers can't serve a cached copy under the old query string. This
     // only helps once ui/app.js itself has loaded fresh -- see the

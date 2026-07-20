@@ -14,22 +14,24 @@ Single source of truth for [xr-lab-library](https://github.com/Lone-Star-XR-Lab/
 
 ## Consuming this data
 
-Both sites fetch JSON straight from a CDN mirror of this repo (jsdelivr), the same pattern they already use for Tailwind/Alpine:
+Both sites fetch JSON straight from a CDN mirror of this repo (jsdelivr), the same pattern they already use for Tailwind/Alpine. **As of 2026-07-20, every jsdelivr URL used in this project is pinned to a specific commit SHA rather than `@main`** -- e.g.:
 
 ```js
-fetch('https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main/data/apps.json')
+fetch('https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@aaf69fd14941778d8416ad0e80a93f968eb3ef59/data/apps.json')
 ```
 
-No build step, no manual copying. In practice, jsdelivr's `@main` caching has been unreliable about picking up pushes on its own -- don't count on it refreshing within any predictable window. See "Cache-busting after a push" below for how this is actually kept fresh.
+`@main` was tried first and abandoned: jsdelivr's edge caching for that mutable ref proved unreliable in a way that didn't self-heal -- purge requests reported `"status": "finished"` but repeat purges for the same URL returned the *same old job record* instead of re-checking, and stale content kept being served even in incognito windows on multiple browsers. A commit SHA is immutable, content-addressed data, so a SHA-pinned URL is correct on its very first fetch, permanently, with no cache-busting needed. The cost: after every push, the pinned SHA has to be bumped everywhere it's referenced. See "Deploying a change" below for the exact steps.
 
-## Cache-busting after a push
+## Deploying a change
 
-Because `@main` is a mutable reference, jsdelivr (and browsers) can keep serving an old cached copy of a file indefinitely after you push a change. Two things make this survivable:
+There is no `@main`/`?v=` cache-busting to think about anymore -- instead, every push means updating a SHA reference. In order:
 
-1. **`ui/app.js` and `ui/styles.css`** are loaded by each site with a `?v=...` query string on the `<script src="...">`/`<link href="...">` tag (e.g. `ui/app.js?v=2026-07-20-3`). Since a different query string is a different URL as far as both jsdelivr and the browser are concerned, bumping that version after any change to `ui/` guarantees a fresh fetch. Bump it in three places together: the `DATA_VERSION` constant near the bottom of `ui/app.js`, and the `?v=` on the `<script>`/`<link>` tags in both `xr-lab-library/index.html` and `xr-lab-catalogue/index.html`.
-2. **`data/*.json`** is fetched by `ui/app.js` with that same `DATA_VERSION` appended as `?v=...`, so once `app.js` itself has loaded fresh (via #1), data changes come along with it automatically -- you don't need to separately version each data file.
+1. Edit `data/*.json`, `ui/app.js`, `ui/styles.css`, etc. as needed and commit/push this repo (`xr-app-data`).
+2. Get the resulting commit's full SHA (`git log -1 --format=%H` after the push, or copy it from GitHub).
+3. If `ui/app.js` or `ui/styles.css` themselves changed, update `DATA_CDN_BASE` and `ASSET_CDN_BASE` near the bottom of `ui/app.js` to that new SHA, then commit/push again (this is a second commit, so grab its SHA too -- that's the one everything downstream should point to).
+4. Update the `<script src="...ui/app.js">` and `<link href="...ui/styles.css">` tags in both `xr-lab-library/index.html` and `xr-lab-catalogue/index.html` to reference that same final SHA, and commit/push both site repos.
 
-If you push a change and it's still not showing up after bumping the version, jsdelivr's purge endpoint forces an immediate refresh for one specific URL: `https://purge.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main/<path>`. A plain browser refresh may also still show the old version if the browser itself cached the old URL -- hard refresh (Ctrl/Cmd+Shift+R) or an incognito window rules that out.
+If a fetch ever needs force-refreshing during this process (e.g. testing before the SHA is finalized), jsdelivr's purge endpoint is still available: `https://purge.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main/<path>` (note this only ever applies to `@main`, which nothing should be pointing at anymore in steady state). A plain browser refresh can also still show an old *SHA-pinned* response if the browser itself cached that exact URL from before -- but since each SHA is unique per commit, this should only matter while testing the same SHA repeatedly; a hard refresh (Ctrl/Cmd+Shift+R) or incognito window rules it out.
 
 ## Visibility model
 
