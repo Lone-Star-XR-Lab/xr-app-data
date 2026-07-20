@@ -29,6 +29,11 @@ function app(config = {}){
     webxrDepartment: '',
     quickPills: new Set(),
     detailsOpen: {},
+    // UI-only state (not persisted to the URL): whether the mobile filter
+    // drawer and the "what do these terms mean" legend are open. These
+    // aren't filters themselves, so they're kept out of urlStateKey.
+    mobileFiltersOpen: false,
+    showLegend: false,
     approvedOnly: false,
     installedOnly: false,
     selectedDepartments: new Set(),
@@ -64,6 +69,46 @@ function app(config = {}){
       'technical literacy': 'Understanding how technical systems, interfaces, or tools function well enough to use them purposefully.',
       'visual communication': 'Using images, layouts, forms, and visual choices to convey meaning clearly.'
     },
+    // Plain-language definitions for the other filter jargon in the
+    // sidebar, keyed by lowercased raw data value. Backs the tap-friendly
+    // legend (see toggleLegend/showLegend) since hover-only title="" tips
+    // don't work on touch devices, which is most of this audience.
+    comfortDefinitions: {
+      'comfortable': 'Minimal virtual motion. Suitable for most users, including those sensitive to motion sickness.',
+      'moderate': 'Some visual movement or intensity. Most users are fine, but sensitive users may want breaks.',
+      'mixed': 'Comfort varies by section or activity within the experience.',
+      'standing': 'Designed to be used standing rather than seated.',
+      'mixed (standing, sitting, room-scale)': 'Comfort and posture vary across different parts of the experience.',
+      'n/a': 'Comfort level has not been assessed for this experience.'
+    },
+    motionDefinitions: {
+      'low': 'Minimal virtual movement or locomotion. Low risk of motion sickness.',
+      'medium': 'Some virtual movement or locomotion. Most users are comfortable, but sensitive users may want breaks.',
+      'high': 'Significant virtual movement. Higher risk of motion sickness -- use with caution.',
+      'n/a': 'Motion level has not been assessed for this experience.',
+      'unknown': 'Motion level has not been assessed for this experience.'
+    },
+    inputDefinitions: {
+      'controllers': 'Requires handheld VR controllers.',
+      'hands': 'Uses the headset’s built-in hand tracking -- no controllers needed.',
+      'hand tracking': 'Uses the headset’s built-in hand tracking -- no controllers needed.',
+      'both': 'Supports either handheld controllers or hand tracking.',
+      'n/a': 'Input method has not been documented for this experience.'
+    },
+    ageDefinitions: {
+      'everyone': 'No specific age restriction -- suitable for all ages.',
+      'not applicable': 'No age guidance has been documented for this experience.'
+    },
+    legendFromDict(dict){
+      return Object.entries(dict).map(([key,text]) => ({ label: this.formatFacetLabel(key), text }));
+    },
+    get comfortLegend(){ return this.legendFromDict(this.comfortDefinitions); },
+    get motionLegend(){ return this.legendFromDict(this.motionDefinitions); },
+    get inputLegend(){ return this.legendFromDict(this.inputDefinitions); },
+    get ageLegend(){ return this.legendFromDict(this.ageDefinitions); },
+    get durableSkillsLegend(){ return this.legendFromDict(this.skillDefinitions); },
+    toggleLegend(){ this.showLegend = !this.showLegend; },
+
     get apps(){ return this.DATA; },
 
     toText(value){
@@ -309,6 +354,33 @@ function app(config = {}){
       this.quickPills = new Set(this.quickPills);
     },
 
+    // One-click starting points for a first-time visitor, built entirely on
+    // top of the existing quickPills primitives -- no new filtering logic.
+    // Clicking an already-active preset clears it again (acts like a toggle).
+    presets: [
+      { key: 'newcomer', label: 'New to XR', hint: 'Free, short, and low motion -- a gentle first experience.', pills: ['free','short','lowmotion'] },
+      { key: 'quickclass', label: 'Quick class activity', hint: '15 minutes or less.', pills: ['short'] },
+      { key: 'handson', label: 'Hands-on, no controllers', hint: 'Uses hand tracking instead of controllers.', pills: ['hands'] },
+      { key: 'quest3free', label: 'Quest 3 ready & free', hint: 'Runs on Quest 3 at no cost.', pills: ['quest3','free'] }
+    ],
+    applyPreset(key){
+      const preset = this.presets.find(p => p.key === key);
+      if(!preset) return;
+      if(this.isPresetActive(key)){
+        this.clearAll();
+        return;
+      }
+      this.clearAll();
+      this.quickPills = new Set(preset.pills);
+      this.activeTab = 'apps';
+    },
+    isPresetActive(key){
+      const preset = this.presets.find(p => p.key === key);
+      if(!preset) return false;
+      if(this.quickPills.size !== preset.pills.length) return false;
+      return preset.pills.every(p => this.quickPills.has(p));
+    },
+
     clearAll(){
       this.quickPills = new Set();
       this.query = '';
@@ -317,6 +389,35 @@ function app(config = {}){
       this.installedOnly = false;
       this.clearFacetSelections();
       this.detailsOpen = {};
+    },
+    toggleMobileFilters(){ this.mobileFiltersOpen = !this.mobileFiltersOpen; },
+    // Powers the "Filters (3)" badge on the mobile toggle button so people
+    // know something is applied even while the drawer is collapsed.
+    get activeFilterCount(){
+      let n = 0;
+      if(this.query) n += 1;
+      if(this.approvedOnly) n += 1;
+      if(this.installedOnly) n += 1;
+      n += this.quickPills.size;
+      n += this.selectedDepartments.size;
+      n += this.selectedDurableSkills.size;
+      n += this.selectedComfort.size;
+      n += this.selectedInput.size;
+      n += this.selectedDevices.size;
+      n += this.selectedAge.size;
+      return n;
+    },
+    get activeVideoFilterCount(){
+      let n = 0;
+      if(this.videoQuery) n += 1;
+      if(this.videoDepartment) n += 1;
+      return n;
+    },
+    get activeWebxrFilterCount(){
+      let n = 0;
+      if(this.webxrQuery) n += 1;
+      if(this.webxrDepartment) n += 1;
+      return n;
     },
     clearVideoFilters(){
       this.videoQuery = '';
@@ -511,7 +612,7 @@ function app(config = {}){
     // only helps once ui/app.js itself has loaded fresh -- see the
     // matching ?v= on the <script>/<link> tags in each site's index.html
     // for how the app.js/styles.css files themselves stay fresh.
-    DATA_VERSION: '2026-07-20-4',
+    DATA_VERSION: '2026-07-20-5',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/
