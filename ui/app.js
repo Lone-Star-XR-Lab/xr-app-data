@@ -133,6 +133,27 @@ function app(config = {}){
       const str = this.toText(value).trim();
       return str ? [str] : [];
     },
+    // Unlike parseList, never splits a string on commas/slashes/etc. Use
+    // this for fields that are a single free-text description rather than
+    // a delimited list (comfort, input, age) -- those values sometimes
+    // contain a parenthetical aside with its own internal commas/slashes
+    // (e.g. "Mixed (Standing, Sitting, Room-scale)" or "Hand tracking (with
+    // real paper/pencil)"), and splitting on those characters used to chop
+    // the value into broken, unclosed fragments.
+    parseSingleValue(value){
+      if(Array.isArray(value)) return value.map(v => String(v).trim()).filter(Boolean);
+      if(value == null) return [];
+      const str = this.toText(value).trim();
+      return str ? [str] : [];
+    },
+    // Free-text placeholder values that mean "not documented" rather than
+    // a real facet a person would filter by. Filtered out of the sidebar
+    // entirely so "N/A" / "Not applicable" checkboxes don't show up.
+    placeholderFacetValues: new Set(['n/a', 'na', 'not applicable', 'none', 'unknown', 'tbd', '']),
+    isPlaceholderFacetValue(raw){
+      const key = this.toText(raw).trim().toLowerCase();
+      return this.placeholderFacetValues.has(key);
+    },
     formatFacetLabel(raw){
       const cleaned = String(raw).trim().replace(/\s+/g,' ');
       if(!cleaned) return '';
@@ -162,7 +183,17 @@ function app(config = {}){
     },
 
     normalizeFacetValue(raw){
-      const str = this.toText(raw).trim();
+      let str = this.toText(raw).trim();
+      if(!str) return null;
+      // For faceting/grouping purposes only, collapse a trailing
+      // parenthetical qualifier into its base value -- e.g. "Mixed
+      // (Standing, Sitting, Room-scale)" and plain "Mixed" become the same
+      // checkbox, and "18+ (health science students)" folds into "18+".
+      // This is purely a sidebar-grouping simplification: the full
+      // original text is still shown wherever the raw field is rendered
+      // directly (card details, etc.), so no information is lost.
+      const parenIdx = str.indexOf(' (');
+      if(parenIdx > 0) str = str.slice(0, parenIdx).trim();
       if(!str) return null;
       const key = str.toLowerCase();
       return { key, label: this.formatFacetLabel(str) };
@@ -171,16 +202,17 @@ function app(config = {}){
       switch(group){
         case 'departments': return this.parseDepts(app.department);
         case 'durableSkills': return this.parseList(app.durable_skills);
-        case 'comfort': return this.parseList(app.comfort);
-        case 'input': return this.parseList(app.input);
+        case 'comfort': return this.parseSingleValue(app.comfort);
+        case 'input': return this.parseSingleValue(app.input);
         case 'devices': return this.parseList(app.devices);
-        case 'age': return this.parseList(app.age);
+        case 'age': return this.parseSingleValue(app.age);
         case 'licensing': return this.parseList(app.licensing_model);
         default: return [];
       }
     },
     facetValuesForApp(app, group){
       return this.facetRawValues(app, group)
+        .filter(v => !this.isPlaceholderFacetValue(v))
         .map(this.normalizeFacetValue.bind(this))
         .filter(Boolean)
         .reduce((list, entry) => {
@@ -662,7 +694,7 @@ function app(config = {}){
     // only helps once ui/app.js itself has loaded fresh -- see the
     // matching ?v= on the <script>/<link> tags in each site's index.html
     // for how the app.js/styles.css files themselves stay fresh.
-    DATA_VERSION: '2026-07-20-15',
+    DATA_VERSION: '2026-07-20-16',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/
