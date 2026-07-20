@@ -7,8 +7,9 @@
     "description": "A 360° guided look inside the White House with historical context.",
     "educational": "Use in civics to discuss the executive branch, institutions, and public access to government spaces.",
     "notes": "Works in YouTube VR on Quest",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official Felix & Paul Studios upload.",
+    "link": "https://www.youtube.com/watch?v=bqW2qm02jwI",
+    "logo": "https://i.ytimg.com/vi/bqW2qm02jwI/hqdefault.jpg"
   },
   {
     "title": "Census in 360: Behind the Numbers",
@@ -18,6 +19,7 @@
     "description": "Short 360° explainer on how census data is gathered and used.",
     "educational": "Kick off lessons on demographics, surveys, and how data informs policy and funding.",
     "notes": "Short explainer in 360",
+    "content_notes": "No live 360 video matching this topic could be found and verified. Left unlinked rather than guessing — flag for manual research or removal.",
     "link": "",
     "logo": ""
   },
@@ -29,6 +31,7 @@
     "description": "A 360° tour highlighting the architecture and function of the U.S. Supreme Court.",
     "educational": "Supports discussions on judicial process, separation of powers, and court traditions.",
     "notes": "Branches‑of‑gov overview",
+    "content_notes": "No official U.S. Supreme Court 360 tour could be found. One candidate video existed but was uploaded by 'Supreme Court Singapore', not the U.S. Supreme Court — rejected as a wrong-institution match. Left unlinked; flag for manual research or removal.",
     "link": "",
     "logo": ""
   },
@@ -40,8 +43,9 @@
     "description": "A virtual walk-through of major exhibits at the National Museum of American History.",
     "educational": "Great for primary sources, artifacts analysis, and American cultural history.",
     "notes": "Multiple galleries",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed. Uploaded by independent creator 'The Carpetbagger', not an official Smithsonian channel — a real, current walkthrough but not an institutional source.",
+    "link": "https://www.youtube.com/watch?v=hmSR8NK9yRM",
+    "logo": "https://i.ytimg.com/vi/hmSR8NK9yRM/hqdefault.jpg"
   },
   {
     "title": "Teotihuacan Pyramids 360",
@@ -51,8 +55,9 @@
     "description": "A panoramic visit to the pyramids and avenues of Teotihuacan.",
     "educational": "Use for Hispanic Heritage Month to discuss pre-Columbian civilizations and urban planning.",
     "notes": "Great for Hispanic Heritage Month",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed.",
+    "link": "https://www.youtube.com/watch?v=tFDyruw3XVs",
+    "logo": "https://i.ytimg.com/vi/tFDyruw3XVs/hqdefault.jpg"
   },
   {
     "title": "Día de Muertos (Day of the Dead) 360",
@@ -62,8 +67,9 @@
     "description": "Immersive 360° coverage of Day of the Dead altars, parades, and traditions.",
     "educational": "Encourage cultural literacy and compare rituals across communities.",
     "notes": "Festival overview",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official CNN upload.",
+    "link": "https://www.youtube.com/watch?v=10fAVzpHY_k",
+    "logo": "https://i.ytimg.com/vi/10fAVzpHY_k/hqdefault.jpg"
   },
   {
     "title": "Frida Kahlo Museum (Casa Azul) Virtual Tour",
@@ -73,19 +79,21 @@
     "description": "A 360° look inside Frida Kahlo’s home and studio with featured works.",
     "educational": "Pairs with art lessons on self-portraiture, symbolism, and historical context.",
     "notes": "Good pre/post Vermillion unit",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed.",
+    "link": "https://www.youtube.com/watch?v=jP_-Oq38ZV0",
+    "logo": "https://i.ytimg.com/vi/jP_-Oq38ZV0/hqdefault.jpg"
   },
   {
     "title": "Inside CERN (ATLAS) 360",
     "department": "STEM, Physics",
     "platform": "YouTube VR",
     "tags": "360 Video, Particle Physics",
-    "description": "A 360° tour of the ATLAS experiment and CERN facilities.",
+    "description": "A 360° tour of CERN's Large Hadron Collider and CMS detector facilities.",
     "educational": "Discuss large-scale science, instrumentation, and international collaboration.",
     "notes": "Scale & systems thinking",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official CERN upload. Covers the LHC and CMS experiment rather than ATLAS specifically — description updated to match; still on-topic for large-scale particle physics.",
+    "link": "https://www.youtube.com/watch?v=NBrVCBCEVfk",
+    "logo": "https://i.ytimg.com/vi/NBrVCBCEVfk/hqdefault.jpg"
   },
   {
     "title": "NASA: Journey Through the Solar System (Playlist)",
@@ -95,19 +103,21 @@
     "description": "Curated NASA videos exploring planets, missions, and discoveries.",
     "educational": "Supplement Titans of Space with mission footage and current science highlights.",
     "notes": "Pairs with Titans of Space",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed. Uploaded by 'NASA eClips - ARCHIVE', NASA's education-content channel, not the main @NASA channel.",
+    "link": "https://www.youtube.com/watch?v=dQp_qxw6RTQ",
+    "logo": "https://i.ytimg.com/vi/dQp_qxw6RTQ/hqdefault.jpg"
   },
   {
     "title": "MIT.nano 360 Lab Tour",
     "department": "STEM, Engineering",
     "platform": "YouTube VR",
     "tags": "360 Video, Lab Safety",
-    "description": "A 360° tour of MIT.nano’s cleanroom and research spaces.",
+    "description": "A virtual campus tour of MIT.nano's cleanroom and research spaces.",
     "educational": "Start conversations on lab safety, ethics, and precision manufacturing.",
     "notes": "Safety/ethics discussion starter",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; uploaded by the MIT Alumni Association (official MIT-affiliated channel). An earlier candidate ('360 Virtual Cleanroom Tour' by XBiotech) was rejected as an unrelated company, not MIT.",
+    "link": "https://www.youtube.com/watch?v=qCX2iEi5X1o",
+    "logo": "https://i.ytimg.com/vi/qCX2iEi5X1o/hqdefault.jpg"
   },
   {
     "title": "The Human Cell (360)",
@@ -117,8 +127,9 @@
     "description": "A short 360° journey through cellular structures with narration.",
     "educational": "Pairs with Body VR to reinforce organelles and cell function.",
     "notes": "Pair with Body VR",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official upload from The Body VR's own channel — matches the Body VR app already in this catalogue.",
+    "link": "https://www.youtube.com/watch?v=9zTsDXMyBEY",
+    "logo": "https://i.ytimg.com/vi/9zTsDXMyBEY/hqdefault.jpg"
   },
   {
     "title": "Journey Into the Heart (360)",
@@ -128,8 +139,9 @@
     "description": "A brief 360° exploration of the human heart’s chambers and blood flow.",
     "educational": "Good for quick anatomy overviews or lab warm-ups.",
     "notes": "Short, accessible",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed. Uploaded by SimLab Soft, an educational VR content studio, not a medical institution.",
+    "link": "https://www.youtube.com/watch?v=hBukDK1Beto",
+    "logo": "https://i.ytimg.com/vi/hBukDK1Beto/hqdefault.jpg"
   },
   {
     "title": "Operating Room 360 (Surgery Theater)",
@@ -139,8 +151,9 @@
     "description": "A 360° view inside an operating room with staff and equipment.",
     "educational": "Preview content to prepare students for sensitive or graphic material.",
     "notes": "Preview for sensitivity",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed. Uploaded by Nanobot Group, a VR production studio, not a hospital or medical institution.",
+    "link": "https://www.youtube.com/watch?v=mXjzD719uh8",
+    "logo": "https://i.ytimg.com/vi/mXjzD719uh8/hqdefault.jpg"
   },
   {
     "title": "Grand Canyon National Park 360",
@@ -150,8 +163,9 @@
     "description": "Sweeping 360° vistas and geological features of the Grand Canyon.",
     "educational": "Discuss erosion, time scales, and national park stewardship.",
     "notes": "Multiple high‑quality 360s",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed.",
+    "link": "https://www.youtube.com/watch?v=-tmTS-ODIME",
+    "logo": "https://i.ytimg.com/vi/-tmTS-ODIME/hqdefault.jpg"
   },
   {
     "title": "Amazon Rainforest 360",
@@ -161,8 +175,9 @@
     "description": "Immersive rainforest scenes highlighting biodiversity and biome features.",
     "educational": "Compare ecosystems and discuss conservation and climate impacts.",
     "notes": "Pair with Ocean Rift biomes",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official WWF International upload.",
+    "link": "https://www.youtube.com/watch?v=em3tQoespWI",
+    "logo": "https://i.ytimg.com/vi/em3tQoespWI/hqdefault.jpg"
   },
   {
     "title": "Himalayas / Everest Base Camp 360",
@@ -172,8 +187,9 @@
     "description": "A 360° trek through high-altitude terrain and base camp culture.",
     "educational": "Connect physical geography to human culture and expedition logistics.",
     "notes": "NatGeo options",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official Insta360 upload ('24 Hours in Basecamp: Mt Everest 8K 360 VR Film').",
+    "link": "https://www.youtube.com/watch?v=nqC7VnbCY7k",
+    "logo": "https://i.ytimg.com/vi/nqC7VnbCY7k/hqdefault.jpg"
   },
   {
     "title": "Traveling While Black (Meta TV)",
@@ -183,8 +199,9 @@
     "description": "A powerful immersive documentary exploring the Green Book and travel while Black in America.",
     "educational": "Prepare students for mature themes; use for empathy-building and historical context.",
     "notes": "Powerful; prep students for content",
-    "link": "",
-    "logo": ""
+    "content_notes": "Linked to the official teaser trailer on Felix & Paul Studios' YouTube channel, verified via oEmbed. The full experience remains a Meta Quest TV/Oculus exclusive — this is the trailer, not the full film.",
+    "link": "https://www.youtube.com/watch?v=xTktllM-fdU",
+    "logo": "https://i.ytimg.com/vi/xTktllM-fdU/hqdefault.jpg"
   },
   {
     "title": "The Displaced (NYT)",
@@ -194,8 +211,9 @@
     "description": "Immersive reporting following children displaced by conflict.",
     "educational": "Use to discuss migration, media literacy, and humanitarian issues.",
     "notes": "Classic 360 journalism",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official The New York Times upload.",
+    "link": "https://www.youtube.com/watch?v=ecavbpCuvkI",
+    "logo": "https://i.ytimg.com/vi/ecavbpCuvkI/hqdefault.jpg"
   },
   {
     "title": "Clouds Over Sidra (UN/Within)",
@@ -205,19 +223,21 @@
     "description": "A seminal 360° documentary inside a Syrian refugee camp.",
     "educational": "Frame with context and reflective prompts about displacement and resilience.",
     "notes": "Foundational VR doc",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official Within upload (the studio that produced this with the UN).",
+    "link": "https://www.youtube.com/watch?v=mUosdCQsMkM",
+    "logo": "https://i.ytimg.com/vi/mUosdCQsMkM/hqdefault.jpg"
   },
   {
     "title": "WWI/WWII Battlefield 360 Flyovers",
     "department": "History",
     "platform": "YouTube VR",
     "tags": "360 Video, Military History",
-    "description": "Aerial 360° tours of European battlefields and memorials.",
+    "description": "A 360° walkthrough of a WWI trench system, including No Man's Land, an officer's quarters, and a field hospital.",
     "educational": "Map battles, strategy, and historical geography using immersive visuals.",
     "notes": "Various museums & creators",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed. Best available match covers a WWI trench walkthrough, not aerial flyovers or WWII content as the title implies — description updated to match what's actually linked. Consider retitling to 'WWI Trench 360 Tour' or searching further for WWII content.",
+    "link": "https://www.youtube.com/watch?v=92dNeGwf9Qs",
+    "logo": "https://i.ytimg.com/vi/92dNeGwf9Qs/hqdefault.jpg"
   },
   {
     "title": "The Louvre 360 Highlights",
@@ -227,8 +247,9 @@
     "description": "A curated 360° look at iconic artworks and spaces in the Louvre.",
     "educational": "Pairs with Open Brush/Gravity Sketch for 3D sketch studies and art analysis.",
     "notes": "Use with Open Brush for 3D sketching",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed. Uploaded by independent creator 'Overview Collective', not the Louvre's official channel — a real, current guided tour but not an institutional source.",
+    "link": "https://www.youtube.com/watch?v=xdiTy_YjVvg",
+    "logo": "https://i.ytimg.com/vi/xdiTy_YjVvg/hqdefault.jpg"
   },
   {
     "title": "VirtualSpeech: Presentation Practice (samples)",
@@ -238,8 +259,9 @@
     "description": "Sample clips and scenarios from the VirtualSpeech platform.",
     "educational": "Preview scenarios before booking full VR sessions; discuss delivery and body language.",
     "notes": "Pairs with VirtualSpeech (Quest)",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official VirtualSpeech upload.",
+    "link": "https://www.youtube.com/watch?v=SGYhsCZ7JMA",
+    "logo": "https://i.ytimg.com/vi/SGYhsCZ7JMA/hqdefault.jpg"
   },
   {
     "title": "Space Explorers: The ISS Experience (trailers/playlist)",
@@ -249,8 +271,9 @@
     "description": "High-production series snippets filmed in space aboard the ISS.",
     "educational": "Use as a hook for space science units and to compare production vs. educational apps like Mission: ISS.",
     "notes": "High‑production series",
-    "link": "",
-    "logo": ""
+    "content_notes": "Verified via YouTube oEmbed; official Felix & Paul Studios upload of the official trailer.",
+    "link": "https://www.youtube.com/watch?v=KfH_ZGdm-T8",
+    "logo": "https://i.ytimg.com/vi/KfH_ZGdm-T8/hqdefault.jpg"
   },
   {
     "title": "Immersion Cafe--History",
@@ -262,7 +285,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7ZTil0j524xxOeRdq0NfCZu",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/thTVgI1rbM4/hqdefault.jpg"
   },
   {
     "title": "Immersion Cafe—National Parks",
@@ -274,7 +297,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7aCjjwMdCSL0C0yI153qwpe",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/1S5-Hz1vNS8/hqdefault.jpg"
   },
   {
     "title": "LSCS Study Abroad Preview",
@@ -286,7 +309,7 @@
     "notes": "LSCS curated",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://youtube.com/playlist?list=PLuus89Zmi-7apgRpeMt51Xg11dhG7UtlH&si=EyPpkCs8B2MkBiaa",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/D5t2lmjHAdQ/hqdefault.jpg"
   },
   {
     "title": "Immersion Cafe--Cultures",
@@ -298,7 +321,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://youtube.com/playlist?list=PLuus89Zmi-7ZGkPKBMTukppnvt75FczaI&si=8BaHjUe56oxvkAHg",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/7lxDt43T3wQ/hqdefault.jpg"
   },
   {
     "title": "Immersion Cafe--Environment",
@@ -310,7 +333,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://youtube.com/playlist?list=PLuus89Zmi-7Zy3TXOZ3HcFSY16S3l0qRk&si=ySC7tAxug_3uSrjq",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/qXgshNeD_Nk/hqdefault.jpg"
   },
   {
     "title": "LSCS International Biennial -- UNESCO",
@@ -322,7 +345,7 @@
     "notes": "LSCS event",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://youtube.com/playlist?list=PLuus89Zmi-7bAobNGPyWPWGDUP33xpX5h&si=kf8DYN67CDYA1NXz",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/_RyqU1r1Fmk/hqdefault.jpg"
   },
   {
     "title": "Immersion Cafe--Criminal Justice",
@@ -334,7 +357,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7ZTkYetbQRI8GbIMX_j5XEf",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/8nzWJKLaM-s/hqdefault.jpg"
   },
   {
     "title": "Immersion Café—Future of Work",
@@ -346,7 +369,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7ZuLrHz7sknuPZc2OHAl0c4",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/y05IcDJvd4Q/hqdefault.jpg"
   },
   {
     "title": "Immersion Cafe—Art",
@@ -358,7 +381,7 @@
     "notes": "Immersion Cafe series",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7Ya8ujZSG0sJE9ekv71eFkq",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/XX9ss_Mo4QQ/hqdefault.jpg"
   },
   {
     "title": "LSC-Tomball Hispanic Heritage Experience",
@@ -370,7 +393,7 @@
     "notes": "LSC-Tomball event",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7aolane_9ZZLjevWVaHPl_J",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/NPI0Fs14Kks/hqdefault.jpg"
   },
   {
     "title": "Electoral Politics",
@@ -382,6 +405,6 @@
     "notes": "Civics and elections",
     "content_notes": "Curated by Clark Friesen (Lone Star College–Tomball)",
     "link": "https://www.youtube.com/playlist?list=PLuus89Zmi-7bT35JSPL79MCvO0fgc8Ptt",
-    "logo": ""
+    "logo": "https://i.ytimg.com/vi/JlUXqlxhyAY/hqdefault.jpg"
   }
 ]
