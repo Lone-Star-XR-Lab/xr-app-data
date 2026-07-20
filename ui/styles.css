@@ -18,16 +18,24 @@ code {
   background: #f8fafc;
 }
 
+/* Buttons vs. pills: badges, tags, and filter chips throughout this UI are
+   deliberately fully-rounded (rounded-full) to read as passive labels.
+   Actual clickable actions (View store page, Watch now, Details, Open) used
+   to share that exact same pill shape, which made real buttons and inert
+   badges indistinguishable at a glance. Giving buttons a distinct
+   rounded-corner shape (not a full pill) plus a visible fill/border/shadow
+   fixes that -- the shape itself now signals "this does something." */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.35rem;
-  border-radius: 9999px;
-  padding: 0.4rem 0.95rem;
+  border-radius: 0.65rem;
+  padding: 0.5rem 1.05rem;
   font-size: 0.85rem;
   font-weight: 600;
-  transition: background 150ms ease, color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease, transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
 }
 
 .btn-primary {
@@ -44,22 +52,31 @@ code {
 .btn-secondary {
   background: #eef2ff;
   color: #3730a3;
+  border: 1px solid #c7d2fe;
   box-shadow: 0 8px 18px -12px rgba(79, 70, 229, 0.8);
 }
 
 .btn-secondary:hover {
   background: #e0e7ff;
+  border-color: #a5b4fc;
   transform: translateY(-1px);
 }
 
+/* .btn-ghost ("Details") was the biggest offender -- transparent fill and
+   a barely-there border meant it nearly disappeared against a white card.
+   A real (if subtle) fill, a darker border, and a shadow give it enough
+   presence to read as a button rather than empty space. */
 .btn-ghost {
-  background: transparent;
+  background: #ffffff;
   color: #0f172a;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
 }
 
 .btn-ghost:hover {
-  background: #f8fafc;
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
 }
 
 .card-details {
@@ -81,19 +98,10 @@ code {
 }
 
 .skill-chip:hover {
-  background: #fef3c7;
-  border-color: #f59e0b;
-  color: #451a03;
+  background: #ccfbf1;
+  border-color: #14b8a6;
+  color: #042f2e;
 }
-
-/* Durable-skill chips (bg-amber-50/border-amber-200/text-amber-900) are
-   technically high-contrast text-on-fill, but a pale border on a pale fill
-   gives the whole pill very little visual definition against the page --
-   it reads as a muddy, low-contrast blob rather than a distinct label.
-   Darken the text further and give the border real weight so the chip
-   itself is easy to pick out, not just the text inside it. */
-.text-amber-900 { color: #451a03; }
-.border-amber-200 { border-color: #b45309; }
 
 /* ---- Readability pass ----
    Tailwind's Play CDN (loaded via <script src="cdn.tailwindcss.com">)
