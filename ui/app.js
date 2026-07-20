@@ -329,6 +329,97 @@ function app(config = {}){
       this.webxrSortMode = 'az';
     },
 
+    // ---- shareable/bookmarkable filtered views ----
+    // The whole point: a teacher can filter down to "Science apps, 15 min
+    // or less," hit "copy link," and send that exact view to a colleague
+    // or bookmark it, without any account or saved-state feature.
+    linkCopied: false,
+
+    // Every reactive property that should round-trip through the URL,
+    // serialized into one string so a single $watch can detect any change
+    // among them without hand-wiring a watcher per field.
+    get urlStateKey(){
+      return JSON.stringify({
+        tab: this.activeTab,
+        q: this.query,
+        sort: this.sortMode,
+        pills: Array.from(this.quickPills).sort(),
+        approved: this.approvedOnly,
+        installed: this.installedOnly,
+        dept: Array.from(this.selectedDepartments).sort(),
+        skills: Array.from(this.selectedDurableSkills).sort(),
+        comfort: Array.from(this.selectedComfort).sort(),
+        input: Array.from(this.selectedInput).sort(),
+        devices: Array.from(this.selectedDevices).sort(),
+        age: Array.from(this.selectedAge).sort(),
+        vq: this.videoQuery,
+        vdept: this.videoDepartment,
+        vsort: this.videoSortMode,
+        wq: this.webxrQuery,
+        wdept: this.webxrDepartment,
+        wsort: this.webxrSortMode
+      });
+    },
+
+    // Call once from x-init, before loadData(), so filters set from the
+    // URL are already in place by the time data arrives.
+    initUrlSync(){
+      this.initFromUrl();
+      this.$watch('urlStateKey', () => this.syncUrlFromState());
+    },
+    initFromUrl(){
+      const params = new URLSearchParams(window.location.search);
+      const list = (key) => { const v = params.get(key); return v ? v.split(',').filter(Boolean) : []; };
+      if(params.has('tab')) this.activeTab = params.get('tab');
+      if(params.has('q')) this.query = params.get('q');
+      if(params.has('sort')) this.sortMode = params.get('sort');
+      if(params.has('pills')) this.quickPills = new Set(list('pills'));
+      if(params.has('approved')) this.approvedOnly = params.get('approved') === '1';
+      if(params.has('installed')) this.installedOnly = params.get('installed') === '1';
+      if(params.has('dept')) this.selectedDepartments = new Set(list('dept'));
+      if(params.has('skills')) this.selectedDurableSkills = new Set(list('skills'));
+      if(params.has('comfort')) this.selectedComfort = new Set(list('comfort'));
+      if(params.has('input')) this.selectedInput = new Set(list('input'));
+      if(params.has('devices')) this.selectedDevices = new Set(list('devices'));
+      if(params.has('age')) this.selectedAge = new Set(list('age'));
+      if(params.has('vq')) this.videoQuery = params.get('vq');
+      if(params.has('vdept')) this.videoDepartment = params.get('vdept');
+      if(params.has('vsort')) this.videoSortMode = params.get('vsort');
+      if(params.has('wq')) this.webxrQuery = params.get('wq');
+      if(params.has('wdept')) this.webxrDepartment = params.get('wdept');
+      if(params.has('wsort')) this.webxrSortMode = params.get('wsort');
+    },
+    syncUrlFromState(){
+      const params = new URLSearchParams();
+      if(this.activeTab && this.activeTab !== 'apps') params.set('tab', this.activeTab);
+      if(this.query) params.set('q', this.query);
+      if(this.sortMode && this.sortMode !== 'az') params.set('sort', this.sortMode);
+      if(this.quickPills.size) params.set('pills', Array.from(this.quickPills).join(','));
+      if(this.approvedOnly) params.set('approved', '1');
+      if(this.installedOnly) params.set('installed', '1');
+      if(this.selectedDepartments.size) params.set('dept', Array.from(this.selectedDepartments).join(','));
+      if(this.selectedDurableSkills.size) params.set('skills', Array.from(this.selectedDurableSkills).join(','));
+      if(this.selectedComfort.size) params.set('comfort', Array.from(this.selectedComfort).join(','));
+      if(this.selectedInput.size) params.set('input', Array.from(this.selectedInput).join(','));
+      if(this.selectedDevices.size) params.set('devices', Array.from(this.selectedDevices).join(','));
+      if(this.selectedAge.size) params.set('age', Array.from(this.selectedAge).join(','));
+      if(this.videoQuery) params.set('vq', this.videoQuery);
+      if(this.videoDepartment) params.set('vdept', this.videoDepartment);
+      if(this.videoSortMode && this.videoSortMode !== 'az') params.set('vsort', this.videoSortMode);
+      if(this.webxrQuery) params.set('wq', this.webxrQuery);
+      if(this.webxrDepartment) params.set('wdept', this.webxrDepartment);
+      if(this.webxrSortMode && this.webxrSortMode !== 'az') params.set('wsort', this.webxrSortMode);
+      const qs = params.toString();
+      const newUrl = `${window.location.pathname}${qs ? '?' + qs : ''}${window.location.hash}`;
+      window.history.replaceState(null, '', newUrl);
+    },
+    copyViewLink(){
+      navigator.clipboard?.writeText(window.location.href);
+      this.linkCopied = true;
+      clearTimeout(this._linkCopiedTimer);
+      this._linkCopiedTimer = setTimeout(() => { this.linkCopied = false; }, 1500);
+    },
+
     // Gates which apps show on this site. Backed by xr-app-data's
     // visibility.library / visibility.catalogue flags -- see that repo's
     // README for what each means.
