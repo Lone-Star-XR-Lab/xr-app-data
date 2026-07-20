@@ -14,6 +14,7 @@
     "tags": { "type": "array", "items": { "type": "string" } },
     "educational_uses": { "type": "string", "description": "Formerly 'educational'. Free-text classroom application notes." },
     "pricing": { "type": "string", "description": "Formerly 'cost'. Free-text for now (e.g. 'Free', 'Paid', 'Unknown')." },
+    "licensing_model": { "type": "string", "enum": ["consumer", "institutional"], "description": "'consumer' = buy normally on a Meta account like any Quest Store app, no EDU license or MDM needed. 'institutional' = requires a direct institutional/business relationship with the vendor (subscription, quote, or custom contract) rather than a standard store purchase. Note: as of Feb 20, 2026 Meta discontinued paid Quest for Business/Education bundles -- Horizon Managed Services (MDM/fleet management) is now free and usable with consumer hardware, and is an IT deployment choice, not an app-licensing requirement." },
     "screenshots": { "type": "array", "items": { "type": "string" }, "description": "Relative paths under images/apps/. First entry is the primary/cover image (formerly 'logo')." },
     "videos": { "type": "array", "items": { "type": "string" }, "description": "Per-app demo/trailer video URLs. Empty until backfilled -- distinct from data/videos.json, which is a separate curated video collection, not per-app media." },
     "durable_skills": { "type": "array", "items": { "type": "string" }, "description": "Transferable skills this app builds. Library-originated enrichment; may be empty for catalogue-only apps." },

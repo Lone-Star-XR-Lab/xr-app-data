@@ -51,7 +51,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "acadicus",
@@ -101,7 +102,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "alcohol-and-your-brain-a-rollercoaster-ride-through-your-brain",
@@ -154,7 +156,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "alex-and-the-jets",
@@ -177,7 +180,7 @@
       "Simulation"
     ],
     "educational_uses": "Promotes STEM learning through hands-on experimentation with physics, aerodynamics, and design principles. Excellent for engineering or science outreach events.",
-    "pricing": "Free (Early Access)",
+    "pricing": "Paid ($6.99)",
     "screenshots": [
       "images/apps/alex-and-the-jets.jpg"
     ],
@@ -201,7 +204,7 @@
     "age": "10+",
     "content_notes": "Flight and building simulation; includes mild motion intensity.",
     "notes": "Free in Early Access; active development with new flight parts and challenges being added regularly.",
-    "link": "https://www.meta.com/experiences/alex-and-the-jets/6602147099841125/",
+    "link": "https://www.meta.com/experiences/alex-and-the-jets/25747440251567483/",
     "approved": true,
     "installed": false,
     "visibility": {
@@ -211,7 +214,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "american-heart-association-cpr-vr",
@@ -269,11 +273,12 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "among-us-vr",
-    "name": "Among Us VR",
+    "name": "Among Us VR (now \"Among Us 3D\")",
     "description": "The hit social deduction game reimagined for VR—work together as crewmates to complete tasks, or sabotage and deceive as the Impostor.",
     "developer": null,
     "platforms": [
@@ -289,7 +294,7 @@
       "Social Deduction"
     ],
     "educational_uses": "Primarily recreational, but supports teamwork, communication, and social interaction skills in a group setting.",
-    "pricing": "Paid ($9.99)",
+    "pricing": "Paid ($9.99, in-app purchases)",
     "screenshots": [
       "images/apps/among-us-vr.jpg"
     ],
@@ -313,7 +318,7 @@
     "age": "13+",
     "content_notes": "Cartoon violence; online interactions.",
     "notes": "Online multiplayer required; voice chat included.",
-    "link": "https://www.meta.com/experiences/among-us-vr/4227682740639056/",
+    "link": "https://www.meta.com/experiences/among-us-3d/4948428055244413/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -323,7 +328,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "anatomyxr",
@@ -377,7 +383,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "anne-frank-house-vr",
@@ -422,7 +429,7 @@
     "age": "13+",
     "content_notes": "Covers sensitive WWII subject matter including the Holocaust.",
     "notes": "Free on Quest; sensitive historical subject matter; best used with guided classroom discussion.",
-    "link": "https://www.meta.com/experiences/anne-frank-house-vr/1799239786812911/",
+    "link": "https://www.meta.com/experiences/anne-frank-house-vr/1958100334295482/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -432,7 +439,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "apollo-11-vr",
@@ -486,7 +494,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "arkio",
@@ -538,7 +547,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "art-plunge",
@@ -559,7 +569,7 @@
       "Education"
     ],
     "educational_uses": "Great for art history and humanities courses—lets students experience classic masterpieces in a new way, sparking discussion about art and culture.",
-    "pricing": "Paid ($4.99)",
+    "pricing": "Paid ($1.99)",
     "screenshots": [
       "images/apps/art-plunge.jpg"
     ],
@@ -577,7 +587,7 @@
     "age": "Everyone",
     "content_notes": "Some paintings may include artistic nudity (e.g., classical works).",
     "notes": "Short experiences designed around individual famous paintings.",
-    "link": "https://www.meta.com/experiences/art-plunge/1195938280509681/",
+    "link": "https://www.meta.com/experiences/art-plunge/3324033124277177/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -587,7 +597,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "audio-trip",
@@ -637,7 +648,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "autismity",
@@ -659,7 +671,7 @@
       "Education"
     ],
     "educational_uses": "Valuable for teacher training, counseling, and social science programs—helps students and educators better understand neurodiversity.",
-    "pricing": "Paid (~$9.99)",
+    "pricing": "Custom license (Individual, 1 headset/8 views: EUR 19; Long-term, 1 headset/12mo: EUR 590; Event, 5 headsets/1 day: EUR 390)",
     "screenshots": [
       "images/apps/autismity.png"
     ],
@@ -676,8 +688,8 @@
     ],
     "age": "13+",
     "content_notes": "Simulated sensory overload; may be uncomfortable for sensitive users.",
-    "notes": "Paid title; intended as an awareness and empathy-building tool, not a diagnostic resource.",
-    "link": "https://www.meta.com/experiences/autismity/ (App Lab/Quest Store link)",
+    "notes": "Paid title; intended as an awareness and empathy-building tool, not a diagnostic resource. Not sold on the Meta Quest Store -- requires the vendor's own \"Autismity\" companion app plus a direct license purchased from theautismsimulator.com.",
+    "link": "https://theautismsimulator.com/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -687,7 +699,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "awake-ecg",
@@ -741,7 +754,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "awake-heart",
@@ -794,7 +808,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "bait",
@@ -840,7 +855,7 @@
     "age": "Everyone",
     "content_notes": "Gentle fishing gameplay; no violence or intense action.",
     "notes": "Free on Quest; includes Bait! Relax VR for social spaces and mini-games.",
-    "link": "https://www.meta.com/experiences/bait/2008576409231983/",
+    "link": "https://www.meta.com/experiences/bait/2082595615120854/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -850,7 +865,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "beat-saber",
@@ -905,7 +921,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "blaston",
@@ -950,7 +967,7 @@
     "age": "10+",
     "content_notes": "Cartoon-style competitive shooting; online multiplayer.",
     "notes": "Paid app; supports online multiplayer and frequent tournaments.",
-    "link": "https://www.meta.com/experiences/blaston/2376733632445203/",
+    "link": "https://www.meta.com/experiences/blaston/2307085352735834/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -960,7 +977,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "blueplanet-vr-explore",
@@ -1015,7 +1033,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "bodyswaps-soft-skills-training",
@@ -1072,7 +1091,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "color-a-cube",
@@ -1094,7 +1114,7 @@
       "Puzzle"
     ],
     "educational_uses": "Encourages creativity and mindfulness—ideal for art students exploring spatial color, or as a stress-relief activity in student wellness programs.",
-    "pricing": "Free",
+    "pricing": "Free (optional paid content packs)",
     "screenshots": [
       "images/apps/color-a-cube.jpg"
     ],
@@ -1119,7 +1139,7 @@
     "age": "Everyone",
     "content_notes": "Coloring and pattern creation; no competitive gameplay.",
     "notes": "Free to play; designed for relaxation and light creative interaction.",
-    "link": "https://www.meta.com/experiences/color-a-cube/5090877891005014/",
+    "link": "https://www.meta.com/experiences/color-a-cube/8774301352666408/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -1129,7 +1149,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "cosmic-xr-space-in-your-room",
@@ -1183,7 +1204,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "cpr-simulator",
@@ -1231,7 +1253,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "csixr",
@@ -1270,7 +1293,7 @@
     ],
     "age": "16+",
     "content_notes": "Crime scene simulation may include sensitive material.",
-    "notes": "Not publicly available on the Quest Store. Institutional access may require contacting the university or developer directly.",
+    "notes": "Not publicly available on the Quest Store. Institutional access may require contacting the university or developer directly. Developed by NJIT (New Jersey Institute of Technology) as a research project for NJIT's own crime-scene-investigation training -- no public store listing or public licensing pathway was found. Recommend confirming with NJIT directly or removing this entry if it cannot actually be acquired.",
     "link": "https://csixr.example.edu (institutional access info may vary)",
     "approved": false,
     "installed": false,
@@ -1281,7 +1304,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "cubism",
@@ -1331,7 +1355,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "dig-vr",
@@ -1380,11 +1405,12 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "duckordie-boxing-minigames",
-    "name": "DuckOrDie – Boxing Minigames",
+    "name": "DuckOrDie – Fitness Boxing Minigames",
     "description": "A fast-paced boxing-inspired arcade workout with multiple short minigames focused on dodging, punching, and reflex training.",
     "developer": null,
     "platforms": [
@@ -1427,7 +1453,7 @@
     "age": "10+",
     "content_notes": "Active gameplay with cartoon boxing and exaggerated motion.",
     "notes": "Free Early Access mixed-reality fitness game; requires physical movement and open space.",
-    "link": "https://www.meta.com/experiences/29005942905688131/",
+    "link": "https://www.meta.com/experiences/duckordie-fitness-boxing-minigames/29005942905688131/",
     "approved": true,
     "installed": false,
     "visibility": {
@@ -1437,7 +1463,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "electrician-simulator-vr",
@@ -1486,7 +1513,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "elixir",
@@ -1532,7 +1560,7 @@
     "age": "Everyone",
     "content_notes": "Cartoon fantasy humor and mild magical themes.",
     "notes": "Free on Quest; designed by Meta Reality Labs; short demo ideal for first-time VR users.",
-    "link": "https://www.meta.com/experiences/elixir/2124527294273125/",
+    "link": "https://www.meta.com/experiences/elixir/3793077684043441/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -1542,7 +1570,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "energy-encyclopedia-vr",
@@ -1597,7 +1626,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "engage-xr",
@@ -1640,7 +1670,7 @@
     "age": "13+",
     "content_notes": null,
     "notes": "Free with premium tiers for advanced features; enterprise options available.",
-    "link": "https://www.meta.com/experiences/engage/2009844509086112/",
+    "link": "https://www.meta.com/experiences/engage/3092079454190601/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -1650,7 +1680,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "figmin-xr",
@@ -1668,7 +1699,7 @@
       "Mixed Reality"
     ],
     "educational_uses": "Encourages students to blend VR and AR by creating interactive MR projects.",
-    "pricing": "Paid ($19.99)",
+    "pricing": "Paid ($29.99)",
     "screenshots": [
       "images/apps/figmin-xr.jpg"
     ],
@@ -1700,7 +1731,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "first-contact",
@@ -1754,7 +1786,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "first-encounters",
@@ -1807,7 +1840,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "first-steps",
@@ -1844,7 +1878,7 @@
     "age": "Everyone",
     "content_notes": "Short, lighthearted onboarding experience with cartoon visuals.",
     "notes": "Originally bundled with Quest 1 & 2; still available for free in the store library.",
-    "link": "https://www.meta.com/experiences/first-steps/1991046034328746/",
+    "link": "https://www.meta.com/experiences/first-steps/1863547050392688/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -1854,7 +1888,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "first-steps-for-quest-2",
@@ -1908,7 +1943,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "geo-voyage",
@@ -1964,7 +2000,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "gods-of-gravity",
@@ -2010,7 +2047,7 @@
     "age": "10+",
     "content_notes": "Multiplayer competition; sci-fi space battles.",
     "notes": "Free-to-play; supports online multiplayer; designed for quick matches and competitive play.",
-    "link": "https://www.meta.com/experiences/gods-of-gravity/3766014526783558/",
+    "link": "https://www.meta.com/experiences/gods-of-gravity/3919415921458774/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -2020,7 +2057,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "goliath-playing-with-reality",
@@ -2061,7 +2099,7 @@
     "age": "13+",
     "content_notes": "Covers mental health and schizophrenia; includes sensitive personal testimony.",
     "notes": "Free on Quest; companion piece to 'Impulse: Playing with Reality.' Sensitive subject matter.",
-    "link": "https://www.meta.com/experiences/goliath-playing-with-reality/",
+    "link": "https://www.meta.com/experiences/goliath-playing-with-reality/3432432656819712/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -2071,7 +2109,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "gorilla-tag",
@@ -2117,7 +2156,7 @@
     "age": "10+",
     "content_notes": "Highly active gameplay; online multiplayer with voice chat.",
     "notes": "Free-to-play with optional in-app purchases. Requires significant arm movement and open play space.",
-    "link": "https://www.meta.com/experiences/gorilla-tag/4330311203703149/",
+    "link": "https://www.meta.com/experiences/gorilla-tag/4979055762136823/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -2127,7 +2166,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "gravity-sketch",
@@ -2179,7 +2219,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "headspace-xr-mindfulness-meditation",
@@ -2228,7 +2269,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "horizon-tv",
@@ -2267,7 +2309,7 @@
     ],
     "age": "Everyone",
     "content_notes": "Content varies—ranging from PG to mature depending on the channel.",
-    "notes": "Pre-installed on Quest headsets; free to use; requires internet connection.",
+    "notes": "Pre-installed on Quest headsets; free to use; requires internet connection. Note: this appears to be the same underlying Meta app as the \"TV\" catalogue entry (id: tv) -- both point to meta.com/experiences/tv/1931356740318898. Consider de-duplicating.",
     "link": "https://www.meta.com/experiences/meta-quest-tv/1931356740318898/",
     "approved": false,
     "installed": true,
@@ -2278,7 +2320,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "human-anatomy-vr",
@@ -2333,7 +2376,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "immerrock",
@@ -2386,11 +2430,12 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "immerse-learn-languages-in-vr",
-    "name": "Immerse — Learn Languages in VR",
+    "name": "IMMERSE - Build Real Language Fluency",
     "description": "Live instructor-led language sessions with conversation practice and interactive environments.",
     "developer": null,
     "platforms": [
@@ -2407,7 +2452,7 @@
       "Education"
     ],
     "educational_uses": "Supports conversational fluency, cultural exchange, and role-play activities for language courses.",
-    "pricing": "Free (subscription required)",
+    "pricing": "Subscription (Essential $15/mo, Pro $35/mo; 14-day free trial)",
     "screenshots": [
       "images/apps/immerse-language-learning.jpg"
     ],
@@ -2431,7 +2476,7 @@
     "age": "13+",
     "content_notes": null,
     "notes": "Subscription required; headset microphone recommended.",
-    "link": "https://www.meta.com/experiences/immerse-language-learning/3181432891940455/",
+    "link": "https://www.meta.com/experiences/immerse-build-real-language-fluency/3181432891940455/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -2441,7 +2486,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "immersed",
@@ -2494,7 +2540,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "impulse-playing-with-reality",
@@ -2517,7 +2564,7 @@
       "Education"
     ],
     "educational_uses": "Useful for philosophy, psychology, and media studies courses—sparks discussion about neuroscience, choice, and the nature of human reality.",
-    "pricing": "$7.99",
+    "pricing": "Paid ($5.99)",
     "screenshots": [
       "images/apps/impulse-playing-with-reality.jpg"
     ],
@@ -2535,7 +2582,7 @@
     "age": "13+",
     "content_notes": "Philosophical/scientific content; abstract concepts.",
     "notes": "Free app; short, polished documentary experience.",
-    "link": "https://www.meta.com/experiences/impulse-playing-with-reality/ (Quest Store link)",
+    "link": "https://www.meta.com/experiences/impulse-playing-with-reality/6468391126573976/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -2545,7 +2592,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "in-the-shoes-of-an-autistic-person",
@@ -2595,7 +2643,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "into-the-scaniverse",
@@ -2645,7 +2694,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "inviewer",
@@ -2698,7 +2748,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "jfk-memento-the-immersive-documentary",
@@ -2742,7 +2793,7 @@
     "age": "13+",
     "content_notes": "Historical reenactment (no graphic content).",
     "notes": "Previously released as “Inside History: The JFK Assassination” (by TARGO).",
-    "link": "https://www.meta.com/experiences/inside-history-the-jfk-assassination/6864747670240243/",
+    "link": "https://www.meta.com/experiences/jfk-memento-the-immersive-documentary/6864747670240243/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -2752,7 +2803,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "job-simulator",
@@ -2801,7 +2853,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "kingspray-graffiti",
@@ -2852,7 +2905,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "labster-vr",
@@ -2894,7 +2948,7 @@
     ],
     "age": "16+",
     "content_notes": "Covers scientific experiments and lab procedures.",
-    "notes": "Requires institutional license; not publicly available on the Quest Store. Used widely in schools and higher education.",
+    "notes": "Requires institutional license; not publicly available on the Quest Store. Used widely in schools and higher education. Labster's simulations are primarily browser/desktop-based (LMS-integrated), not a native standalone Quest headset app in the traditional sense -- verify fit before counting it as \"installed\" XR Lab hardware content.",
     "link": "https://www.labster.com/",
     "approved": false,
     "installed": false,
@@ -2905,7 +2959,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "liminal",
@@ -2945,7 +3000,7 @@
     "age": "13+",
     "content_notes": "Mood-altering experiences—designed for short sessions.",
     "notes": "Free with optional subscription for more content; experiences are 2–10 minutes long.",
-    "link": "https://www.meta.com/experiences/liminal/2169492309823119/",
+    "link": "https://www.meta.com/experiences/liminal-relax-unwind-engage-explore/3158342884265828/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -2955,11 +3010,12 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "match-point-tennis-championships-vr",
-    "name": "Match Point: Tennis Championships VR",
+    "name": "Match Point Tennis",
     "description": "A realistic tennis simulator featuring precise racket physics, AI opponents, and online multiplayer. Players can participate in career mode or quick matches, training their timing and coordination.",
     "developer": null,
     "platforms": [
@@ -3002,7 +3058,7 @@
     "age": "Everyone",
     "content_notes": "Active gameplay requiring full arm movement.",
     "notes": "Paid title; offers both single-player tournaments and online multiplayer. More structured and simulation-focused than Tennis Esports.",
-    "link": "https://www.meta.com/experiences/match-point-tennis-championships/4901221556601741/",
+    "link": "https://www.meta.com/experiences/match-point-tennis/4182698635109247/",
     "approved": true,
     "installed": false,
     "visibility": {
@@ -3012,12 +3068,13 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "meta-for-education-mdm-admin-center",
     "name": "Meta for Education (MDM / Admin Center)",
-    "description": "Meta’s education-focused device management using Meta Horizon Managed Solutions (MHMS). Provides bulk enrollment, classroom controls, kiosk/launcher options, and private app distribution for Quest headsets.",
+    "description": "Meta discontinued the paid \"Meta Quest for Business\"/\"Meta Quest for Education\" hardware+license bundle as of February 20, 2026. In its place, Horizon Managed Services (HMS) -- the actual device-management/MDM layer -- is now free to register at meta.com/meta-for-work and works with ordinary consumer Quest 3/3S hardware. HMS/MDM is only needed for centralized fleet management (remote config, kiosk mode, security policies, silent app deployment); it is not required just to install and use a normally purchased app.",
     "developer": null,
     "platforms": [
       "Meta Quest"
@@ -3034,7 +3091,7 @@
       "Admin"
     ],
     "educational_uses": "Required by some education apps. Lets IT centrally configure headsets so teachers can start class quickly without per-device setup.",
-    "pricing": "Subscription (education pricing)",
+    "pricing": "Free (Horizon Managed Services registration)",
     "screenshots": [
       "images/apps/meta-for-education-mdm.png"
     ],
@@ -3052,8 +3109,8 @@
     ],
     "age": "Not applicable",
     "content_notes": "Service (not an in-headset app).",
-    "notes": "Integrates with enterprise MDMs (e.g., Intune, VMware Workspace ONE). Licensing is subscription-based. Check MHMS policies if you need Meta Store access on managed devices.",
-    "link": "https://forwork.meta.com/meta-for-education/",
+    "notes": "Integrates with enterprise MDMs (e.g., Intune, VMware Workspace ONE). Licensing is subscription-based. Check MHMS policies if you need Meta Store access on managed devices. Program history: previously a paid Meta Quest for Business/Education bundle; discontinued Feb 20, 2026 in favor of free HMS registration usable with consumer hardware.",
+    "link": "https://www.meta.com/meta-for-work/",
     "approved": false,
     "installed": true,
     "visibility": {
@@ -3063,7 +3120,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "meta-horizon-worlds",
@@ -3109,9 +3167,9 @@
       "Quest 3S"
     ],
     "age": "13+",
-    "content_notes": "Online social interactions; user-generated content may vary.",
+    "content_notes": "Online social interactions; user-generated content may vary. Meta announced a full VR shutdown of Horizon Worlds (effective June 15, 2026) and removed it from the Quest Store by March 31, 2026, then partially reversed course: existing worlds remain playable in VR, but new-world creation is now mobile/web-only. Verify current relevance before recommending.",
     "notes": "Free to download; requires a Meta account; as of March 19, 2026, Meta kept VR support active, but mobile is now the primary focus.",
-    "link": "https://www.meta.com/experiences/horizon-worlds/4776218665791734/",
+    "link": "https://www.meta.com/experiences/worlds/2532035600194083/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -3121,7 +3179,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "meta-quest-help-tips",
@@ -3171,7 +3230,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "mission-iss",
@@ -3225,7 +3285,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "mlk-now-is-the-time",
@@ -3280,11 +3341,12 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "mondly-languages-in-vr",
-    "name": "Mondly: Languages in VR",
+    "name": "Mondly: Learn Languages in VR",
     "description": "A VR language learning app with conversational practice, speech recognition, and immersive scenarios.",
     "developer": null,
     "platforms": [
@@ -3325,7 +3387,7 @@
     "age": "Everyone",
     "content_notes": null,
     "notes": "Free to download; subscription required for full lessons; headset microphone needed.",
-    "link": "https://www.meta.com/experiences/mondly-practice-languages-in-vr/4214902388537196/",
+    "link": "https://www.meta.com/experiences/mondly-learn-languages-in-vr/4214902388537196/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -3335,7 +3397,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "nano",
@@ -3383,7 +3446,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "nanome",
@@ -3437,7 +3501,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "notes-on-blindness",
@@ -3491,7 +3556,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "noun-town-language-learning",
@@ -3546,7 +3612,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "novo-nordisk-heritage-experience",
@@ -3605,7 +3672,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "ocean-rift",
@@ -3659,7 +3727,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "on-the-morning-you-wake-to-the-end-of-the-world",
@@ -3705,7 +3774,7 @@
     "age": "13+",
     "content_notes": "Depicts real-world fear and crisis response; emotionally intense subject matter.",
     "notes": "Free on Quest; emotionally intense but non-graphic; developed by Atlas V, Astrea, and Archer’s Mark.",
-    "link": "https://www.meta.com/experiences/on-the-morning-you-wake-to-the-end-of-the-world/5116734361663719/",
+    "link": "https://www.meta.com/experiences/on-the-morning-you-wake-to-the-end-of-the-world/5334662579895130/",
     "approved": true,
     "installed": false,
     "visibility": {
@@ -3715,7 +3784,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "open-blocks",
@@ -3763,7 +3833,7 @@
     "age": "10+",
     "content_notes": "Sandbox creation with building and physics experimentation.",
     "notes": "Free in Early Access; designed for creators, educators, and tinkerers. Features physics simulation and block-based construction.",
-    "link": "https://www.meta.com/experiences/open-blocks/6039079222812710/",
+    "link": "https://www.meta.com/experiences/open-blocks-low-poly-3d-modelling/8043509915705378/",
     "approved": true,
     "installed": false,
     "visibility": {
@@ -3773,7 +3843,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "open-brush",
@@ -3824,7 +3895,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "orion-drift",
@@ -3882,7 +3954,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "ovation",
@@ -3936,7 +4009,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "painting-vr",
@@ -3987,7 +4061,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "paradiddle",
@@ -4036,7 +4111,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "pianovision",
@@ -4085,7 +4161,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "puzzling-places",
@@ -4135,7 +4212,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "quill-by-smoothstep",
@@ -4179,7 +4257,7 @@
     ],
     "age": "13+",
     "content_notes": "Creation software; requires external PC hardware.",
-    "notes": "Free on PCVR; requires a VR-ready computer with Quest Link or Air Link. Not a standalone Quest app.",
+    "notes": "Free on PCVR; requires a VR-ready computer with Quest Link or Air Link. Not a standalone Quest app. This is a PCVR (Rift/PC-headset) store listing, not a standalone Quest listing -- using it may require a PC plus Quest Link/Air Link rather than working standalone on a headset.",
     "link": "https://www.meta.com/experiences/pcvr/quill-by-smoothstep/5910229332328230",
     "approved": false,
     "installed": false,
@@ -4190,7 +4268,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "rome",
@@ -4244,7 +4323,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "sail",
@@ -4267,7 +4347,7 @@
       "Sailing"
     ],
     "educational_uses": "While primarily recreational, it reinforces principles of physics, navigation, and resource management—great for experiential learning or themed lab events.",
-    "pricing": "Free",
+    "pricing": "Paid (EUR 29.99) -- left Early Access Jan 2026, was previously free",
     "screenshots": [
       "images/apps/sail.jpg"
     ],
@@ -4293,7 +4373,7 @@
     "age": "13+",
     "content_notes": "Cartoon-style ship combat and treasure hunting; mild motion intensity.",
     "notes": "Free multiplayer pirate adventure; includes locomotion and ship motion, so comfort settings may help new VR users.",
-    "link": "https://www.meta.com/experiences/sail/3918918518236402/",
+    "link": "https://www.meta.com/experiences/sail/4861702420530349/",
     "approved": true,
     "installed": true,
     "visibility": {
@@ -4303,7 +4383,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "sculptrvr",
@@ -4355,7 +4436,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "shapesxr",
@@ -4407,7 +4489,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "sharecare-you-anatomy",
@@ -4458,7 +4541,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "spatial",
@@ -4512,7 +4596,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "synth-riders",
@@ -4552,8 +4637,8 @@
     ],
     "age": "10+",
     "content_notes": "Energetic gameplay; requires room for movement.",
-    "notes": "Base game is paid; DLC music packs available. Strong multiplayer and fitness community support.",
-    "link": "https://www.meta.com/experiences/synth-riders/1982041745225655/",
+    "notes": "Base game is paid; DLC music packs available. Strong multiplayer and fitness community support. Also included in the Meta Quest+ subscription catalog as of this audit, in addition to standalone purchase.",
+    "link": "https://www.meta.com/experiences/synth-riders/2436558143118760/",
     "approved": false,
     "installed": false,
     "visibility": {
@@ -4563,7 +4648,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "tablecraft",
@@ -4621,11 +4707,12 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "tennis-esports",
-    "name": "Tennis Esports",
+    "name": "Tennis Esports: Fun, Social, Competitive",
     "description": "A realistic VR tennis simulation featuring physics-based ball mechanics, online multiplayer, and professional training options. Players can practice swings, play matches, or compete in global tournaments.",
     "developer": null,
     "platforms": [
@@ -4668,7 +4755,7 @@
     "age": "Everyone",
     "content_notes": "Physical activity; may require large play area.",
     "notes": "Currently free in Early Access; offers single-player practice and online multiplayer. Requires open play area for safe movement.",
-    "link": "https://www.meta.com/experiences/tennis-esports/3746442532128246/",
+    "link": "https://www.meta.com/experiences/tennis-esports-fun-social-competitive/4872542182873415/",
     "approved": true,
     "installed": false,
     "visibility": {
@@ -4678,7 +4765,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "the-body-vr-journey-inside-a-cell",
@@ -4732,7 +4820,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "the-hydrous-presents-explore",
@@ -4781,7 +4870,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "theater-elsewhere",
@@ -4837,7 +4927,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "titanic-vr",
@@ -4892,7 +4983,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "titans-of-space-plus",
@@ -4946,7 +5038,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "transfr-vr",
@@ -4997,7 +5090,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "tripp",
@@ -5051,7 +5145,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "tv",
@@ -5096,7 +5191,7 @@
     ],
     "age": "Everyone",
     "content_notes": "Content varies—ranging from PG to mature depending on the channel.",
-    "notes": "Pre-installed on Quest headsets; free to use; renamed to TV in 2025 after previously being called Meta Quest TV.",
+    "notes": "Pre-installed on Quest headsets; free to use; renamed to TV in 2025 after previously being called Meta Quest TV. Note: this appears to be the same underlying Meta app as the \"Horizon TV\" catalogue entry (id: horizon-tv) -- both point to meta.com/experiences/tv/1931356740318898. Consider de-duplicating.",
     "link": "https://www.meta.com/experiences/meta-quest-tv/1931356740318898/",
     "approved": false,
     "installed": true,
@@ -5107,7 +5202,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "vermillion",
@@ -5146,7 +5242,7 @@
       "Quest 2"
     ],
     "age": "13+",
-    "content_notes": null,
+    "content_notes": "Pricing could not be confirmed this pass (store listing found, but price not verified) -- left as \"Unknown\" rather than guessed.",
     "notes": "Controllers recommended",
     "link": "https://www.meta.com/experiences/vermillion-vr-painting/4900967296622279/",
     "approved": false,
@@ -5158,7 +5254,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "victoryxr",
@@ -5200,7 +5297,7 @@
     ],
     "age": "13+",
     "content_notes": "Content varies by subject—includes science dissections, history reenactments, and more.",
-    "notes": "Institutional license required; not a standalone public app. VictoryXR partners with schools to deploy customized VR curricula.",
+    "notes": "Institutional license required; not a standalone public app. VictoryXR partners with schools to deploy customized VR curricula. Licensing model: \"licenses follow the student, not the device\" -- runs on most major VR headsets plus Windows/Mac. Also offers a turnkey \"$47,000 Classroom Simulation Lab\" bundle (25 Quest headsets + software + charging cart + onsite training).",
     "link": "https://www.victoryxr.com/",
     "approved": false,
     "installed": false,
@@ -5211,7 +5308,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "institutional"
   },
   {
     "id": "walkabout-mini-golf",
@@ -5260,7 +5358,8 @@
     "_source": {
       "in_library_repo": false,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "wander",
@@ -5314,7 +5413,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "warship-mars",
@@ -5370,7 +5470,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "we-live-here",
@@ -5425,7 +5526,8 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": false
-    }
+    },
+    "licensing_model": "consumer"
   },
   {
     "id": "wooorld",
@@ -5480,6 +5582,586 @@
     "_source": {
       "in_library_repo": true,
       "in_catalogue_repo": true
+    },
+    "licensing_model": "consumer"
+  },
+  {
+    "id": "prisms-math",
+    "name": "Prisms Math",
+    "description": "A K-12 math curriculum delivered in VR, immersing students in interactive real-world problems to build conceptual understanding in middle-school math, Algebra I, and Geometry (fractions, ratios, linear functions, systems of equations, quadratics, transformations, trig ratios, and more).",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Mathematics",
+      "STEM",
+      "Education"
+    ],
+    "tags": [
+      "Math",
+      "Geometry",
+      "Algebra",
+      "Curriculum",
+      "K-12"
+    ],
+    "educational_uses": "Built for grades 8-11 math classes; includes single-player content modules, a multiplayer practice sandbox, and a web dashboard for teachers to monitor progress and give feedback.",
+    "pricing": "Subscription (~$24/year)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Spatial reasoning",
+      "Problem-solving",
+      "Mathematical modeling"
+    ],
+    "time_min": 30,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers / Hand tracking",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": "Verify current per-seat/classroom pricing directly with Prisms before purchasing for a full class.",
+    "link": "https://www.meta.com/experiences/prisms-math/8875714305775804/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "the-vr-chemistry-lab",
+    "name": "The VR Chemistry Lab",
+    "description": "A hands-on chemistry lab in VR where students build molecules, run chemical reactions, and explore concepts in an immersive environment. Originally built as a VR-learning research tool, now used for classroom and at-home chemistry practice.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Chemistry",
+      "STEM",
+      "Science"
+    ],
+    "tags": [
+      "Chemistry",
+      "Lab Simulation",
+      "Molecules",
+      "Education"
+    ],
+    "educational_uses": "Lets students safely run experiments and build/molecule visualizations that would be impractical or unsafe in a physical classroom lab.",
+    "pricing": "Paid ($2.99)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Scientific reasoning",
+      "Experimentation",
+      "Spatial visualization"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": null,
+    "notes": null,
+    "link": "https://www.meta.com/experiences/the-vr-chemistry-lab/3919613214752680/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "national-geographic-explore-vr",
+    "name": "National Geographic Explore VR",
+    "description": "Travel as a National Geographic explorer to Antarctica and Machu Picchu -- kayak among icebergs, climb ice shelves, and explore a digital reconstruction of the ancient Inca citadel, with background/educational narration throughout.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Geography",
+      "Cultural Studies",
+      "Science"
+    ],
+    "tags": [
+      "Travel",
+      "Exploration",
+      "Nature",
+      "Culture"
+    ],
+    "educational_uses": "Pairs well with the existing 360 travel/geography content (Wander, Wooorld, Geo Voyage) but adds Nat Geo's editorial/documentary layer and stronger narrative framing.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Cultural awareness",
+      "Scientific curiosity"
+    ],
+    "time_min": 25,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "All ages",
+    "content_notes": null,
+    "notes": null,
+    "link": "https://www.meta.com/experiences/national-geographic-explore-vr/2046607608728563/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "paleontology-vr",
+    "name": "Paleontology VR",
+    "description": "Step into the role of a paleontologist: dig for fossils in the field, clean and restore them in a lab using real tools, then assemble complete dinosaur skeletons to display in your own virtual museum.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Science",
+      "Biology",
+      "STEM"
+    ],
+    "tags": [
+      "Paleontology",
+      "Dinosaurs",
+      "Earth Science",
+      "Museum"
+    ],
+    "educational_uses": "Hands-on introduction to fossil excavation and preparation methodology; good fit for earth science or biology units on prehistoric life.",
+    "pricing": "Unknown -- price not confirmed, verify on store page before purchasing",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Scientific method",
+      "Fine motor skills",
+      "Patience/attention to detail"
+    ],
+    "time_min": 30,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "All ages",
+    "content_notes": null,
+    "notes": "Developed by Rambutan Dog Games; includes multiplayer/party modes in addition to the solo excavation content.",
+    "link": "https://www.meta.com/experiences/paleontology-vr/5414845788634561/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "silent-classroom-asl-vr",
+    "name": "Silent Classroom: ASL VR",
+    "description": "An American Sign Language practice app set in a virtual ASL classroom, using hand tracking so students can sign the alphabet and practice finger spelling, with a narrative thread covering ASL history and figures like Irving King Jordan.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Languages",
+      "ESL",
+      "Social Justice"
+    ],
+    "tags": [
+      "ASL",
+      "Sign Language",
+      "Accessibility",
+      "Deaf Culture"
+    ],
+    "educational_uses": "The only sign-language-focused title in the catalogue -- useful for ASL courses, disability-awareness units, or general accessibility education. Hand tracking is required (no controllers).",
+    "pricing": "Unknown -- price not confirmed, verify on store page before purchasing",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Communication",
+      "Cultural awareness",
+      "Fine motor skills"
+    ],
+    "time_min": 15,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Hand tracking",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "10+",
+    "content_notes": null,
+    "notes": "Requires hand tracking, not controllers -- confirm classroom headsets support it well before relying on this for a lesson.",
+    "link": "https://www.meta.com/experiences/silent-classroom-asl-vr/9249215595132131/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "pencil-learn-to-draw",
+    "name": "Pencil - Learn to Draw",
+    "description": "An award-winning mixed-reality drawing tutor: it overlays digital guide lines onto real paper (viewed through Quest 3/3S passthrough) so you draw with an actual pencil while following step-by-step lessons. 80+ lessons cover basics through construction, perspective, and shading, guided by an on-desk animated teacher.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts"
+    ],
+    "tags": [
+      "Drawing",
+      "Art Education",
+      "Mixed Reality",
+      "Passthrough"
+    ],
+    "educational_uses": "A structured, tutorial-driven complement to the catalogue's free-drawing/painting apps (Open Brush, Vermillion, Painting VR) -- teaches drawing fundamentals rather than just providing a canvas.",
+    "pricing": "Paid ($12.99)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Fine motor skills",
+      "Observation",
+      "Artistic technique"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Hand tracking (with real paper/pencil)",
+    "devices": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "age": "All ages",
+    "content_notes": null,
+    "notes": "Requires Quest 3 or 3S passthrough plus real paper and a pencil -- will not work on Quest 2/Pro.",
+    "link": "https://www.meta.com/experiences/pencil-learn-to-draw/7699993220035742/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "artquest-vr",
+    "name": "ArtQuest VR - Hundreds of Museums",
+    "description": "A virtual art museum with works from hundreds of real collections (MoMA, the Uffizi Galleries, the Rijksmuseum, and more) -- browse by artist, movement, or museum, view pieces at true scale, zoom in for detail, and read museum-style labels with optional audio narration.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Fine Arts",
+      "History",
+      "Humanities",
+      "Cultural Studies"
+    ],
+    "tags": [
+      "Art History",
+      "Museum",
+      "Virtual Field Trip"
+    ],
+    "educational_uses": "A strong virtual-field-trip option for art history, humanities, or cultural studies classes -- pairs with the catalogue's Louvre and museum-tour WebXR content but adds a much larger, browsable multi-museum collection.",
+    "pricing": "Paid ($9.99, additional DLC collections $4.99 each)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Cultural literacy",
+      "Visual analysis",
+      "Art history knowledge"
+    ],
+    "time_min": 25,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers / Hand tracking",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "All ages",
+    "content_notes": null,
+    "notes": null,
+    "link": "https://www.meta.com/experiences/artquest-vr-hundreds-of-museums/25181400308129633/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "fitxr",
+    "name": "FitXR",
+    "description": "A VR fitness platform with instructor-led Box, Combat, HIIT, Dance, Flow, and Sculpt classes set to music, run in quarterly seasons with new content added regularly.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Wellness",
+      "Kinesiology"
+    ],
+    "tags": [
+      "Fitness",
+      "Boxing",
+      "Dance",
+      "HIIT",
+      "Exercise"
+    ],
+    "educational_uses": "Good fit for kinesiology/PE-adjacent programs or general wellness programming -- full-body cardio and strength workouts with real-time feedback on form/intensity.",
+    "pricing": "Subscription ($12.99/mo or ~$107.99/yr; 7-day free trial)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Physical fitness",
+      "Rhythm/coordination",
+      "Self-discipline"
+    ],
+    "time_min": 20,
+    "comfort": "Intense",
+    "motion_level": "High",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "13+",
+    "content_notes": "Vigorous full-body exercise; needs clear play space.",
+    "notes": null,
+    "link": "https://www.meta.com/experiences/fitxr/2327205800645550/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "innerworld-by-xrhealth",
+    "name": "Innerworld by XRHealth",
+    "description": "A virtual peer-support space where users learn evidence-based mental health tools -- including Cognitive Behavioral Immersion -- guided by certified guides, working through anxiety, stress, and other challenges in a group setting.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Psychology",
+      "Counseling",
+      "Wellness"
+    ],
+    "tags": [
+      "Mental Health",
+      "Peer Support",
+      "CBT",
+      "Group Therapy"
+    ],
+    "educational_uses": "Complements the catalogue's individual meditation/mindfulness apps (Tripp, Liminal, Headspace XR) with a peer-support and certified-guide model -- worth reviewing with counseling staff before recommending to students, since it involves real people and group sessions rather than solo content.",
+    "pricing": "Unknown -- appears to combine free access with a support/clinical component; verify current model directly",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Emotional regulation",
+      "Communication",
+      "Self-reflection"
+    ],
+    "time_min": 30,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers / Voice",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "18+ (English-speaking, per publisher)",
+    "content_notes": "Involves live group interaction with other users and certified guides, not a solo/offline experience -- review privacy and appropriateness for a school setting before use.",
+    "notes": "Currently for English speakers only, per the publisher.",
+    "link": "https://www.meta.com/experiences/innerworld-by-xrhealth/5406767536033508/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "institutional",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "simx-vr",
+    "name": "SimX VR",
+    "description": "A professional-grade, wireless, multiplayer VR medical training simulation letting physicians, nurses, and allied health professionals practice on virtual patients in configurable clinical environments. Designed by physicians at Stanford and UCSF; used at medical and nursing schools nationally.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Health Science",
+      "Nursing",
+      "Emergency Training"
+    ],
+    "tags": [
+      "Medical Simulation",
+      "Clinical Training",
+      "Nursing",
+      "Multiplayer"
+    ],
+    "educational_uses": "Aimed at health science / nursing / EMT programs wanting realistic multiplayer clinical scenario training rather than static anatomy content -- complements 3D Organon and Human Anatomy VR.",
+    "pricing": "Institutional license (contact SimX for pricing)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Clinical decision-making",
+      "Teamwork",
+      "Situational awareness"
+    ],
+    "time_min": 30,
+    "comfort": "Moderate",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "18+ (health science students/professionals)",
+    "content_notes": null,
+    "notes": "Designed for institutional/program adoption, not an individual consumer purchase.",
+    "link": "https://www.meta.com/experiences/simx-vr/3422065107904151/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "institutional",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "vr-nurse-sim-by-simlogic",
+    "name": "VR Nurse Sim by Simlogic",
+    "description": "A nursing-skills simulator for junior healthcare professionals, developed with a Norwegian vocational institution. Multiple scenarios in clinical and home settings train ABCDE patient assessment, the NEWS2 early-warning score, and ISBAR clinical communication.",
+    "developer": null,
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "Nursing",
+      "Health Science"
+    ],
+    "tags": [
+      "Nursing",
+      "Clinical Assessment",
+      "Patient Communication"
+    ],
+    "educational_uses": "A more structured, curriculum-aligned complement to SimX -- good fit for entry-level nursing or CNA/health-science programs focused on foundational assessment and communication protocols.",
+    "pricing": "Institutional license (contact developer for pricing)",
+    "screenshots": [],
+    "videos": [],
+    "durable_skills": [
+      "Clinical assessment",
+      "Communication protocols",
+      "Patient care"
+    ],
+    "time_min": 20,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 2"
+    ],
+    "age": "18+ (nursing/health science students)",
+    "content_notes": null,
+    "notes": "Also listed under the title \"Skillup VR NurseSIM\" -- same underlying app/ID.",
+    "link": "https://www.meta.com/experiences/vr-nurse-sim-by-simlogic/7048548015254000/",
+    "approved": false,
+    "installed": false,
+    "visibility": {
+      "library": false,
+      "catalogue": true
+    },
+    "licensing_model": "institutional",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
     }
   }
 ]
