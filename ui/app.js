@@ -407,6 +407,38 @@ function app(config = {}){
       n += this.selectedAge.size;
       return n;
     },
+    // Removable chips for every active Apps-tab filter, so people can see
+    // (and clear) exactly what's applied without opening the sidebar --
+    // especially useful now that the sidebar collapses on mobile.
+    get activeFilterChips(){
+      const chips = [];
+      if(this.query) chips.push({ type: 'query', label: `Search: "${this.query}"` });
+      if(this.approvedOnly) chips.push({ type: 'approved', label: 'Approved' });
+      if(this.installedOnly) chips.push({ type: 'installed', label: 'Installed' });
+      const pillLabels = { free: 'Free', short: '≤ 15 min', hands: 'Hands', lowmotion: 'Low motion', quest3: 'Quest 3' };
+      for(const pill of this.quickPills){
+        chips.push({ type: 'pill', value: pill, label: pillLabels[pill] || pill });
+      }
+      const options = this.facetOptions;
+      for(const group of ['departments','durableSkills','comfort','input','devices','age']){
+        const set = this.facetSet(group);
+        if(!set) continue;
+        for(const value of set){
+          const opt = (options[group] || []).find(o => o.value === value);
+          chips.push({ type: 'facet', group, value, label: opt ? opt.label : this.formatFacetLabel(value) });
+        }
+      }
+      return chips;
+    },
+    removeChip(chip){
+      switch(chip.type){
+        case 'query': this.query = ''; break;
+        case 'approved': this.approvedOnly = false; break;
+        case 'installed': this.installedOnly = false; break;
+        case 'pill': this.togglePill(chip.value); break;
+        case 'facet': this.toggleFacet(chip.group, chip.value); break;
+      }
+    },
     get activeVideoFilterCount(){
       let n = 0;
       if(this.videoQuery) n += 1;
@@ -612,7 +644,7 @@ function app(config = {}){
     // only helps once ui/app.js itself has loaded fresh -- see the
     // matching ?v= on the <script>/<link> tags in each site's index.html
     // for how the app.js/styles.css files themselves stay fresh.
-    DATA_VERSION: '2026-07-20-5',
+    DATA_VERSION: '2026-07-20-6',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/
