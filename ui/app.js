@@ -644,7 +644,7 @@ function app(config = {}){
     // only helps once ui/app.js itself has loaded fresh -- see the
     // matching ?v= on the <script>/<link> tags in each site's index.html
     // for how the app.js/styles.css files themselves stay fresh.
-    DATA_VERSION: '2026-07-20-6',
+    DATA_VERSION: '2026-07-20-7',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/

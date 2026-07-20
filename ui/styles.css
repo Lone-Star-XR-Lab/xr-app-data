@@ -85,3 +85,40 @@ code {
   border-color: #f59e0b;
   color: #78350f;
 }
+
+/* ---- Readability pass ----
+   Tailwind's Play CDN (loaded via <script src="cdn.tailwindcss.com">)
+   deliberately injects its generated utility styles as the very first
+   child of <head>, specifically so that any stylesheet loaded after it --
+   like this one -- wins the cascade at equal specificity without needing
+   !important. That's already relied on elsewhere in this file (.skill-chip
+   etc. coexist with Tailwind utility classes on the same elements), so
+   these overrides are safe the same way.
+
+   The site leaned on Tailwind's smallest text sizes (text-xs, text-[11px])
+   for a lot of actual reading content -- card notes, descriptions, sidebar
+   filter labels, glossary definitions -- not just decorative badges. That
+   reads fine on a large monitor but is genuinely hard to read for anyone
+   on a phone/tablet or with reduced vision. Bumping it a notch and giving
+   it more line-height costs a little vertical space (the badges/pills that
+   also use text-xs have enough padding to absorb it) but is a lot more
+   comfortable to actually read. */
+.text-xs {
+  font-size: 0.8125rem; /* 12px -> 13px */
+  line-height: 1.25rem; /* 16px -> 20px */
+}
+.text-\[11px\] {
+  font-size: 0.75rem; /* 11px -> 12px */
+}
+.text-sm {
+  line-height: 1.55rem; /* was 1.25rem; more breathing room for multi-line descriptions */
+}
+
+/* Muted/secondary text (notes, counts, empty states, timestamps) was set
+   in Tailwind's lightest grays, which fall below WCAG AA contrast on a
+   white background (gray-400 is roughly 2.5:1; AA needs 4.5:1 for text
+   this size). Darken one to two steps so it's still visually secondary to
+   primary text but is actually legible. */
+.text-gray-400 { color: #6b7280; }
+.text-gray-500 { color: #4b5563; }
+.text-slate-500 { color: #475569; }
