@@ -9,6 +9,7 @@ Single source of truth for [xr-lab-library](https://github.com/Lone-Star-XR-Lab/
 - `data/webxr.json` — curated WebXR experiences.
 - `images/apps/` — app screenshots/logos, referenced by relative path from `data/apps.json`.
 - `images/logo/` — shared branding assets.
+- `ui/app.js`, `ui/styles.css` — the shared Alpine.js app logic and styling both sites load directly via `<script src="...">`/`<link href="...">`. This is the actual single source for filtering/search/card rendering — don't fork a local copy into either site repo. Per-site differences (branding text, tab layout, which `visibility` flag gates the app list) live in each site's own `index.html`; `app({ site: 'library' | 'catalogue' })` takes that as its only real config.
 - `CONFLICTS.md` — record of how conflicting data was resolved when the two sites' old JSON files were merged. Not needed day-to-day, kept for history.
 
 ## Consuming this data
@@ -37,4 +38,3 @@ An app can be `true`/`true`, either alone, or neither (tracked here but not yet 
 ## Editing data
 
 Edit `data/apps.json` directly (or the other data files) and push. Both sites will pick up the change automatically once jsdelivr's cache rolls over. There is currently no admin UI or validation script — that's a reasonable future addition once the schema stabilizes.
-# xr-app-data
