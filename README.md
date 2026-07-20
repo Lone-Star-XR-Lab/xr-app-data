@@ -37,3 +37,4 @@ An app can be `true`/`true`, either alone, or neither (tracked here but not yet 
 ## Editing data
 
 Edit `data/apps.json` directly (or the other data files) and push. Both sites will pick up the change automatically once jsdelivr's cache rolls over. There is currently no admin UI or validation script — that's a reasonable future addition once the schema stabilizes.
+# xr-app-data
