@@ -83,8 +83,17 @@ code {
 .skill-chip:hover {
   background: #fef3c7;
   border-color: #f59e0b;
-  color: #78350f;
+  color: #451a03;
 }
+
+/* Durable-skill chips (bg-amber-50/border-amber-200/text-amber-900) are
+   technically high-contrast text-on-fill, but a pale border on a pale fill
+   gives the whole pill very little visual definition against the page --
+   it reads as a muddy, low-contrast blob rather than a distinct label.
+   Darken the text further and give the border real weight so the chip
+   itself is easy to pick out, not just the text inside it. */
+.text-amber-900 { color: #451a03; }
+.border-amber-200 { border-color: #b45309; }
 
 /* ---- Readability pass ----
    Tailwind's Play CDN (loaded via <script src="cdn.tailwindcss.com">)
@@ -122,3 +131,18 @@ code {
 .text-gray-400 { color: #6b7280; }
 .text-gray-500 { color: #4b5563; }
 .text-slate-500 { color: #475569; }
+
+/* text-slate-400 is only ever used for two things in this UI: the small "x"
+   remove/close icons (filter chips, the glossary modal) and the fallback
+   initials shown on a card when it has no logo image -- both sit on a
+   near-white background, and slate-400 (#94a3b8) is roughly a 2.3:1
+   contrast ratio there, which reads as nearly invisible. Darken it to the
+   same level as the other secondary-text overrides above. */
+.text-slate-400 { color: #475569; }
+
+/* text-indigo-200 is only used for the fallback initials on video/webxr
+   cards, sitting on a semi-transparent gradient over a near-white card
+   background -- at the gradient's lighter end that's very light text on
+   very light background. White guarantees contrast regardless of exactly
+   where the gradient lands. */
+.text-indigo-200 { color: #ffffff; }
