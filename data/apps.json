@@ -1293,13 +1293,13 @@
     ],
     "age": "16+",
     "content_notes": "Crime scene simulation may include sensitive material.",
-    "notes": "Not publicly available on the Quest Store. Institutional access may require contacting the university or developer directly. Developed by NJIT (New Jersey Institute of Technology) as a research project for NJIT's own crime-scene-investigation training -- no public store listing or public licensing pathway was found. Recommend confirming with NJIT directly or removing this entry if it cannot actually be acquired.",
+    "notes": "Not publicly available on the Quest Store. Institutional access may require contacting the university or developer directly. Developed by NJIT (New Jersey Institute of Technology) as a research project for NJIT's own crime-scene-investigation training -- no public store listing or public licensing pathway was found. Recommend confirming with NJIT directly or removing this entry if it cannot actually be acquired. [2026-07-20: Hidden from both sites -- confirmed no public Quest Store listing or acquisition path exists; this is an NJIT-internal research tool, not a catalogue-acquirable app. Record kept for reference; re-enable visibility if a real public listing is found.]",
     "link": "https://csixr.example.edu (institutional access info may vary)",
     "approved": false,
     "installed": false,
     "visibility": {
       "library": false,
-      "catalogue": true
+      "catalogue": false
     },
     "_source": {
       "in_library_repo": false,
@@ -2309,13 +2309,13 @@
     ],
     "age": "Everyone",
     "content_notes": "Content varies—ranging from PG to mature depending on the channel.",
-    "notes": "Pre-installed on Quest headsets; free to use; requires internet connection. Note: this appears to be the same underlying Meta app as the \"TV\" catalogue entry (id: tv) -- both point to meta.com/experiences/tv/1931356740318898. Consider de-duplicating.",
+    "notes": "Pre-installed on Quest headsets; free to use; requires internet connection. Note: this appears to be the same underlying Meta app as the \"TV\" catalogue entry (id: tv) -- both point to meta.com/experiences/tv/1931356740318898. Consider de-duplicating. [2026-07-20: Hidden -- duplicate of the \"tv\" entry (id: tv), which is kept as the canonical record since it reflects the 2025 rename. Record kept for reference.]",
     "link": "https://www.meta.com/experiences/meta-quest-tv/1931356740318898/",
     "approved": false,
     "installed": true,
     "visibility": {
       "library": false,
-      "catalogue": true
+      "catalogue": false
     },
     "_source": {
       "in_library_repo": false,
@@ -5191,7 +5191,7 @@
     ],
     "age": "Everyone",
     "content_notes": "Content varies—ranging from PG to mature depending on the channel.",
-    "notes": "Pre-installed on Quest headsets; free to use; renamed to TV in 2025 after previously being called Meta Quest TV. Note: this appears to be the same underlying Meta app as the \"Horizon TV\" catalogue entry (id: horizon-tv) -- both point to meta.com/experiences/tv/1931356740318898. Consider de-duplicating.",
+    "notes": "Pre-installed on Quest headsets; free to use; renamed to TV in 2025 after previously being called Meta Quest TV. Note: this appears to be the same underlying Meta app as the \"Horizon TV\" catalogue entry (id: horizon-tv) -- both point to meta.com/experiences/tv/1931356740318898. Consider de-duplicating. [2026-07-20: Canonical entry for this app -- the former \"horizon-tv\" duplicate entry has been hidden.]",
     "link": "https://www.meta.com/experiences/meta-quest-tv/1931356740318898/",
     "approved": false,
     "installed": true,
@@ -5607,7 +5607,9 @@
     ],
     "educational_uses": "Built for grades 8-11 math classes; includes single-player content modules, a multiplayer practice sandbox, and a web dashboard for teachers to monitor progress and give feedback.",
     "pricing": "Subscription (~$24/year)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/prisms-math.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Spatial reasoning",
@@ -5660,7 +5662,9 @@
     ],
     "educational_uses": "Lets students safely run experiments and build/molecule visualizations that would be impractical or unsafe in a physical classroom lab.",
     "pricing": "Paid ($2.99)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/the-vr-chemistry-lab.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Scientific reasoning",
@@ -5713,7 +5717,9 @@
     ],
     "educational_uses": "Pairs well with the existing 360 travel/geography content (Wander, Wooorld, Geo Voyage) but adds Nat Geo's editorial/documentary layer and stronger narrative framing.",
     "pricing": "Paid ($9.99)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/national-geographic-explore-vr.jpg"
+    ],
     "videos": [],
     "durable_skills": [
       "Cultural awareness",
@@ -5765,7 +5771,9 @@
     ],
     "educational_uses": "Hands-on introduction to fossil excavation and preparation methodology; good fit for earth science or biology units on prehistoric life.",
     "pricing": "Unknown -- price not confirmed, verify on store page before purchasing",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/paleontology-vr.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Scientific method",
@@ -5818,7 +5826,9 @@
     ],
     "educational_uses": "The only sign-language-focused title in the catalogue -- useful for ASL courses, disability-awareness units, or general accessibility education. Hand tracking is required (no controllers).",
     "pricing": "Unknown -- price not confirmed, verify on store page before purchasing",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/silent-classroom-asl-vr.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Communication",
@@ -5869,7 +5879,9 @@
     ],
     "educational_uses": "A structured, tutorial-driven complement to the catalogue's free-drawing/painting apps (Open Brush, Vermillion, Painting VR) -- teaches drawing fundamentals rather than just providing a canvas.",
     "pricing": "Paid ($12.99)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/pencil-learn-to-draw.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Fine motor skills",
@@ -5922,7 +5934,9 @@
     ],
     "educational_uses": "A strong virtual-field-trip option for art history, humanities, or cultural studies classes -- pairs with the catalogue's Louvre and museum-tour WebXR content but adds a much larger, browsable multi-museum collection.",
     "pricing": "Paid ($9.99, additional DLC collections $4.99 each)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/artquest-vr.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Cultural literacy",
@@ -5975,7 +5989,9 @@
     ],
     "educational_uses": "Good fit for kinesiology/PE-adjacent programs or general wellness programming -- full-body cardio and strength workouts with real-time feedback on form/intensity.",
     "pricing": "Subscription ($12.99/mo or ~$107.99/yr; 7-day free trial)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/fitxr.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Physical fitness",
@@ -6028,7 +6044,9 @@
     ],
     "educational_uses": "Complements the catalogue's individual meditation/mindfulness apps (Tripp, Liminal, Headspace XR) with a peer-support and certified-guide model -- worth reviewing with counseling staff before recommending to students, since it involves real people and group sessions rather than solo content.",
     "pricing": "Unknown -- appears to combine free access with a support/clinical component; verify current model directly",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/innerworld-by-xrhealth.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Emotional regulation",
@@ -6081,7 +6099,9 @@
     ],
     "educational_uses": "Aimed at health science / nursing / EMT programs wanting realistic multiplayer clinical scenario training rather than static anatomy content -- complements 3D Organon and Human Anatomy VR.",
     "pricing": "Institutional license (contact SimX for pricing)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/simx-vr.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Clinical decision-making",
@@ -6132,7 +6152,9 @@
     ],
     "educational_uses": "A more structured, curriculum-aligned complement to SimX -- good fit for entry-level nursing or CNA/health-science programs focused on foundational assessment and communication protocols.",
     "pricing": "Institutional license (contact developer for pricing)",
-    "screenshots": [],
+    "screenshots": [
+      "images/apps/vr-nurse-sim-by-simlogic.webp"
+    ],
     "videos": [],
     "durable_skills": [
       "Clinical assessment",

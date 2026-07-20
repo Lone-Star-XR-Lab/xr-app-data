@@ -42,6 +42,7 @@ function app(config = {}){
     selectedInput: new Set(),
     selectedDevices: new Set(),
     selectedAge: new Set(),
+    selectedLicensing: new Set(),
     skillDefinitions: {
       'adaptability': 'Adjusting to new tools, environments, feedback, or changing conditions without losing momentum.',
       'collaboration': 'Working productively with others to plan, build, review, or learn together toward a shared goal.',
@@ -99,6 +100,10 @@ function app(config = {}){
       'everyone': 'No specific age restriction -- suitable for all ages.',
       'not applicable': 'No age guidance has been documented for this experience.'
     },
+    licensingDefinitions: {
+      'consumer': 'Buy and use like any normal Quest Store app on a regular Meta account -- no EDU license or MDM enrollment needed.',
+      'institutional': 'Requires a direct institutional/business relationship with the vendor (subscription, quote, or contract) rather than a standard store purchase.'
+    },
     legendFromDict(dict){
       return Object.entries(dict).map(([key,text]) => ({ label: this.formatFacetLabel(key), text }));
     },
@@ -106,6 +111,7 @@ function app(config = {}){
     get motionLegend(){ return this.legendFromDict(this.motionDefinitions); },
     get inputLegend(){ return this.legendFromDict(this.inputDefinitions); },
     get ageLegend(){ return this.legendFromDict(this.ageDefinitions); },
+    get licensingLegend(){ return this.legendFromDict(this.licensingDefinitions); },
     get durableSkillsLegend(){ return this.legendFromDict(this.skillDefinitions); },
     toggleLegend(){ this.showLegend = !this.showLegend; },
 
@@ -169,6 +175,7 @@ function app(config = {}){
         case 'input': return this.parseList(app.input);
         case 'devices': return this.parseList(app.devices);
         case 'age': return this.parseList(app.age);
+        case 'licensing': return this.parseList(app.licensing_model);
         default: return [];
       }
     },
@@ -191,6 +198,7 @@ function app(config = {}){
         case 'input': return this.selectedInput;
         case 'devices': return this.selectedDevices;
         case 'age': return this.selectedAge;
+        case 'licensing': return this.selectedLicensing;
         default: return null;
       }
     },
@@ -209,6 +217,7 @@ function app(config = {}){
         case 'input': this.selectedInput = new Set(set); break;
         case 'devices': this.selectedDevices = new Set(set); break;
         case 'age': this.selectedAge = new Set(set); break;
+        case 'licensing': this.selectedLicensing = new Set(set); break;
       }
     },
     isFacetSelected(name,value){
@@ -223,7 +232,8 @@ function app(config = {}){
         comfort: new Map(),
         input: new Map(),
         devices: new Map(),
-        age: new Map()
+        age: new Map(),
+        licensing: new Map()
       };
       const addEntries = (map, entries) => {
         for(const entry of entries){
@@ -243,6 +253,7 @@ function app(config = {}){
         addEntries(buckets.input, this.facetValuesForApp(app,'input'));
         addEntries(buckets.devices, this.facetValuesForApp(app,'devices'));
         addEntries(buckets.age, this.facetValuesForApp(app,'age'));
+        addEntries(buckets.licensing, this.facetValuesForApp(app,'licensing'));
       }
       const collator = new Intl.Collator(undefined,{sensitivity:'base'});
       const toList = map => Array.from(map.values()).sort((a,b)=> b.count - a.count || collator.compare(a.label,b.label));
@@ -252,7 +263,8 @@ function app(config = {}){
         comfort: toList(buckets.comfort),
         input: toList(buckets.input),
         devices: toList(buckets.devices),
-        age: toList(buckets.age)
+        age: toList(buckets.age),
+        licensing: toList(buckets.licensing)
       };
     },
 
@@ -263,6 +275,7 @@ function app(config = {}){
       this.selectedInput = new Set();
       this.selectedDevices = new Set();
       this.selectedAge = new Set();
+      this.selectedLicensing = new Set();
     },
 
     skillDefinition(skill){
@@ -320,10 +333,11 @@ function app(config = {}){
       const badges = [];
       if(app?.installed === true) badges.push({ label: 'Installed', tone: 'green' });
       else if(app?.approved === true) badges.push({ label: 'Approved', tone: 'blue' });
+      if(app?.licensing_model === 'institutional') badges.push({ label: 'Institutional License', tone: 'amber' });
       if(this.facet(app, 'free')) badges.push({ label: 'Free', tone: 'slate' });
       if(typeof app?.time_min === 'number' && app.time_min > 0) badges.push({ label: `${app.time_min} min`, tone: 'slate' });
       else badges.push({ label: 'Flexible length', tone: 'slate' });
-      return badges.slice(0, 3);
+      return badges.slice(0, 4);
     },
 
     textBlob(app){
@@ -405,6 +419,7 @@ function app(config = {}){
       n += this.selectedInput.size;
       n += this.selectedDevices.size;
       n += this.selectedAge.size;
+      n += this.selectedLicensing.size;
       return n;
     },
     // Removable chips for every active Apps-tab filter, so people can see
@@ -420,7 +435,7 @@ function app(config = {}){
         chips.push({ type: 'pill', value: pill, label: pillLabels[pill] || pill });
       }
       const options = this.facetOptions;
-      for(const group of ['departments','durableSkills','comfort','input','devices','age']){
+      for(const group of ['departments','durableSkills','comfort','input','devices','age','licensing']){
         const set = this.facetSet(group);
         if(!set) continue;
         for(const value of set){
@@ -485,6 +500,7 @@ function app(config = {}){
         input: Array.from(this.selectedInput).sort(),
         devices: Array.from(this.selectedDevices).sort(),
         age: Array.from(this.selectedAge).sort(),
+        licensing: Array.from(this.selectedLicensing).sort(),
         vq: this.videoQuery,
         vdept: this.videoDepartment,
         vsort: this.videoSortMode,
@@ -515,6 +531,7 @@ function app(config = {}){
       if(params.has('input')) this.selectedInput = new Set(list('input'));
       if(params.has('devices')) this.selectedDevices = new Set(list('devices'));
       if(params.has('age')) this.selectedAge = new Set(list('age'));
+      if(params.has('licensing')) this.selectedLicensing = new Set(list('licensing'));
       if(params.has('vq')) this.videoQuery = params.get('vq');
       if(params.has('vdept')) this.videoDepartment = params.get('vdept');
       if(params.has('vsort')) this.videoSortMode = params.get('vsort');
@@ -536,6 +553,7 @@ function app(config = {}){
       if(this.selectedInput.size) params.set('input', Array.from(this.selectedInput).join(','));
       if(this.selectedDevices.size) params.set('devices', Array.from(this.selectedDevices).join(','));
       if(this.selectedAge.size) params.set('age', Array.from(this.selectedAge).join(','));
+      if(this.selectedLicensing.size) params.set('licensing', Array.from(this.selectedLicensing).join(','));
       if(this.videoQuery) params.set('vq', this.videoQuery);
       if(this.videoDepartment) params.set('vdept', this.videoDepartment);
       if(this.videoSortMode && this.videoSortMode !== 'az') params.set('vsort', this.videoSortMode);
@@ -571,7 +589,7 @@ function app(config = {}){
 
     get filteredApps(){
       let out = this.baseFiltered;
-      for(const group of ['departments','durableSkills','comfort','input','devices','age']){
+      for(const group of ['departments','durableSkills','comfort','input','devices','age','licensing']){
         const set = this.facetSet(group);
         if(set && set.size){
           out = out.filter(app => this.matchesFacetSelection(app, group));
@@ -644,7 +662,7 @@ function app(config = {}){
     // only helps once ui/app.js itself has loaded fresh -- see the
     // matching ?v= on the <script>/<link> tags in each site's index.html
     // for how the app.js/styles.css files themselves stay fresh.
-    DATA_VERSION: '2026-07-20-12',
+    DATA_VERSION: '2026-07-20-15',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/
