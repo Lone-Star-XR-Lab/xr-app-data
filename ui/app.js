@@ -506,6 +506,12 @@ function app(config = {}){
     // https://github.com/Lone-Star-XR-Lab/xr-app-data for schema + docs.
     DATA_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main/data',
     ASSET_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@main',
+    // Bump this after any push that changes data/*.json so jsdelivr and
+    // browsers can't serve a cached copy under the old query string. This
+    // only helps once ui/app.js itself has loaded fresh -- see the
+    // matching ?v= on the <script>/<link> tags in each site's index.html
+    // for how the app.js/styles.css files themselves stay fresh.
+    DATA_VERSION: '2026-07-20-3',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/
@@ -544,7 +550,7 @@ function app(config = {}){
 
     async loadData(){
       try{
-        const appsRes = await fetch(`${this.DATA_CDN_BASE}/apps.json`);
+        const appsRes = await fetch(`${this.DATA_CDN_BASE}/apps.json?v=${this.DATA_VERSION}`);
         const appsRaw = await appsRes.json();
         const normalized = Array.isArray(appsRaw) ? appsRaw.map((item,i)=>this.normalizeApp(item,i)) : [];
         this.DATA = normalized.filter(app => this.isVisible(app));
@@ -555,7 +561,7 @@ function app(config = {}){
       }
 
       try{
-        const videoRes = await fetch(`${this.DATA_CDN_BASE}/videos.json`);
+        const videoRes = await fetch(`${this.DATA_CDN_BASE}/videos.json?v=${this.DATA_VERSION}`);
         const videoRaw = await videoRes.json();
         this.VIDEOS = Array.isArray(videoRaw) ? videoRaw.map((item,i)=>this.normalizeCurated(item,i)) : [];
         this.videosReady = true;
@@ -565,7 +571,7 @@ function app(config = {}){
       }
 
       try{
-        const webxrRes = await fetch(`${this.DATA_CDN_BASE}/webxr.json`);
+        const webxrRes = await fetch(`${this.DATA_CDN_BASE}/webxr.json?v=${this.DATA_VERSION}`);
         const webxrRaw = await webxrRes.json();
         this.WEBXR = Array.isArray(webxrRaw) ? webxrRaw.map((item,i)=>this.normalizeCurated(item,i)) : [];
         this.webxrReady = true;
