@@ -364,7 +364,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Free on Quest Store; requires internet; supports hand tracking and controllers.",
     "link": "https://www.meta.com/experiences/anatomyxr/9773197726063056/",
@@ -473,7 +473,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Linear experience (~1 hr), sitting or standing only.",
     "link": "https://www.meta.com/experiences/apollo-11/2164469606967296/",
@@ -972,7 +972,7 @@
     ],
     "categories": [
       "Geography",
-      "Culture",
+      "Cultural Studies",
       "Education"
     ],
     "tags": [
@@ -1002,7 +1002,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Comfortable; offline; includes 40+ scenes in base app.",
     "link": "https://www.meta.com/experiences/blueplanet-vr-explore-v25/3422717251188752/",
@@ -1424,7 +1424,7 @@
       "Quest Pro",
       "Quest 3S"
     ],
-    "age": "Everyone 10+",
+    "age": "10+",
     "content_notes": "Active gameplay with cartoon boxing and exaggerated motion.",
     "notes": "Free Early Access mixed-reality fitness game; requires physical movement and open space.",
     "link": "https://www.meta.com/experiences/29005942905688131/",
@@ -1608,7 +1608,7 @@
       "Meta Quest"
     ],
     "categories": [
-      "All Departments"
+      "Cross-Curricular"
     ],
     "tags": [
       "Education",
@@ -2320,7 +2320,7 @@
       "Quest Pro",
       "Quest 3S"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Two versions available — personal edition as a one-time purchase (~$29.99) and institutional edition requiring licensing with additional classroom features.",
     "link": "https://www.meta.com/experiences/human-anatomy-vr/6643334382420936/",
@@ -2452,7 +2452,7 @@
       "Meta Quest"
     ],
     "categories": [
-      "All Departments"
+      "Cross-Curricular"
     ],
     "tags": [
       "Productivity",
@@ -2656,7 +2656,7 @@
       "Meta Quest"
     ],
     "categories": [
-      "All Departments"
+      "Cross-Curricular"
     ],
     "tags": [
       "Viewer",
@@ -3050,7 +3050,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "N/A",
+    "age": "Not applicable",
     "content_notes": "Service (not an in-headset app).",
     "notes": "Integrates with enterprise MDMs (e.g., Intune, VMware Workspace ONE). Licensing is subscription-based. Check MHMS policies if you need Meta Store access on managed devices.",
     "link": "https://forwork.meta.com/meta-for-education/",
@@ -3212,7 +3212,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Free non-profit experience; Emmy-nominated.",
     "link": "https://www.meta.com/experiences/mission-iss/2094303753986147/",
@@ -3616,7 +3616,7 @@
       "Meta Quest"
     ],
     "categories": [
-      "Natural Science",
+      "Science",
       "Education"
     ],
     "tags": [
@@ -3646,7 +3646,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Comfortable experience; mixed-reality support on compatible headsets; often on sale (~$6).",
     "link": "https://www.meta.com/experiences/ocean-rift-demo/619150648185192/",
@@ -3672,7 +3672,7 @@
     "categories": [
       "Humanities",
       "Social Justice",
-      "Media Studies"
+      "Media"
     ],
     "tags": [
       "Documentary",
@@ -3869,7 +3869,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone 10+",
+    "age": "10+",
     "content_notes": "Online multiplayer social play with fast physical movement in a sci-fi setting.",
     "notes": "Free-to-play Early Access title with online multiplayer and large shared social spaces.",
     "link": "https://www.meta.com/experiences/7181769438517329/",
@@ -4290,7 +4290,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Teen",
+    "age": "13+",
     "content_notes": "Cartoon-style ship combat and treasure hunting; mild motion intensity.",
     "notes": "Free multiplayer pirate adventure; includes locomotion and ship motion, so comfort settings may help new VR users.",
     "link": "https://www.meta.com/experiences/sail/3918918518236402/",
@@ -4394,7 +4394,7 @@
       "Quest 3",
       "Quest 2"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Great for team reviews",
     "link": "https://www.meta.com/experiences/shapesxr/3899112273551602/",
@@ -4744,7 +4744,6 @@
     ],
     "categories": [
       "Science",
-      "Natural Science",
       "Environmental Studies"
     ],
     "tags": [
@@ -4934,7 +4933,7 @@
       "Quest 2",
       "Quest Pro"
     ],
-    "age": "Everyone (0+)",
+    "age": "Everyone",
     "content_notes": null,
     "notes": "Comfortable motion mode; optional short (~20 min) or long (~35 min) tour; well-rated by educators.",
     "link": "https://www.meta.com/experiences/titans-of-space-plus/2359857214088490/",
@@ -5173,8 +5172,7 @@
       "STEM",
       "Health Science",
       "History",
-      "Languages",
-      "All Departments"
+      "Languages"
     ],
     "tags": [
       "Education",
