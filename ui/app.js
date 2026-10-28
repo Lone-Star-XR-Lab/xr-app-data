@@ -697,14 +697,14 @@ function app(config = {}){
     // never needs cache-busting. The tradeoff: bump this SHA (to the
     // latest xr-app-data commit) any time data/*.json changes. See
     // README.md's "Cache-busting after a push" section.
-    DATA_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@aaf69fd14941778d8416ad0e80a93f968eb3ef59/data',
-    ASSET_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@aaf69fd14941778d8416ad0e80a93f968eb3ef59',
+    DATA_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@7fdd7022da7b413e9f3df46dcf5a88d069ee8d45/data',
+    ASSET_CDN_BASE: 'https://cdn.jsdelivr.net/gh/Lone-Star-XR-Lab/xr-app-data@7fdd7022da7b413e9f3df46dcf5a88d069ee8d45',
     // Bump this after any push that changes data/*.json so jsdelivr and
     // browsers can't serve a cached copy under the old query string. This
     // only helps once ui/app.js itself has loaded fresh -- see the
     // matching ?v= on the <script>/<link> tags in each site's index.html
     // for how the app.js/styles.css files themselves stay fresh.
-    DATA_VERSION: '2026-07-20-16',
+    DATA_VERSION: '2026-10-27',
 
     // xr-app-data's schema uses name/categories/pricing/educational_uses/
     // screenshots instead of this template's title/department/cost/
