@@ -1346,10 +1346,10 @@
     "content_notes": null,
     "notes": "Paid title; simple to learn but challenging to master.",
     "link": "https://www.meta.com/experiences/cubism/2264524423619421/",
-    "approved": false,
-    "installed": false,
+    "approved": true,
+    "installed": true,
     "visibility": {
-      "library": false,
+      "library": true,
       "catalogue": true
     },
     "_source": {
@@ -6184,6 +6184,174 @@
       "in_library_repo": false,
       "in_catalogue_repo": false,
       "added": "2026-07-20 catalogue expansion (art/fitness/wellness/mental health/medical + prior science/art-history round)"
+    }
+  },
+  {
+    "id": "on-the-ice-hatched",
+    "name": "On the Ice: Hatched",
+    "description": "Play as a novice wildlife biologist on Ross Island, Antarctica, spending a research season studying Adelie penguins -- counting populations, banding birds, and recovering GPS trackers with guidance from a field assistant.",
+    "developer": "Field Day Lab / WID Virtual Environments",
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Education"
+    ],
+    "tags": [
+      "Biology",
+      "Ecology",
+      "Field Science",
+      "Antarctica",
+      "Wildlife"
+    ],
+    "educational_uses": "Introduces real polar field-research methods (population surveys, banding, tracking) for biology, ecology, and environmental science classes. Built by UW-Madison's Field Day Lab with NSF funding; pairs with On the Ice: Weather Station.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/on-the-ice-hatched.webp"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Data collection",
+      "Critical thinking"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Works offline; standing/room-scale.",
+    "link": "https://www.meta.com/experiences/on-the-ice-hatched/8377427255613669/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-10-27 installed on lab headsets"
+    }
+  },
+  {
+    "id": "how-to-rescue-a-reef",
+    "name": "How to Rescue a Reef",
+    "description": "Swim through the ocean and plant coral fragments onto a reef, recreating the restoration work volunteers do with the University of Miami's Rescue a Reef program.",
+    "developer": "University of Miami Rescue a Reef",
+    "platforms": [
+      "Meta Quest"
+    ],
+    "categories": [
+      "STEM",
+      "Education"
+    ],
+    "tags": [
+      "Marine Biology",
+      "Coral Reefs",
+      "Conservation",
+      "Ocean"
+    ],
+    "educational_uses": "Hands-on look at coral restoration for marine biology, environmental science, and conservation lessons -- lets students experience a field expedition without the boat.",
+    "pricing": "Free",
+    "screenshots": [
+      "images/apps/how-to-rescue-a-reef.webp"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Scientific observation",
+      "Environmental awareness"
+    ],
+    "time_min": null,
+    "comfort": "Moderate",
+    "motion_level": "Medium",
+    "input": "Controllers",
+    "devices": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Works offline. A separate 'How to Rescue a Reef LITE' version also exists on the store.",
+    "link": "https://www.meta.com/experiences/how-to-rescue-a-reef/5129722837137514/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-10-27 installed on lab headsets"
+    }
+  },
+  {
+    "id": "hand-physics-lab",
+    "name": "Hand Physics Lab",
+    "description": "A hand-tracking playground of 80+ physics puzzles and experiments -- stack blocks, color eggs, finger paint, and manipulate objects using only your bare hands.",
+    "developer": "Holonautic",
+    "platforms": [
+      "Meta Quest",
+      "Apple Vision Pro"
+    ],
+    "categories": [
+      "Games",
+      "STEM"
+    ],
+    "tags": [
+      "Puzzle",
+      "Physics",
+      "Hand Tracking",
+      "Sandbox"
+    ],
+    "educational_uses": "Good intro to hand tracking for first-time users, and a playful way to explore physics concepts like mass, friction, and momentum through direct manipulation.",
+    "pricing": "Paid ($9.99)",
+    "screenshots": [
+      "images/apps/hand-physics-lab.webp"
+    ],
+    "videos": [],
+    "durable_skills": [
+      "Problem solving",
+      "Spatial reasoning",
+      "Fine motor skills"
+    ],
+    "time_min": null,
+    "comfort": "Comfortable",
+    "motion_level": "Low",
+    "input": "Hand Tracking",
+    "devices": [
+      "Quest 3",
+      "Quest 3S",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "age": "Everyone",
+    "content_notes": null,
+    "notes": "Hand tracking only -- no controllers. Needs good lighting.",
+    "link": "https://www.meta.com/experiences/hand-physics-lab/3392175350802835/",
+    "approved": true,
+    "installed": true,
+    "visibility": {
+      "library": true,
+      "catalogue": true
+    },
+    "licensing_model": "consumer",
+    "_source": {
+      "in_library_repo": false,
+      "in_catalogue_repo": false,
+      "added": "2026-10-27 installed on lab headsets"
     }
   }
 ]
